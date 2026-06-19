@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { getFigure, relatedBySeries, parseDate } from "@/lib/data";
-import FigureImage from "@/components/FigureImage";
+import Gallery from "@/components/Gallery";
 import StatusBadge from "@/components/StatusBadge";
 import CountdownTimer from "@/components/CountdownTimer";
 import FigureCard from "@/components/FigureCard";
@@ -31,27 +31,29 @@ export default function DropDetail({ params }: { params: { id: string } }) {
   );
   const showCountdown = daysToClose > 0 && daysToClose <= 30;
 
-  const specs: [string, string][] = [
-    ["Manufacturer", figure.manufacturer],
-    ["Type", figure.type],
-    ["Scale", figure.scale],
-    ["Height", figure.height],
+  const specs: [string, string][] = (
     [
-      "Release",
-      parseDate(figure.release_date).toLocaleDateString("en-US", {
-        month: "long",
-        year: "numeric",
-      }),
-    ],
-    [
-      "Preorder closes",
-      parseDate(figure.preorder_closes).toLocaleDateString("en-US", {
-        month: "short",
-        day: "numeric",
-        year: "numeric",
-      }),
-    ],
-  ];
+      ["Manufacturer", figure.manufacturer],
+      ["Type", figure.type],
+      ["Scale", figure.scale],
+      ["Height", figure.height],
+      [
+        "Release",
+        parseDate(figure.release_date).toLocaleDateString("en-US", {
+          month: "long",
+          year: "numeric",
+        }),
+      ],
+      [
+        "Preorder closes (est.)",
+        parseDate(figure.preorder_closes).toLocaleDateString("en-US", {
+          month: "short",
+          day: "numeric",
+          year: "numeric",
+        }),
+      ],
+    ] as [string, string][]
+  ).filter(([, v]) => v && v !== "—");
 
   return (
     <div className="space-y-6">
@@ -62,14 +64,11 @@ export default function DropDetail({ params }: { params: { id: string } }) {
         ‹ Back
       </Link>
 
-      <div className="relative overflow-hidden rounded-xl bg-card">
-        <div className="relative aspect-square w-full sm:aspect-[16/10]">
-          <FigureImage figure={figure} />
-          <div className="absolute left-3 top-3">
-            <StatusBadge status={figure.status} />
-          </div>
-        </div>
-      </div>
+      <Gallery
+        images={figure.images}
+        alt={figure.name}
+        badge={<StatusBadge status={figure.status} />}
+      />
 
       {showCountdown && (
         <div className="flex flex-col items-center gap-2 rounded-xl border border-line p-4">
