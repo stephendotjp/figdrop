@@ -86,7 +86,7 @@ export default function DropDetail({ params }: { params: { id: string } }) {
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">
           {figure.series}
         </p>
-        <h1 className="mt-1 text-2xl font-extrabold leading-tight">
+        <h1 className="mt-1 text-3xl font-extrabold uppercase leading-[0.95] tracking-tight">
           {figure.name}
         </h1>
         <div className="mt-3 flex items-end gap-3">

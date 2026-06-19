@@ -20,6 +20,9 @@ export interface Figure {
   image_url: string;
 }
 
+const IMG = (id: string, w = 800) =>
+  `https://images.unsplash.com/${id}?w=${w}&q=80&auto=format&fit=crop`;
+
 export const RETAILER_COLORS: Record<RetailerColor, string> = {
   blue: "#4DA8FF",
   pink: "#E8629A",
@@ -55,8 +58,7 @@ export const figures: Figure[] = [
     scale: "1/4",
     height: "44cm",
     featured: true,
-    image_url:
-      "https://images.goodsmileus.com/product_images/images/001/234/567/medium/chainsaw-man-makima-bunny.jpg",
+    image_url: IMG("photo-1607604276583-eef5d076aa5f", 1400),
   },
   {
     id: "2",
@@ -74,7 +76,7 @@ export const figures: Figure[] = [
     scale: "1/4",
     height: "44cm",
     featured: false,
-    image_url: "",
+    image_url: IMG("photo-1608889175123-8ee362201f81"),
   },
   {
     id: "3",
@@ -92,7 +94,7 @@ export const figures: Figure[] = [
     scale: "1/7",
     height: "24cm",
     featured: false,
-    image_url: "",
+    image_url: IMG("photo-1612036782180-6f0b6cd846fe"),
   },
   {
     id: "4",
@@ -110,7 +112,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "10cm",
     featured: false,
-    image_url: "",
+    image_url: IMG("photo-1626814026160-2237a95fc5a0"),
   },
   {
     id: "5",
@@ -128,7 +130,7 @@ export const figures: Figure[] = [
     scale: "1/6",
     height: "28cm",
     featured: false,
-    image_url: "",
+    image_url: IMG("photo-1566576912321-d58ddd7a6088"),
   },
   {
     id: "6",
@@ -146,7 +148,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "17cm",
     featured: false,
-    image_url: "",
+    image_url: IMG("photo-1531259683007-016a7b628fc3"),
   },
   {
     id: "7",
@@ -164,7 +166,7 @@ export const figures: Figure[] = [
     scale: "1/7",
     height: "26cm",
     featured: false,
-    image_url: "",
+    image_url: IMG("photo-1542751371-adc38448a05e"),
   },
   {
     id: "8",
@@ -182,7 +184,7 @@ export const figures: Figure[] = [
     scale: "1/7",
     height: "25cm",
     featured: false,
-    image_url: "",
+    image_url: IMG("photo-1578632767115-351597cf2477"),
   },
   {
     id: "9",
@@ -200,7 +202,7 @@ export const figures: Figure[] = [
     scale: "1/7",
     height: "24cm",
     featured: false,
-    image_url: "",
+    image_url: IMG("photo-1518562180175-34a163b1a9a6"),
   },
   {
     id: "10",
@@ -218,7 +220,7 @@ export const figures: Figure[] = [
     scale: "1/7",
     height: "23cm",
     featured: false,
-    image_url: "",
+    image_url: IMG("photo-1613771404721-1f92d799e49f"),
   },
   {
     id: "11",
@@ -236,7 +238,7 @@ export const figures: Figure[] = [
     scale: "1/8",
     height: "22cm",
     featured: false,
-    image_url: "",
+    image_url: IMG("photo-1556438064-2d7646166914"),
   },
   {
     id: "12",
@@ -254,7 +256,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "10cm",
     featured: false,
-    image_url: "",
+    image_url: IMG("photo-1611604548018-d56bbd85d681"),
   },
 ];
 

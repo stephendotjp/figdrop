@@ -59,7 +59,9 @@ export default function FigureCard({
           <p className="truncate text-[11px] uppercase tracking-wider text-dim">
             {figure.series}
           </p>
-          <h3 className="truncate text-sm font-bold">{figure.name}</h3>
+          <h3 className="truncate text-sm font-bold uppercase tracking-tight">
+            {figure.name}
+          </h3>
           <div className="mt-1 flex items-center gap-2">
             <span className="text-sm font-bold text-gold">
               ¥{figure.price_jpy.toLocaleString()}

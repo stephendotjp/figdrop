@@ -31,10 +31,13 @@ export default function FeaturedDrop({ figure }: { figure: Figure }) {
         </div>
 
         <div className="absolute bottom-0 left-0 w-full p-5">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">
+          <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-ink/70">
+            Featured Drop
+          </p>
+          <p className="mt-2 text-xs font-semibold uppercase tracking-[0.2em] text-gold">
             {figure.series}
           </p>
-          <h2 className="mt-1 text-2xl font-extrabold leading-tight">
+          <h2 className="mt-1 text-3xl font-extrabold uppercase leading-[0.95] tracking-tight">
             {figure.name}
           </h2>
           <div className="mt-3 flex flex-wrap items-center gap-3">
