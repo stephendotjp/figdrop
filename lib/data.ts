@@ -18,6 +18,7 @@ export interface Figure {
   height: string;
   featured: boolean;
   image_url: string;
+  images: string[];
 }
 
 export const RETAILER_COLORS: Record<RetailerColor, string> = {
@@ -38,10 +39,11 @@ export const TYPES = [
   "Bunny Ver.",
 ];
 
-// Scraped from https://hobby-genki.com/en/10-pre-order (pre-order listing).
-// Real fields: name, price_jpy, retailer, image_url. The listing page does not
-// expose series/manufacturer/scale/height/dates — those are best-effort and
-// marked "—" where unknown; dates are placeholders, not from the source.
+// Scraped from hobby-genki.com (pre-order listing + each product's detail page).
+// Real from the source: name, price_jpy, retailer, manufacturer, series, scale,
+// height, release_date (the product's `available_date`), and all gallery images.
+// `preorder_closes` is the one DERIVED field — the shop has no preorder-close
+// date, only a release date — so it's set ~6 weeks before release as a stand-in.
 export const figures: Figure[] = [
   {
     id: "1",
@@ -54,48 +56,87 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2026-07-18",
-    release_date: "2026-11-01",
+    preorder_closes: "2026-10-15",
+    release_date: "2026-11-30",
     scale: "Non-scale",
     height: "10cm",
     featured: true,
-    image_url: "/figures/luka-v4x.jpg",
+    image_url: "/figures/luka-v4x/01.jpg",
+    images: [
+      "/figures/luka-v4x/01.jpg",
+      "/figures/luka-v4x/02.jpg",
+      "/figures/luka-v4x/03.jpg",
+      "/figures/luka-v4x/04.jpg",
+      "/figures/luka-v4x/05.jpg",
+      "/figures/luka-v4x/06.jpg",
+      "/figures/luka-v4x/07.jpg",
+    ],
   },
   {
     id: "2",
     name: "Cats are Liquid: Silver Moon",
     series: "Cats are Liquid (Karaage Toufu)",
-    manufacturer: "—",
+    manufacturer: "WE ART DOING",
     type: "Scale",
     price_jpy: 39990,
     price_usd: 272,
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2026-08-15",
-    release_date: "2027-01-01",
-    scale: "—",
-    height: "—",
+    preorder_closes: "2027-02-14",
+    release_date: "2027-03-31",
+    scale: "Non-scale",
+    height: "19.2cm",
     featured: false,
-    image_url: "/figures/cats-silver-moon.jpg",
+    image_url: "/figures/cats-silver-moon/01.jpg",
+    images: [
+      "/figures/cats-silver-moon/01.jpg",
+      "/figures/cats-silver-moon/02.jpg",
+      "/figures/cats-silver-moon/03.jpg",
+      "/figures/cats-silver-moon/04.jpg",
+      "/figures/cats-silver-moon/05.jpg",
+      "/figures/cats-silver-moon/06.jpg",
+      "/figures/cats-silver-moon/07.jpg",
+      "/figures/cats-silver-moon/08.jpg",
+      "/figures/cats-silver-moon/09.jpg",
+      "/figures/cats-silver-moon/10.jpg",
+      "/figures/cats-silver-moon/11.jpg",
+      "/figures/cats-silver-moon/12.jpg",
+      "/figures/cats-silver-moon/13.jpg",
+    ],
   },
   {
     id: "3",
     name: "Cats are Liquid: Scarlet Night",
     series: "Cats are Liquid (Karaage Toufu)",
-    manufacturer: "—",
+    manufacturer: "WE ART DOING",
     type: "Scale",
     price_jpy: 39990,
     price_usd: 272,
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2026-08-15",
-    release_date: "2027-01-01",
-    scale: "—",
-    height: "—",
+    preorder_closes: "2027-02-14",
+    release_date: "2027-03-31",
+    scale: "Non-scale",
+    height: "19.2cm",
     featured: false,
-    image_url: "/figures/cats-scarlet-night.jpg",
+    image_url: "/figures/cats-scarlet-night/01.jpg",
+    images: [
+      "/figures/cats-scarlet-night/01.jpg",
+      "/figures/cats-scarlet-night/02.jpg",
+      "/figures/cats-scarlet-night/03.jpg",
+      "/figures/cats-scarlet-night/04.jpg",
+      "/figures/cats-scarlet-night/05.jpg",
+      "/figures/cats-scarlet-night/06.jpg",
+      "/figures/cats-scarlet-night/07.jpg",
+      "/figures/cats-scarlet-night/08.jpg",
+      "/figures/cats-scarlet-night/09.jpg",
+      "/figures/cats-scarlet-night/10.jpg",
+      "/figures/cats-scarlet-night/11.jpg",
+      "/figures/cats-scarlet-night/12.jpg",
+      "/figures/cats-scarlet-night/13.jpg",
+    ],
   },
   {
     id: "4",
@@ -108,12 +149,20 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2026-07-25",
-    release_date: "2026-10-01",
+    preorder_closes: "2026-09-15",
+    release_date: "2026-10-31",
     scale: "1/20",
     height: "—",
     featured: false,
-    image_url: "/figures/pokemon-scale-world-sinnoh.jpg",
+    image_url: "/figures/pokemon-scale-world-sinnoh/01.jpg",
+    images: [
+      "/figures/pokemon-scale-world-sinnoh/01.jpg",
+      "/figures/pokemon-scale-world-sinnoh/02.jpg",
+      "/figures/pokemon-scale-world-sinnoh/03.jpg",
+      "/figures/pokemon-scale-world-sinnoh/04.jpg",
+      "/figures/pokemon-scale-world-sinnoh/05.jpg",
+      "/figures/pokemon-scale-world-sinnoh/06.jpg",
+    ],
   },
   {
     id: "5",
@@ -126,12 +175,22 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2026-07-30",
-    release_date: "2026-12-01",
+    preorder_closes: "2026-12-15",
+    release_date: "2027-01-31",
     scale: "Non-scale",
     height: "10cm",
     featured: false,
-    image_url: "/figures/toshiya-miyata.jpg",
+    image_url: "/figures/toshiya-miyata/01.jpg",
+    images: [
+      "/figures/toshiya-miyata/01.jpg",
+      "/figures/toshiya-miyata/02.jpg",
+      "/figures/toshiya-miyata/03.jpg",
+      "/figures/toshiya-miyata/04.jpg",
+      "/figures/toshiya-miyata/05.jpg",
+      "/figures/toshiya-miyata/06.jpg",
+      "/figures/toshiya-miyata/07.jpg",
+      "/figures/toshiya-miyata/08.jpg",
+    ],
   },
 ];
 
