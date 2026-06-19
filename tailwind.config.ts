@@ -5,22 +5,16 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        void: "#0A0A0F",
-        card: "#12121A",
-        panel: "#1A1A28",
-        gold: "#F0C060",
-        pink: "#E8629A",
-        teal: "#3DE8C8",
-        purple: "#9B6FE8",
-        ink: "#F0EFF8",
-        dim: "#8885A8",
-        muted: "#4A4870",
+        card: "#F5F5F5",
+        ink: "#111111",
+        dim: "#666666",
+        line: "#E5E5E5",
       },
       fontFamily: {
         sans: ["var(--font-inter)", "system-ui", "sans-serif"],
       },
       maxWidth: {
-        "screen-sm": "430px",
+        "screen-sm": "440px",
       },
     },
   },

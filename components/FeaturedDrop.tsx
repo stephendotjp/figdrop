@@ -3,53 +3,35 @@
 import Link from "next/link";
 import { Figure, parseDate } from "@/lib/data";
 import FigureImage from "./FigureImage";
-import RetailerBadge from "./RetailerBadge";
+import StatusBadge from "./StatusBadge";
 
 export default function FeaturedDrop({ figure }: { figure: Figure }) {
   const open = figure.status !== "coming_soon";
   const dropLabel = open
-    ? "PREORDER OPEN"
-    : `DROPPING ${parseDate(figure.release_date)
-        .toLocaleDateString("en-US", { month: "short", year: "numeric" })
-        .toUpperCase()}`;
+    ? "Available now"
+    : `Dropping ${parseDate(figure.release_date).toLocaleDateString("en-US", {
+        month: "long",
+        year: "numeric",
+      })}`;
 
   return (
-    <Link
-      href={`/drop/${figure.id}`}
-      className="group relative block overflow-hidden rounded-2xl border border-gold/20 shadow-[0_0_30px_rgba(240,192,96,0.2)]"
-    >
-      <div className="relative aspect-[4/5] w-full sm:aspect-[16/10]">
+    <Link href={`/drop/${figure.id}`} className="group block">
+      <div className="relative aspect-[4/5] w-full overflow-hidden rounded-xl bg-card sm:aspect-[16/9]">
         <FigureImage figure={figure} />
-        <div className="absolute inset-0 bg-gradient-to-t from-void via-void/40 to-transparent" />
-        <div className="pointer-events-none absolute inset-0 animate-[shimmer_7s_linear_infinite] bg-[linear-gradient(110deg,transparent_35%,rgba(240,192,96,0.10)_50%,transparent_65%)] bg-[length:220%_100%]" />
-
-        <div className="absolute left-4 top-4">
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-gold px-3 py-1 text-[11px] font-bold tracking-wider text-black animate-[softPulse_2.2s_ease-in-out_infinite]">
-            <span className="h-1.5 w-1.5 rounded-full bg-black" />
-            {dropLabel}
-          </span>
+        <div className="absolute left-3 top-3">
+          <StatusBadge status={figure.status} />
         </div>
-
-        <div className="absolute bottom-0 left-0 w-full p-5">
-          <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-ink/70">
-            Featured Drop
-          </p>
-          <p className="mt-2 text-xs font-semibold uppercase tracking-[0.2em] text-gold">
-            {figure.series}
-          </p>
-          <h2 className="mt-1 text-3xl font-extrabold uppercase leading-[0.95] tracking-tight">
-            {figure.name}
-          </h2>
-          <div className="mt-3 flex flex-wrap items-center gap-3">
-            <span className="text-xl font-bold text-gold">
-              ¥{figure.price_jpy.toLocaleString()}
-            </span>
-            <RetailerBadge
-              retailer={figure.retailer}
-              color={figure.retailer_color}
-            />
-          </div>
-        </div>
+      </div>
+      <div className="mt-3">
+        <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-dim">
+          Featured · {figure.retailer}
+        </p>
+        <h2 className="mt-1 text-2xl font-bold leading-tight text-ink">
+          {figure.name}
+        </h2>
+        <p className="mt-1 text-sm text-dim">
+          {dropLabel} · ¥{figure.price_jpy.toLocaleString()}
+        </p>
       </div>
     </Link>
   );

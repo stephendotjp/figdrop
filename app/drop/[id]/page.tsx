@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { getFigure, relatedBySeries, parseDate } from "@/lib/data";
 import FigureImage from "@/components/FigureImage";
-import RetailerBadge from "@/components/RetailerBadge";
 import StatusBadge from "@/components/StatusBadge";
 import CountdownTimer from "@/components/CountdownTimer";
 import FigureCard from "@/components/FigureCard";
@@ -63,10 +62,9 @@ export default function DropDetail({ params }: { params: { id: string } }) {
         ‹ Back
       </Link>
 
-      <div className="relative overflow-hidden rounded-2xl border border-white/5 bg-card">
+      <div className="relative overflow-hidden rounded-xl bg-card">
         <div className="relative aspect-square w-full sm:aspect-[16/10]">
           <FigureImage figure={figure} />
-          <div className="absolute inset-0 bg-gradient-to-t from-card to-transparent" />
           <div className="absolute left-3 top-3">
             <StatusBadge status={figure.status} />
           </div>
@@ -74,8 +72,8 @@ export default function DropDetail({ params }: { params: { id: string } }) {
       </div>
 
       {showCountdown && (
-        <div className="flex flex-col items-center gap-2 rounded-2xl border border-pink/30 bg-card p-4 closing-glow">
-          <p className="text-[11px] uppercase tracking-widest text-pink">
+        <div className="flex flex-col items-center gap-2 rounded-xl border border-line p-4">
+          <p className="text-[11px] uppercase tracking-widest text-dim">
             Preorder closes in
           </p>
           <CountdownTimer target={figure.preorder_closes + "T23:59:59"} />
@@ -83,35 +81,29 @@ export default function DropDetail({ params }: { params: { id: string } }) {
       )}
 
       <div>
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">
-          {figure.series}
+        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-dim">
+          {figure.retailer} · {figure.series}
         </p>
-        <h1 className="mt-1 text-3xl font-extrabold uppercase leading-[0.95] tracking-tight">
+        <h1 className="mt-1 text-3xl font-bold leading-tight tracking-tight text-ink">
           {figure.name}
         </h1>
         <div className="mt-3 flex items-end gap-3">
-          <span className="text-3xl font-extrabold text-gold">
+          <span className="text-2xl font-bold text-ink">
             ¥{figure.price_jpy.toLocaleString()}
           </span>
           <span className="pb-1 text-sm text-dim">
             ≈ ${figure.price_usd} USD
           </span>
         </div>
-        <div className="mt-3">
-          <RetailerBadge
-            retailer={figure.retailer}
-            color={figure.retailer_color}
-          />
-        </div>
       </div>
 
-      <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-white/5 bg-white/5">
+      <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-line bg-line">
         {specs.map(([k, v]) => (
-          <div key={k} className="bg-card p-4">
-            <dt className="text-[10px] uppercase tracking-wider text-muted">
+          <div key={k} className="bg-white p-4">
+            <dt className="text-[10px] uppercase tracking-wider text-dim">
               {k}
             </dt>
-            <dd className="mt-1 text-sm font-semibold">{v}</dd>
+            <dd className="mt-1 text-sm font-semibold text-ink">{v}</dd>
           </div>
         ))}
       </dl>
@@ -119,16 +111,16 @@ export default function DropDetail({ params }: { params: { id: string } }) {
       <div className="grid grid-cols-1 gap-3">
         <a
           href="#"
-          className="rounded-2xl bg-gold py-4 text-center text-sm font-extrabold tracking-wide text-black transition hover:brightness-110"
+          className="rounded-full bg-ink py-4 text-center text-sm font-bold tracking-wide text-white transition hover:opacity-90"
         >
           PREORDER NOW
         </a>
         <button
           onClick={() => toggle(figure.id)}
-          className={`flex items-center justify-center gap-2 rounded-2xl border py-4 text-sm font-bold transition ${
+          className={`flex items-center justify-center gap-2 rounded-full border py-4 text-sm font-bold transition ${
             active
-              ? "border-pink/50 bg-pink/10 text-pink"
-              : "border-white/10 text-ink hover:border-white/25"
+              ? "border-ink bg-ink text-white"
+              : "border-ink text-ink hover:bg-card"
           }`}
         >
           <Heart
@@ -141,7 +133,7 @@ export default function DropDetail({ params }: { params: { id: string } }) {
 
       {related.length > 0 && (
         <div>
-          <h2 className="mb-3 text-sm font-bold uppercase tracking-wider text-dim">
+          <h2 className="mb-3 text-base font-bold tracking-tight text-ink">
             Also from {figure.series}
           </h2>
           <div className="no-scrollbar -mx-4 flex gap-3 overflow-x-auto px-4 pb-1">

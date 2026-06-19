@@ -5,8 +5,8 @@ export default function DropsPage() {
   return (
     <div className="space-y-5">
       <div>
-        <h1 className="text-xl font-extrabold">All Drops</h1>
-        <p className="mt-1 text-sm text-muted">
+        <h1 className="text-2xl font-bold tracking-tight text-ink">All Drops</h1>
+        <p className="mt-1 text-sm text-dim">
           {figures.length} figures tracked across every retailer.
         </p>
       </div>

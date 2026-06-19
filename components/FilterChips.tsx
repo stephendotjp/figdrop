@@ -17,14 +17,13 @@ export default function FilterChips({
           <button
             key={c}
             onClick={() => onChange(c)}
-            className={`relative whitespace-nowrap rounded-full px-4 py-2 text-xs font-semibold transition ${
-              on ? "text-black" : "text-dim hover:text-ink"
+            className={`whitespace-nowrap rounded-full border px-4 py-2 text-xs font-semibold transition ${
+              on
+                ? "border-ink bg-ink text-white"
+                : "border-line bg-white text-dim hover:border-ink hover:text-ink"
             }`}
           >
-            {on && (
-              <span className="absolute inset-0 rounded-full bg-gold transition-all duration-300" />
-            )}
-            <span className="relative z-10">{c}</span>
+            {c}
           </button>
         );
       })}

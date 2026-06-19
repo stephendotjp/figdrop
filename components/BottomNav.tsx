@@ -23,8 +23,8 @@ export default function BottomNav() {
     href === "/" ? pathname === "/" : pathname.startsWith(href);
 
   return (
-    <nav className="fixed bottom-0 left-0 z-40 w-full border-t border-white/5 bg-void/90 backdrop-blur md:hidden">
-      <div className="mx-auto flex max-w-screen-sm items-center justify-around px-2 py-2">
+    <nav className="fixed bottom-0 left-0 z-40 w-full border-t border-line bg-white/95 backdrop-blur md:hidden">
+      <div className="mx-auto flex max-w-screen-sm items-center justify-around px-2 pb-[env(safe-area-inset-bottom)] pt-2">
         {NAV.map(({ href, label, Icon }) => {
           const on = isActive(href);
           return (
@@ -33,19 +33,14 @@ export default function BottomNav() {
               href={href}
               className="flex flex-1 flex-col items-center gap-1 py-1"
             >
-              <Icon className={`h-5 w-5 ${on ? "text-gold" : "text-muted"}`} />
+              <Icon className={`h-6 w-6 ${on ? "text-ink" : "text-dim"}`} />
               <span
                 className={`text-[10px] font-medium ${
-                  on ? "text-gold" : "text-muted"
+                  on ? "text-ink" : "text-dim"
                 }`}
               >
                 {label}
               </span>
-              <span
-                className={`h-1 w-1 rounded-full ${
-                  on ? "bg-gold" : "bg-transparent"
-                }`}
-              />
             </Link>
           );
         })}

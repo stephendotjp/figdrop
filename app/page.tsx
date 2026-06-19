@@ -22,7 +22,7 @@ function Section({
 }) {
   return (
     <section>
-      <h2 className="mb-3 text-sm font-bold uppercase tracking-wider text-dim">
+      <h2 className="mb-3 text-base font-bold tracking-tight text-ink">
         {title}
       </h2>
       {children}
@@ -69,7 +69,7 @@ export default function Home() {
               ))}
             </div>
           ) : (
-            <p className="rounded-2xl border border-dashed border-white/10 p-8 text-center text-sm text-muted">
+            <p className="rounded-xl border border-dashed border-line p-8 text-center text-sm text-dim">
               No drops in this category yet — check back next week.
             </p>
           )}

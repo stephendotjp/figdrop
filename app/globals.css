@@ -4,7 +4,8 @@
 
 html,
 body {
-  background: #0a0a0f;
+  background: #ffffff;
+  color: #111111;
 }
 
 ::-webkit-scrollbar {
@@ -12,7 +13,7 @@ body {
   width: 6px;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.12);
   border-radius: 9999px;
 }
 
@@ -22,15 +23,6 @@ body {
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
-}
-
-@keyframes shimmer {
-  0% {
-    background-position: 200% 0;
-  }
-  100% {
-    background-position: -200% 0;
-  }
 }
 
 @keyframes fadeIn {
@@ -62,20 +54,6 @@ body {
     opacity: 1;
   }
   50% {
-    opacity: 0.55;
+    opacity: 0.4;
   }
-}
-
-@keyframes glowPulse {
-  0%,
-  100% {
-    box-shadow: 0 0 0 1px rgba(232, 98, 154, 0.5), 0 0 14px rgba(232, 98, 154, 0.22);
-  }
-  50% {
-    box-shadow: 0 0 0 1px rgba(232, 98, 154, 0.9), 0 0 22px rgba(232, 98, 154, 0.5);
-  }
-}
-
-.closing-glow {
-  animation: glowPulse 1.8s ease-in-out infinite;
 }

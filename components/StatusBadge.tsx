@@ -1,18 +1,9 @@
 import { Status } from "@/lib/data";
 
-const META: Record<Status, { label: string; className: string; dot?: boolean }> = {
-  preorder_open: {
-    label: "PREORDER OPEN",
-    className: "bg-gold text-black",
-  },
-  preorder_closing: {
-    label: "CLOSING SOON",
-    className: "bg-pink text-white animate-[softPulse_1.6s_ease-in-out_infinite]",
-  },
-  coming_soon: {
-    label: "COMING SOON",
-    className: "bg-black/40 text-dim border border-dashed border-white/20",
-  },
+const LABEL: Record<Status, string> = {
+  preorder_open: "PREORDER OPEN",
+  preorder_closing: "CLOSING SOON",
+  coming_soon: "COMING SOON",
 };
 
 export default function StatusBadge({
@@ -22,12 +13,14 @@ export default function StatusBadge({
   status: Status;
   className?: string;
 }) {
-  const m = META[status];
   return (
     <span
-      className={`inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[9px] font-bold tracking-wider ${m.className} ${className}`}
+      className={`inline-flex items-center gap-1.5 rounded-full bg-ink px-2.5 py-1 text-[9px] font-bold uppercase tracking-wider text-white ${className}`}
     >
-      {m.label}
+      {status === "preorder_closing" && (
+        <span className="h-1.5 w-1.5 rounded-full bg-white animate-[softPulse_1.4s_ease-in-out_infinite]" />
+      )}
+      {LABEL[status]}
     </span>
   );
 }

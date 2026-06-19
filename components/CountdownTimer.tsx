@@ -46,15 +46,15 @@ export default function CountdownTimer({
       {units.map(([val, label], i) => (
         <div key={label} className="flex items-center gap-2">
           <div className="flex flex-col items-center">
-            <span className="font-mono text-xl font-bold tabular-nums text-pink">
+            <span className="font-mono text-xl font-bold tabular-nums text-ink">
               {pad(val)}
             </span>
-            <span className="text-[9px] tracking-widest text-muted">
+            <span className="text-[9px] tracking-widest text-dim">
               {label}
             </span>
           </div>
           {i < units.length - 1 && (
-            <span className="-mt-3 text-pink/40">:</span>
+            <span className="-mt-3 text-line">:</span>
           )}
         </div>
       ))}

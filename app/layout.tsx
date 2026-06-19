@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.variable}>
-      <body className="min-h-screen bg-void font-sans text-ink antialiased">
+      <body className="min-h-screen bg-white font-sans text-ink antialiased">
         <TopNav />
         <main className="mx-auto w-full max-w-screen-sm px-4 pb-24 pt-4 md:max-w-screen-lg md:px-8 md:pb-12 md:pt-24">
           <div className="animate-[fadeIn_.4s_ease]" key="page">
