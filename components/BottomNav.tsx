@@ -23,7 +23,7 @@ export default function BottomNav() {
     href === "/" ? pathname === "/" : pathname.startsWith(href);
 
   return (
-    <nav className="fixed bottom-0 left-0 z-40 w-full border-t border-line bg-white/95 backdrop-blur md:hidden">
+    <nav className="fixed bottom-0 left-0 z-40 w-full border-t border-line bg-[#0a0a0a]/90 backdrop-blur md:hidden">
       <div className="mx-auto flex max-w-screen-sm items-center justify-around px-2 pb-[env(safe-area-inset-bottom)] pt-2">
         {NAV.map(({ href, label, Icon }) => {
           const on = isActive(href);
