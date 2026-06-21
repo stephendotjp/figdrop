@@ -5,11 +5,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        card: "#F2F2F2",
-        ink: "#F5F5F5",
-        dim: "#8E8E93",
-        line: "#262628",
-        panel: "#161618",
+        card: "#F5F5F5",
+        ink: "#111111",
+        dim: "#666666",
+        line: "#E5E5E5",
         accent: "#FF1A1A",
       },
       fontFamily: {

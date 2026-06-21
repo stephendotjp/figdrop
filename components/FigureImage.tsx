@@ -26,7 +26,7 @@ export default function FigureImage({
 
   return (
     <div
-      className={`flex h-full w-full flex-col justify-between bg-panel p-4 ${className}`}
+      className={`flex h-full w-full flex-col justify-between bg-card p-4 ${className}`}
     >
       <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-dim">
         {figure.series}

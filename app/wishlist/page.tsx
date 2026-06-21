@@ -7,7 +7,7 @@ import FigureCard from "@/components/FigureCard";
 
 function EmptyState() {
   return (
-    <div className="flex flex-col items-center justify-center rounded-xl border border-line bg-panel py-20 text-center">
+    <div className="flex flex-col items-center justify-center rounded-xl border border-line bg-card py-20 text-center">
       <svg
         viewBox="0 0 24 24"
         className="h-16 w-16 text-ink"
@@ -27,7 +27,7 @@ function EmptyState() {
       </p>
       <Link
         href="/"
-        className="mt-6 rounded-full bg-white px-6 py-2.5 text-sm font-bold text-black transition hover:opacity-90"
+        className="mt-6 rounded-full bg-ink px-6 py-2.5 text-sm font-bold text-white transition hover:opacity-90"
       >
         Browse drops
       </Link>

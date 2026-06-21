@@ -19,8 +19,8 @@ export default function FilterChips({
             onClick={() => onChange(c)}
             className={`whitespace-nowrap rounded-full border px-4 py-2 text-xs font-semibold transition ${
               on
-                ? "border-white bg-white text-black"
-                : "border-line bg-panel text-dim hover:border-dim hover:text-ink"
+                ? "border-ink bg-ink text-white"
+                : "border-line bg-white text-dim hover:border-ink hover:text-ink"
             }`}
           >
             {c}

@@ -98,7 +98,7 @@ export default function DropDetail({ params }: { params: { id: string } }) {
 
       <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-line bg-line">
         {specs.map(([k, v]) => (
-          <div key={k} className="bg-panel p-4">
+          <div key={k} className="bg-white p-4">
             <dt className="text-[10px] uppercase tracking-wider text-dim">
               {k}
             </dt>
@@ -110,7 +110,7 @@ export default function DropDetail({ params }: { params: { id: string } }) {
       <div className="grid grid-cols-1 gap-3">
         <a
           href="#"
-          className="rounded-full bg-white py-4 text-center text-sm font-bold tracking-wide text-black transition hover:opacity-90"
+          className="rounded-full bg-ink py-4 text-center text-sm font-bold tracking-wide text-white transition hover:opacity-90"
         >
           PREORDER NOW
         </a>
@@ -118,8 +118,8 @@ export default function DropDetail({ params }: { params: { id: string } }) {
           onClick={() => toggle(figure.id)}
           className={`flex items-center justify-center gap-2 rounded-full border py-4 text-sm font-bold transition ${
             active
-              ? "border-white bg-white text-black"
-              : "border-line text-ink hover:bg-panel"
+              ? "border-ink bg-ink text-white"
+              : "border-ink text-ink hover:bg-card"
           }`}
         >
           <Heart

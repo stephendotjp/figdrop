@@ -26,7 +26,7 @@ export default function FigureCard({
         e.preventDefault();
         toggle(figure.id);
       }}
-      className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-white/90 text-black shadow-sm backdrop-blur transition active:scale-90"
+      className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-white/90 text-ink shadow-sm backdrop-blur transition active:scale-90"
     >
       <Heart
         filled={active}
@@ -87,7 +87,7 @@ export default function FigureCard({
           ¥{figure.price_jpy.toLocaleString()}
         </p>
         {cta && (
-          <span className="mt-3 block rounded-full bg-white py-2.5 text-center text-xs font-bold text-black transition group-hover:opacity-90">
+          <span className="mt-3 block rounded-full bg-ink py-2.5 text-center text-xs font-bold text-white transition group-hover:opacity-90">
             Preorder Now
           </span>
         )}

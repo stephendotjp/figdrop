@@ -65,7 +65,7 @@ export default function CalendarPage() {
               setSelected(null);
               setCursor(new Date(year, month - 1, 1));
             }}
-            className="grid h-8 w-8 place-items-center rounded-full border border-line text-ink transition hover:bg-panel"
+            className="grid h-8 w-8 place-items-center rounded-full border border-line text-ink transition hover:bg-card"
           >
             ‹
           </button>
@@ -78,7 +78,7 @@ export default function CalendarPage() {
               setSelected(null);
               setCursor(new Date(year, month + 1, 1));
             }}
-            className="grid h-8 w-8 place-items-center rounded-full border border-line text-ink transition hover:bg-panel"
+            className="grid h-8 w-8 place-items-center rounded-full border border-line text-ink transition hover:bg-card"
           >
             ›
           </button>
@@ -104,7 +104,7 @@ export default function CalendarPage() {
                 key={i}
                 onClick={() => evs && setSelected(sel ? null : key)}
                 className={`relative aspect-square rounded-lg text-xs transition ${
-                  evs ? "cursor-pointer bg-panel hover:bg-line" : "text-dim"
+                  evs ? "cursor-pointer bg-card hover:bg-line" : "text-dim"
                 } ${sel ? "ring-1 ring-ink" : ""}`}
               >
                 <span className="absolute left-1.5 top-1 text-[11px] text-ink">

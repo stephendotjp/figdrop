@@ -55,13 +55,13 @@ export default function TopNav() {
   return (
     <>
       {/* Mobile sticky header */}
-      <header className="sticky top-0 z-40 flex items-center justify-between border-b border-line bg-[#0a0a0a]/85 px-4 py-3 backdrop-blur md:hidden">
+      <header className="sticky top-0 z-40 flex items-center justify-between border-b border-line bg-white/90 px-4 py-3 backdrop-blur md:hidden">
         <Logo />
         <IconButtons />
       </header>
 
       {/* Desktop top nav */}
-      <nav className="fixed left-0 top-0 z-40 hidden w-full items-center justify-between border-b border-line bg-[#0a0a0a]/85 px-8 py-4 backdrop-blur md:flex">
+      <nav className="fixed left-0 top-0 z-40 hidden w-full items-center justify-between border-b border-line bg-white/90 px-8 py-4 backdrop-blur md:flex">
         <div className="flex items-center gap-8">
           <Logo />
           <div className="flex items-center gap-1">
