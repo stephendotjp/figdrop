@@ -1,0 +1,55 @@
+import Link from "next/link";
+
+// Onboarding splash, SNKRS-style. No real auth — every action just enters the
+// app at the feed (`/`).
+export default function Welcome() {
+  return (
+    <div className="fixed inset-0 z-50 overflow-hidden bg-black text-white">
+      {/* Full-bleed hero */}
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src="/figures/kaho-hinoshita-love-live/01.jpg"
+        alt=""
+        className="absolute inset-0 h-full w-full object-cover"
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/25 to-black/90" />
+
+      {/* Content */}
+      <div className="relative z-10 mx-auto flex h-full w-full max-w-md flex-col justify-between px-6 py-12">
+        <span className="text-2xl font-extrabold uppercase tracking-tight text-accent">
+          FigDrop
+        </span>
+
+        <div className="space-y-7">
+          <h1 className="text-[28px] font-bold leading-tight">
+            Your ultimate source for figure drops, pre-order windows and
+            exclusive collectibles.
+          </h1>
+
+          <div className="space-y-3">
+            <div className="flex gap-3">
+              <Link
+                href="/"
+                className="flex-1 rounded-full border border-white/70 py-3.5 text-center text-sm font-bold transition hover:bg-white/10"
+              >
+                Log In
+              </Link>
+              <Link
+                href="/"
+                className="flex-1 rounded-full bg-white py-3.5 text-center text-sm font-bold text-black transition hover:opacity-90"
+              >
+                Join
+              </Link>
+            </div>
+            <Link
+              href="/"
+              className="block py-2 text-center text-sm font-semibold text-white/80 underline-offset-4 transition hover:text-white hover:underline"
+            >
+              Continue as guest
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

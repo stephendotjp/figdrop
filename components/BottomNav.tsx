@@ -19,6 +19,7 @@ const NAV: NavItem[] = [
 
 export default function BottomNav() {
   const pathname = usePathname();
+  if (pathname === "/welcome") return null;
   const isActive = (href: string) =>
     href === "/" ? pathname === "/" : pathname.startsWith(href);
 
