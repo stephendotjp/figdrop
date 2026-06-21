@@ -49,7 +49,6 @@ function IconButtons() {
 
 export default function TopNav() {
   const pathname = usePathname();
-  if (pathname === "/welcome") return null;
   const isActive = (href: string) =>
     href === "/" ? pathname === "/" : pathname.startsWith(href);
 

@@ -1,22 +1,22 @@
 import Link from "next/link";
 
 // Onboarding splash, SNKRS-style. No real auth — every action just enters the
-// app at the feed (`/`). The hero is a fixed background so the content can
-// scroll on short viewports without the bottom actions getting clipped.
+// app at the feed (`/`). Lives outside the (main) route group, so no nav chrome.
+// Normal document flow + 100svh so iOS browser UI never clips the bottom actions.
 export default function Welcome() {
   return (
-    <div className="fixed inset-0 z-50 overflow-y-auto bg-black text-white">
-      {/* Full-bleed hero + overlay, pinned behind the scrolling content */}
+    <div className="relative min-h-[100svh] w-full overflow-hidden bg-black text-white">
+      {/* Full-bleed hero + overlay */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src="/figures/kaho-hinoshita-love-live/01.jpg"
         alt=""
-        className="pointer-events-none fixed inset-0 h-full w-full object-cover"
+        className="absolute inset-0 h-full w-full object-cover"
       />
-      <div className="pointer-events-none fixed inset-0 bg-gradient-to-b from-black/50 via-black/25 to-black/90" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/25 to-black/90" />
 
       {/* Content */}
-      <div className="relative z-10 mx-auto flex min-h-full w-full max-w-md flex-col justify-between gap-10 px-6 py-12">
+      <div className="relative z-10 mx-auto flex min-h-[100svh] w-full max-w-md flex-col justify-between gap-10 px-6 pt-12 pb-[calc(env(safe-area-inset-bottom)+2.5rem)]">
         <span className="text-2xl font-extrabold uppercase tracking-tight text-accent">
           FigDrop
         </span>
