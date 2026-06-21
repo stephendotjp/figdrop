@@ -61,7 +61,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "10cm",
     featured: true,
-    image_url: "/figures/luka-v4x/01.jpg",
+    image_url: "/figures/luka-v4x/thumb.jpg",
     images: [
       "/figures/luka-v4x/01.jpg",
       "/figures/luka-v4x/02.jpg",
@@ -88,7 +88,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "19.2cm",
     featured: false,
-    image_url: "/figures/cats-silver-moon/01.jpg",
+    image_url: "/figures/cats-silver-moon/thumb.jpg",
     images: [
       "/figures/cats-silver-moon/01.jpg",
       "/figures/cats-silver-moon/02.jpg",
@@ -121,7 +121,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "19.2cm",
     featured: false,
-    image_url: "/figures/cats-scarlet-night/01.jpg",
+    image_url: "/figures/cats-scarlet-night/thumb.jpg",
     images: [
       "/figures/cats-scarlet-night/01.jpg",
       "/figures/cats-scarlet-night/02.jpg",
@@ -154,7 +154,7 @@ export const figures: Figure[] = [
     scale: "1/20",
     height: "—",
     featured: false,
-    image_url: "/figures/pokemon-scale-world-sinnoh/01.jpg",
+    image_url: "/figures/pokemon-scale-world-sinnoh/thumb.jpg",
     images: [
       "/figures/pokemon-scale-world-sinnoh/01.jpg",
       "/figures/pokemon-scale-world-sinnoh/02.jpg",
@@ -180,7 +180,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "10cm",
     featured: false,
-    image_url: "/figures/toshiya-miyata/06.jpg",
+    image_url: "/figures/toshiya-miyata/thumb.jpg",
     images: [
       "/figures/toshiya-miyata/01.jpg",
       "/figures/toshiya-miyata/02.jpg",
@@ -208,7 +208,7 @@ export const figures: Figure[] = [
     scale: "—",
     height: "16cm",
     featured: false,
-    image_url: "/figures/b-robo-kabutack-re/01.jpg",
+    image_url: "/figures/b-robo-kabutack-re/thumb.jpg",
     images: [
       "/figures/b-robo-kabutack-re/01.jpg",
       "/figures/b-robo-kabutack-re/02.jpg",
@@ -287,7 +287,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "13cm",
     featured: false,
-    image_url: "/figures/moderoid-miniature-combining-transforming/01.jpg",
+    image_url: "/figures/moderoid-miniature-combining-transforming/thumb.jpg",
     images: [
       "/figures/moderoid-miniature-combining-transforming/01.jpg",
       "/figures/moderoid-miniature-combining-transforming/02.jpg",
@@ -315,7 +315,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "12cm",
     featured: false,
-    image_url: "/figures/moderoid-miniature-combining-transforming-x/01.jpg",
+    image_url: "/figures/moderoid-miniature-combining-transforming-x/thumb.jpg",
     images: [
       "/figures/moderoid-miniature-combining-transforming-x/01.jpg",
       "/figures/moderoid-miniature-combining-transforming-x/02.jpg",
@@ -343,7 +343,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "10cm",
     featured: false,
-    image_url: "/figures/nendoroid-hakos-baelz-hololive/01.jpg",
+    image_url: "/figures/nendoroid-hakos-baelz-hololive/thumb.jpg",
     images: [
       "/figures/nendoroid-hakos-baelz-hololive/01.jpg",
       "/figures/nendoroid-hakos-baelz-hololive/02.jpg",
@@ -370,7 +370,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "10cm",
     featured: false,
-    image_url: "/figures/nendoroid-hatsune-miku-v4x/01.jpg",
+    image_url: "/figures/nendoroid-hatsune-miku-v4x/thumb.jpg",
     images: [
       "/figures/nendoroid-hatsune-miku-v4x/01.jpg",
       "/figures/nendoroid-hatsune-miku-v4x/02.jpg",
@@ -397,7 +397,7 @@ export const figures: Figure[] = [
     scale: "1/7",
     height: "22cm",
     featured: false,
-    image_url: "/figures/kaho-hinoshita-love-live/01.jpg",
+    image_url: "/figures/kaho-hinoshita-love-live/thumb.jpg",
     images: [
       "/figures/kaho-hinoshita-love-live/01.jpg",
       "/figures/kaho-hinoshita-love-live/02.jpg",
@@ -425,7 +425,7 @@ export const figures: Figure[] = [
     scale: "1/7",
     height: "23cm",
     featured: false,
-    image_url: "/figures/sayaka-murano-love-live/02.jpg",
+    image_url: "/figures/sayaka-murano-love-live/thumb.jpg",
     images: [
       "/figures/sayaka-murano-love-live/01.jpg",
       "/figures/sayaka-murano-love-live/02.jpg",
@@ -453,7 +453,7 @@ export const figures: Figure[] = [
     scale: "1/7",
     height: "22cm",
     featured: false,
-    image_url: "/figures/rurino-osawa-love-love/02.jpg",
+    image_url: "/figures/rurino-osawa-love-love/thumb.jpg",
     images: [
       "/figures/rurino-osawa-love-love/01.jpg",
       "/figures/rurino-osawa-love-love/02.jpg",
@@ -481,7 +481,7 @@ export const figures: Figure[] = [
     scale: "—",
     height: "36cm",
     featured: false,
-    image_url: "/figures/tenitol-tall-rikka-takarada/01.jpg",
+    image_url: "/figures/tenitol-tall-rikka-takarada/thumb.jpg",
     images: [
       "/figures/tenitol-tall-rikka-takarada/01.jpg",
       "/figures/tenitol-tall-rikka-takarada/02.jpg",
@@ -509,7 +509,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "27.5cm",
     featured: false,
-    image_url: "/figures/tenitol-tall-akane-shinjo/02.jpg",
+    image_url: "/figures/tenitol-tall-akane-shinjo/thumb.jpg",
     images: [
       "/figures/tenitol-tall-akane-shinjo/01.jpg",
       "/figures/tenitol-tall-akane-shinjo/02.jpg",
@@ -537,7 +537,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "35.5cm",
     featured: false,
-    image_url: "/figures/tenitol-tall-rikka-takarada-x/02.jpg",
+    image_url: "/figures/tenitol-tall-rikka-takarada-x/thumb.jpg",
     images: [
       "/figures/tenitol-tall-rikka-takarada-x/01.jpg",
       "/figures/tenitol-tall-rikka-takarada-x/02.jpg",
@@ -589,7 +589,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "10cm",
     featured: false,
-    image_url: "/figures/nendoroid-kamui-gintama-figure/01.jpg",
+    image_url: "/figures/nendoroid-kamui-gintama-figure/thumb.jpg",
     images: [
       "/figures/nendoroid-kamui-gintama-figure/01.jpg",
       "/figures/nendoroid-kamui-gintama-figure/02.jpg",
@@ -614,7 +614,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "10cm",
     featured: false,
-    image_url: "/figures/nendoroid-shinsuke-takasugi-gintama/05.jpg",
+    image_url: "/figures/nendoroid-shinsuke-takasugi-gintama/thumb.jpg",
     images: [
       "/figures/nendoroid-shinsuke-takasugi-gintama/01.jpg",
       "/figures/nendoroid-shinsuke-takasugi-gintama/02.jpg",
@@ -639,7 +639,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "10cm",
     featured: false,
-    image_url: "/figures/plafia-doala-visitor-ver/01.jpg",
+    image_url: "/figures/plafia-doala-visitor-ver/thumb.jpg",
     images: [
       "/figures/plafia-doala-visitor-ver/01.jpg",
       "/figures/plafia-doala-visitor-ver/02.jpg",
@@ -667,7 +667,7 @@ export const figures: Figure[] = [
     scale: "1/4",
     height: "47cm",
     featured: false,
-    image_url: "/figures/b-style-mirajane-strauss/01.jpg",
+    image_url: "/figures/b-style-mirajane-strauss/thumb.jpg",
     images: [
       "/figures/b-style-mirajane-strauss/01.jpg",
       "/figures/b-style-mirajane-strauss/02.jpg",
@@ -695,7 +695,7 @@ export const figures: Figure[] = [
     scale: "1/7",
     height: "32cm",
     featured: false,
-    image_url: "/figures/hatsune-miku-music-fire/01.jpg",
+    image_url: "/figures/hatsune-miku-music-fire/thumb.jpg",
     images: [
       "/figures/hatsune-miku-music-fire/01.jpg",
       "/figures/hatsune-miku-music-fire/02.jpg",
@@ -723,7 +723,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "10cm",
     featured: false,
-    image_url: "/figures/nendoroid-mahiru-shiina-the/01.jpg",
+    image_url: "/figures/nendoroid-mahiru-shiina-the/thumb.jpg",
     images: [
       "/figures/nendoroid-mahiru-shiina-the/01.jpg",
       "/figures/nendoroid-mahiru-shiina-the/02.jpg",
