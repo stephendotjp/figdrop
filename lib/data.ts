@@ -180,7 +180,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "10cm",
     featured: false,
-    image_url: "/figures/toshiya-miyata/01.jpg",
+    image_url: "/figures/toshiya-miyata/06.jpg",
     images: [
       "/figures/toshiya-miyata/01.jpg",
       "/figures/toshiya-miyata/02.jpg",
@@ -425,7 +425,7 @@ export const figures: Figure[] = [
     scale: "1/7",
     height: "23cm",
     featured: false,
-    image_url: "/figures/sayaka-murano-love-live/01.jpg",
+    image_url: "/figures/sayaka-murano-love-live/02.jpg",
     images: [
       "/figures/sayaka-murano-love-live/01.jpg",
       "/figures/sayaka-murano-love-live/02.jpg",
@@ -453,7 +453,7 @@ export const figures: Figure[] = [
     scale: "1/7",
     height: "22cm",
     featured: false,
-    image_url: "/figures/rurino-osawa-love-love/01.jpg",
+    image_url: "/figures/rurino-osawa-love-love/02.jpg",
     images: [
       "/figures/rurino-osawa-love-love/01.jpg",
       "/figures/rurino-osawa-love-love/02.jpg",
@@ -509,7 +509,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "27.5cm",
     featured: false,
-    image_url: "/figures/tenitol-tall-akane-shinjo/01.jpg",
+    image_url: "/figures/tenitol-tall-akane-shinjo/02.jpg",
     images: [
       "/figures/tenitol-tall-akane-shinjo/01.jpg",
       "/figures/tenitol-tall-akane-shinjo/02.jpg",
@@ -537,7 +537,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "35.5cm",
     featured: false,
-    image_url: "/figures/tenitol-tall-rikka-takarada-x/01.jpg",
+    image_url: "/figures/tenitol-tall-rikka-takarada-x/02.jpg",
     images: [
       "/figures/tenitol-tall-rikka-takarada-x/01.jpg",
       "/figures/tenitol-tall-rikka-takarada-x/02.jpg",
@@ -614,7 +614,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "10cm",
     featured: false,
-    image_url: "/figures/nendoroid-shinsuke-takasugi-gintama/01.jpg",
+    image_url: "/figures/nendoroid-shinsuke-takasugi-gintama/05.jpg",
     images: [
       "/figures/nendoroid-shinsuke-takasugi-gintama/01.jpg",
       "/figures/nendoroid-shinsuke-takasugi-gintama/02.jpg",

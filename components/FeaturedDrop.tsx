@@ -16,7 +16,7 @@ export default function FeaturedDrop({ figure }: { figure: Figure }) {
 
   return (
     <Link href={`/drop/${figure.id}`} className="group block">
-      <div className="relative aspect-[4/5] w-full overflow-hidden rounded-xl bg-card sm:aspect-[16/9]">
+      <div className="relative aspect-square w-full overflow-hidden rounded-xl bg-card">
         <FigureImage figure={figure} />
         <div className="absolute left-3 top-3">
           <StatusBadge status={figure.status} />

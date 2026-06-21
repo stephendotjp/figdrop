@@ -17,7 +17,7 @@ export default function Gallery({
   return (
     <div className="space-y-3">
       <div className="relative overflow-hidden rounded-xl bg-card">
-        <div className="relative aspect-square w-full sm:aspect-[16/10]">
+        <div className="relative aspect-square w-full">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={src}
