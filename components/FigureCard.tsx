@@ -1,9 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { Figure } from "@/lib/data";
+import { Figure, stockLevel } from "@/lib/data";
 import FigureImage from "./FigureImage";
 import StatusBadge from "./StatusBadge";
+import StockBadge from "./StockBadge";
 import { Heart } from "./icons";
 import { useWishlist } from "@/hooks/useWishlist";
 
@@ -18,6 +19,8 @@ export default function FigureCard({
 }) {
   const { isWishlisted, toggle, mounted } = useWishlist();
   const active = mounted && isWishlisted(figure.id);
+  const level = stockLevel(figure);
+  const soldOut = level === "sold_out";
 
   const heartBtn = (
     <button
@@ -55,6 +58,17 @@ export default function FigureCard({
           <p className="mt-0.5 text-sm font-semibold text-ink">
             ¥{figure.price_jpy.toLocaleString()}
           </p>
+          {soldOut ? (
+            <p className="mt-0.5 text-[11px] font-bold uppercase tracking-wide text-dim">
+              Sold out
+            </p>
+          ) : (
+            level !== "in_stock" && (
+              <p className="mt-0.5 text-[11px] font-bold uppercase tracking-wide text-accent">
+                Only {figure.quantity} left
+              </p>
+            )
+          )}
         </div>
         {heartBtn}
       </Link>
@@ -72,7 +86,10 @@ export default function FigureCard({
         <FigureImage figure={figure} />
         <div className="absolute right-2 top-2">{heartBtn}</div>
         <div className="absolute left-2 top-2">
-          <StatusBadge status={figure.status} />
+          {!soldOut && <StatusBadge status={figure.status} />}
+        </div>
+        <div className="absolute bottom-2 left-2">
+          <StockBadge figure={figure} />
         </div>
       </div>
       <div className="mt-2.5">

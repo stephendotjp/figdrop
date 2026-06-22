@@ -12,7 +12,8 @@ export interface Figure {
   retailer: string;
   retailer_color: RetailerColor;
   status: Status;
-  preorder_closes: string;
+  quantity: number;
+  availability: string;
   release_date: string;
   scale: string;
   height: string;
@@ -42,8 +43,6 @@ export const TYPES = [
 // Scraped from hobby-genki.com (pre-order listing + each product's detail page).
 // Real from the source: name, price_jpy, retailer, manufacturer, series, scale,
 // height, release_date (the product's `available_date`), and all gallery images.
-// `preorder_closes` is the one DERIVED field — the shop has no preorder-close
-// date, only a release date — so it's set ~6 weeks before release as a stand-in.
 export const figures: Figure[] = [
   {
     id: "1",
@@ -56,11 +55,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2026-10-15",
     release_date: "2026-11-30",
     scale: "Non-scale",
     height: "10cm",
     featured: true,
+    quantity: 58,
+    availability: "available",
     image_url: "/figures/luka-v4x/thumb.jpg",
     images: [
       "/figures/luka-v4x/01.jpg",
@@ -83,11 +83,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2027-02-14",
     release_date: "2027-03-31",
     scale: "Non-scale",
     height: "19.2cm",
     featured: false,
+    quantity: 1,
+    availability: "last_remaining_items",
     image_url: "/figures/cats-silver-moon/thumb.jpg",
     images: [
       "/figures/cats-silver-moon/01.jpg",
@@ -116,11 +117,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2027-02-14",
     release_date: "2027-03-31",
     scale: "Non-scale",
     height: "19.2cm",
     featured: false,
+    quantity: 1,
+    availability: "last_remaining_items",
     image_url: "/figures/cats-scarlet-night/thumb.jpg",
     images: [
       "/figures/cats-scarlet-night/01.jpg",
@@ -149,11 +151,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2026-09-15",
     release_date: "2026-10-31",
     scale: "1/20",
     height: "—",
     featured: false,
+    quantity: 167,
+    availability: "available",
     image_url: "/figures/pokemon-scale-world-sinnoh/thumb.jpg",
     images: [
       "/figures/pokemon-scale-world-sinnoh/01.jpg",
@@ -175,11 +178,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2026-12-15",
     release_date: "2027-01-31",
     scale: "Non-scale",
     height: "10cm",
     featured: false,
+    quantity: 60,
+    availability: "available",
     image_url: "/figures/toshiya-miyata/thumb.jpg",
     images: [
       "/figures/toshiya-miyata/01.jpg",
@@ -203,11 +207,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2026-09-15",
     release_date: "2026-10-31",
     scale: "—",
     height: "16cm",
     featured: false,
+    quantity: 11,
+    availability: "available",
     image_url: "/figures/b-robo-kabutack-re/thumb.jpg",
     images: [
       "/figures/b-robo-kabutack-re/01.jpg",
@@ -229,11 +234,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2026-06-15",
     release_date: "2026-07-31",
     scale: "1/35",
     height: "—",
     featured: false,
+    quantity: 0,
+    availability: "unavailable",
     image_url: "/figures/hg-135-zi-artemis/01.jpg",
     images: [
       "/figures/hg-135-zi-artemis/01.jpg",
@@ -257,11 +263,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2026-09-15",
     release_date: "2026-10-31",
     scale: "—",
     height: "16cm",
     featured: false,
+    quantity: 11,
+    availability: "available",
     image_url: "/figures/b-robo-kabutack-re-x/01.jpg",
     images: [
       "/figures/b-robo-kabutack-re-x/01.jpg",
@@ -282,11 +289,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2026-10-15",
     release_date: "2026-11-30",
     scale: "Non-scale",
     height: "13cm",
     featured: false,
+    quantity: 194,
+    availability: "available",
     image_url: "/figures/moderoid-miniature-combining-transforming/thumb.jpg",
     images: [
       "/figures/moderoid-miniature-combining-transforming/01.jpg",
@@ -310,11 +318,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2026-10-15",
     release_date: "2026-11-30",
     scale: "Non-scale",
     height: "12cm",
     featured: false,
+    quantity: 193,
+    availability: "available",
     image_url: "/figures/moderoid-miniature-combining-transforming-x/thumb.jpg",
     images: [
       "/figures/moderoid-miniature-combining-transforming-x/01.jpg",
@@ -338,11 +347,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2026-12-16",
     release_date: "2027-01-31",
     scale: "Non-scale",
     height: "10cm",
     featured: false,
+    quantity: 56,
+    availability: "available",
     image_url: "/figures/nendoroid-hakos-baelz-hololive/thumb.jpg",
     images: [
       "/figures/nendoroid-hakos-baelz-hololive/01.jpg",
@@ -365,11 +375,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2026-10-15",
     release_date: "2026-11-30",
     scale: "Non-scale",
     height: "10cm",
     featured: false,
+    quantity: 198,
+    availability: "available",
     image_url: "/figures/nendoroid-hatsune-miku-v4x/thumb.jpg",
     images: [
       "/figures/nendoroid-hatsune-miku-v4x/01.jpg",
@@ -392,11 +403,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2027-02-13",
     release_date: "2027-03-31",
     scale: "1/7",
     height: "22cm",
     featured: false,
+    quantity: 200,
+    availability: "available",
     image_url: "/figures/kaho-hinoshita-love-live/thumb.jpg",
     images: [
       "/figures/kaho-hinoshita-love-live/01.jpg",
@@ -420,11 +432,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2027-02-13",
     release_date: "2027-03-31",
     scale: "1/7",
     height: "23cm",
     featured: false,
+    quantity: 200,
+    availability: "available",
     image_url: "/figures/sayaka-murano-love-live/thumb.jpg",
     images: [
       "/figures/sayaka-murano-love-live/01.jpg",
@@ -448,11 +461,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2027-02-13",
     release_date: "2027-03-31",
     scale: "1/7",
     height: "22cm",
     featured: false,
+    quantity: 200,
+    availability: "available",
     image_url: "/figures/rurino-osawa-love-love/thumb.jpg",
     images: [
       "/figures/rurino-osawa-love-love/01.jpg",
@@ -476,11 +490,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2027-02-13",
     release_date: "2027-03-31",
     scale: "—",
     height: "36cm",
     featured: false,
+    quantity: 19,
+    availability: "available",
     image_url: "/figures/tenitol-tall-rikka-takarada/thumb.jpg",
     images: [
       "/figures/tenitol-tall-rikka-takarada/01.jpg",
@@ -504,11 +519,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2027-02-13",
     release_date: "2027-03-31",
     scale: "Non-scale",
     height: "27.5cm",
     featured: false,
+    quantity: 199,
+    availability: "available",
     image_url: "/figures/tenitol-tall-akane-shinjo/thumb.jpg",
     images: [
       "/figures/tenitol-tall-akane-shinjo/01.jpg",
@@ -532,11 +548,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2027-02-13",
     release_date: "2027-03-31",
     scale: "Non-scale",
     height: "35.5cm",
     featured: false,
+    quantity: 198,
+    availability: "available",
     image_url: "/figures/tenitol-tall-rikka-takarada-x/thumb.jpg",
     images: [
       "/figures/tenitol-tall-rikka-takarada-x/01.jpg",
@@ -560,11 +577,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2026-10-15",
     release_date: "2026-11-30",
     scale: "—",
     height: "13cm",
     featured: false,
+    quantity: 192,
+    availability: "available",
     image_url: "/figures/palverse-pale-sonic-the/01.jpg",
     images: [
       "/figures/palverse-pale-sonic-the/01.jpg",
@@ -584,11 +602,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2026-11-15",
     release_date: "2026-12-31",
     scale: "Non-scale",
     height: "10cm",
     featured: false,
+    quantity: 0,
+    availability: "unavailable",
     image_url: "/figures/nendoroid-kamui-gintama-figure/thumb.jpg",
     images: [
       "/figures/nendoroid-kamui-gintama-figure/01.jpg",
@@ -609,11 +628,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2026-11-15",
     release_date: "2026-12-31",
     scale: "Non-scale",
     height: "10cm",
     featured: false,
+    quantity: 0,
+    availability: "unavailable",
     image_url: "/figures/nendoroid-shinsuke-takasugi-gintama/thumb.jpg",
     images: [
       "/figures/nendoroid-shinsuke-takasugi-gintama/01.jpg",
@@ -634,11 +654,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2026-07-16",
     release_date: "2026-08-31",
     scale: "Non-scale",
     height: "10cm",
     featured: false,
+    quantity: 200,
+    availability: "available",
     image_url: "/figures/plafia-doala-visitor-ver/thumb.jpg",
     images: [
       "/figures/plafia-doala-visitor-ver/01.jpg",
@@ -662,11 +683,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2026-11-15",
     release_date: "2026-12-31",
     scale: "1/4",
     height: "47cm",
     featured: false,
+    quantity: 198,
+    availability: "available",
     image_url: "/figures/b-style-mirajane-strauss/thumb.jpg",
     images: [
       "/figures/b-style-mirajane-strauss/01.jpg",
@@ -690,11 +712,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2027-05-15",
     release_date: "2027-06-30",
     scale: "1/7",
     height: "32cm",
     featured: false,
+    quantity: 196,
+    availability: "available",
     image_url: "/figures/hatsune-miku-music-fire/thumb.jpg",
     images: [
       "/figures/hatsune-miku-music-fire/01.jpg",
@@ -718,11 +741,12 @@ export const figures: Figure[] = [
     retailer: "Hobby Genki",
     retailer_color: "blue",
     status: "preorder_open",
-    preorder_closes: "2026-12-16",
     release_date: "2027-01-31",
     scale: "Non-scale",
     height: "10cm",
     featured: false,
+    quantity: 199,
+    availability: "available",
     image_url: "/figures/nendoroid-mahiru-shiina-the/thumb.jpg",
     images: [
       "/figures/nendoroid-mahiru-shiina-the/01.jpg",
@@ -749,4 +773,15 @@ export function relatedBySeries(series: string, excludeId: string): Figure[] {
 /** Parse a YYYY-MM-DD string as local midnight to avoid timezone day-shifts. */
 export function parseDate(s: string): Date {
   return new Date(s + "T00:00:00");
+}
+
+export type StockLevel = "sold_out" | "last_items" | "low" | "in_stock";
+
+/** Real stock state from HG's PrestaShop `quantity` / `availability`. */
+export function stockLevel(f: Figure): StockLevel {
+  if (f.quantity <= 0 || f.availability === "unavailable") return "sold_out";
+  if (f.availability === "last_remaining_items" || f.quantity <= 3)
+    return "last_items";
+  if (f.quantity <= 20) return "low";
+  return "in_stock";
 }

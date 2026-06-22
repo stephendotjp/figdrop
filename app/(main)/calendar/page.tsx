@@ -18,13 +18,13 @@ export default function CalendarPage() {
   const events = useMemo(() => {
     const map: Record<string, Figure[]> = {};
     for (const f of figures) {
-      (map[f.preorder_closes] ??= []).push(f);
+      (map[f.release_date] ??= []).push(f);
     }
     return map;
   }, []);
 
   const earliest = useMemo(
-    () => figures.map((f) => f.preorder_closes).sort()[0],
+    () => figures.map((f) => f.release_date).sort()[0],
     []
   );
 
@@ -50,7 +50,7 @@ export default function CalendarPage() {
   });
 
   const list = [...figures].sort((a, b) =>
-    a.preorder_closes.localeCompare(b.preorder_closes)
+    a.release_date.localeCompare(b.release_date)
   );
   const selectedFigs = selected ? events[selected] ?? [] : [];
 
@@ -169,7 +169,7 @@ function Row({ f }: { f: Figure }) {
       </div>
       <div className="flex shrink-0 flex-col items-end">
         <span className="text-xs font-semibold text-ink">
-          {parseDate(f.preorder_closes).toLocaleDateString("en-US", {
+          {parseDate(f.release_date).toLocaleDateString("en-US", {
             month: "short",
             day: "numeric",
           })}
