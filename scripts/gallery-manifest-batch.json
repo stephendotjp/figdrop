@@ -1,0 +1,460 @@
+{
+  "capcom-figure-builder-soft": [
+    "/figures/capcom-figure-builder-soft/01.jpg",
+    "/figures/capcom-figure-builder-soft/02.jpg",
+    "/figures/capcom-figure-builder-soft/03.jpg",
+    "/figures/capcom-figure-builder-soft/04.jpg",
+    "/figures/capcom-figure-builder-soft/05.jpg",
+    "/figures/capcom-figure-builder-soft/06.jpg"
+  ],
+  "movie-masterpiece-alien-warrior": [
+    "/figures/movie-masterpiece-alien-warrior/01.jpg",
+    "/figures/movie-masterpiece-alien-warrior/02.jpg",
+    "/figures/movie-masterpiece-alien-warrior/03.jpg",
+    "/figures/movie-masterpiece-alien-warrior/04.jpg",
+    "/figures/movie-masterpiece-alien-warrior/05.jpg",
+    "/figures/movie-masterpiece-alien-warrior/06.jpg",
+    "/figures/movie-masterpiece-alien-warrior/07.jpg",
+    "/figures/movie-masterpiece-alien-warrior/08.jpg"
+  ],
+  "movie-masterpiece-alien-warrior-x": [
+    "/figures/movie-masterpiece-alien-warrior-x/01.jpg",
+    "/figures/movie-masterpiece-alien-warrior-x/02.jpg",
+    "/figures/movie-masterpiece-alien-warrior-x/03.jpg",
+    "/figures/movie-masterpiece-alien-warrior-x/04.jpg",
+    "/figures/movie-masterpiece-alien-warrior-x/05.jpg",
+    "/figures/movie-masterpiece-alien-warrior-x/06.jpg",
+    "/figures/movie-masterpiece-alien-warrior-x/07.jpg",
+    "/figures/movie-masterpiece-alien-warrior-x/08.jpg"
+  ],
+  "movie-masterpiece-ellen-ripley": [
+    "/figures/movie-masterpiece-ellen-ripley/01.jpg",
+    "/figures/movie-masterpiece-ellen-ripley/02.jpg",
+    "/figures/movie-masterpiece-ellen-ripley/03.jpg",
+    "/figures/movie-masterpiece-ellen-ripley/04.jpg",
+    "/figures/movie-masterpiece-ellen-ripley/05.jpg",
+    "/figures/movie-masterpiece-ellen-ripley/06.jpg",
+    "/figures/movie-masterpiece-ellen-ripley/07.jpg",
+    "/figures/movie-masterpiece-ellen-ripley/08.jpg"
+  ],
+  "portraitofpirates-soc-sanji-verr": [
+    "/figures/portraitofpirates-soc-sanji-verr/01.jpg",
+    "/figures/portraitofpirates-soc-sanji-verr/02.jpg",
+    "/figures/portraitofpirates-soc-sanji-verr/03.jpg",
+    "/figures/portraitofpirates-soc-sanji-verr/04.jpg",
+    "/figures/portraitofpirates-soc-sanji-verr/05.jpg",
+    "/figures/portraitofpirates-soc-sanji-verr/06.jpg",
+    "/figures/portraitofpirates-soc-sanji-verr/07.jpg",
+    "/figures/portraitofpirates-soc-sanji-verr/08.jpg"
+  ],
+  "large-monster-series-ultra": [
+    "/figures/large-monster-series-ultra/01.jpg",
+    "/figures/large-monster-series-ultra/02.jpg",
+    "/figures/large-monster-series-ultra/03.jpg",
+    "/figures/large-monster-series-ultra/04.jpg",
+    "/figures/large-monster-series-ultra/05.jpg",
+    "/figures/large-monster-series-ultra/06.jpg",
+    "/figures/large-monster-series-ultra/07.jpg"
+  ],
+  "dlx-spider-man-symbiote": [
+    "/figures/dlx-spider-man-symbiote/01.jpg",
+    "/figures/dlx-spider-man-symbiote/02.jpg",
+    "/figures/dlx-spider-man-symbiote/03.jpg",
+    "/figures/dlx-spider-man-symbiote/04.jpg",
+    "/figures/dlx-spider-man-symbiote/05.jpg",
+    "/figures/dlx-spider-man-symbiote/06.jpg",
+    "/figures/dlx-spider-man-symbiote/07.jpg",
+    "/figures/dlx-spider-man-symbiote/08.jpg"
+  ],
+  "pokemon-scale-world-sinnoh": [
+    "/figures/pokemon-scale-world-sinnoh/01.jpg",
+    "/figures/pokemon-scale-world-sinnoh/02.jpg",
+    "/figures/pokemon-scale-world-sinnoh/03.jpg",
+    "/figures/pokemon-scale-world-sinnoh/04.jpg"
+  ],
+  "pokemon-scale-world-sinnoh-x": [
+    "/figures/pokemon-scale-world-sinnoh-x/01.jpg",
+    "/figures/pokemon-scale-world-sinnoh-x/02.jpg",
+    "/figures/pokemon-scale-world-sinnoh-x/03.jpg",
+    "/figures/pokemon-scale-world-sinnoh-x/04.jpg"
+  ],
+  "daiblos-core-maree-rouge": [
+    "/figures/daiblos-core-maree-rouge/01.jpg",
+    "/figures/daiblos-core-maree-rouge/02.jpg",
+    "/figures/daiblos-core-maree-rouge/03.jpg",
+    "/figures/daiblos-core-maree-rouge/04.jpg",
+    "/figures/daiblos-core-maree-rouge/05.jpg",
+    "/figures/daiblos-core-maree-rouge/06.jpg",
+    "/figures/daiblos-core-maree-rouge/07.jpg",
+    "/figures/daiblos-core-maree-rouge/08.jpg"
+  ],
+  "daiblos-core-maree-rouge-x": [
+    "/figures/daiblos-core-maree-rouge-x/01.jpg",
+    "/figures/daiblos-core-maree-rouge-x/02.jpg",
+    "/figures/daiblos-core-maree-rouge-x/03.jpg",
+    "/figures/daiblos-core-maree-rouge-x/04.jpg",
+    "/figures/daiblos-core-maree-rouge-x/05.jpg",
+    "/figures/daiblos-core-maree-rouge-x/06.jpg",
+    "/figures/daiblos-core-maree-rouge-x/07.jpg",
+    "/figures/daiblos-core-maree-rouge-x/08.jpg"
+  ],
+  "miko-shoujo-miko-race": [
+    "/figures/miko-shoujo-miko-race/01.jpg",
+    "/figures/miko-shoujo-miko-race/02.jpg",
+    "/figures/miko-shoujo-miko-race/03.jpg",
+    "/figures/miko-shoujo-miko-race/04.jpg",
+    "/figures/miko-shoujo-miko-race/05.jpg",
+    "/figures/miko-shoujo-miko-race/06.jpg",
+    "/figures/miko-shoujo-miko-race/07.jpg",
+    "/figures/miko-shoujo-miko-race/08.jpg"
+  ],
+  "miko-shoujo-miko-race-x": [
+    "/figures/miko-shoujo-miko-race-x/01.jpg",
+    "/figures/miko-shoujo-miko-race-x/02.jpg",
+    "/figures/miko-shoujo-miko-race-x/03.jpg",
+    "/figures/miko-shoujo-miko-race-x/04.jpg",
+    "/figures/miko-shoujo-miko-race-x/05.jpg",
+    "/figures/miko-shoujo-miko-race-x/06.jpg",
+    "/figures/miko-shoujo-miko-race-x/07.jpg",
+    "/figures/miko-shoujo-miko-race-x/08.jpg"
+  ],
+  "megami-device-b1r-l": [
+    "/figures/megami-device-b1r-l/01.jpg",
+    "/figures/megami-device-b1r-l/02.jpg",
+    "/figures/megami-device-b1r-l/03.jpg",
+    "/figures/megami-device-b1r-l/04.jpg",
+    "/figures/megami-device-b1r-l/05.jpg",
+    "/figures/megami-device-b1r-l/06.jpg",
+    "/figures/megami-device-b1r-l/07.jpg",
+    "/figures/megami-device-b1r-l/08.jpg"
+  ],
+  "digaction-fist-of-the": [
+    "/figures/digaction-fist-of-the/01.jpg",
+    "/figures/digaction-fist-of-the/02.jpg",
+    "/figures/digaction-fist-of-the/03.jpg",
+    "/figures/digaction-fist-of-the/04.jpg",
+    "/figures/digaction-fist-of-the/05.jpg",
+    "/figures/digaction-fist-of-the/06.jpg",
+    "/figures/digaction-fist-of-the/07.jpg",
+    "/figures/digaction-fist-of-the/08.jpg"
+  ],
+  "scream-greats-series-butterball": [
+    "/figures/scream-greats-series-butterball/01.jpg",
+    "/figures/scream-greats-series-butterball/02.jpg",
+    "/figures/scream-greats-series-butterball/03.jpg",
+    "/figures/scream-greats-series-butterball/04.jpg",
+    "/figures/scream-greats-series-butterball/05.jpg",
+    "/figures/scream-greats-series-butterball/06.jpg"
+  ],
+  "scream-greats-series-chatterer": [
+    "/figures/scream-greats-series-chatterer/01.jpg",
+    "/figures/scream-greats-series-chatterer/02.jpg",
+    "/figures/scream-greats-series-chatterer/03.jpg",
+    "/figures/scream-greats-series-chatterer/04.jpg",
+    "/figures/scream-greats-series-chatterer/05.jpg",
+    "/figures/scream-greats-series-chatterer/06.jpg"
+  ],
+  "scream-greats-series-female": [
+    "/figures/scream-greats-series-female/01.jpg",
+    "/figures/scream-greats-series-female/02.jpg",
+    "/figures/scream-greats-series-female/03.jpg",
+    "/figures/scream-greats-series-female/04.jpg",
+    "/figures/scream-greats-series-female/05.jpg",
+    "/figures/scream-greats-series-female/06.jpg"
+  ],
+  "scream-greats-series-pinhead": [
+    "/figures/scream-greats-series-pinhead/01.jpg",
+    "/figures/scream-greats-series-pinhead/02.jpg",
+    "/figures/scream-greats-series-pinhead/03.jpg",
+    "/figures/scream-greats-series-pinhead/04.jpg",
+    "/figures/scream-greats-series-pinhead/05.jpg",
+    "/figures/scream-greats-series-pinhead/06.jpg"
+  ],
+  "hy-051-demon-horse": [
+    "/figures/hy-051-demon-horse/01.jpg",
+    "/figures/hy-051-demon-horse/02.jpg",
+    "/figures/hy-051-demon-horse/03.jpg",
+    "/figures/hy-051-demon-horse/04.jpg",
+    "/figures/hy-051-demon-horse/05.jpg",
+    "/figures/hy-051-demon-horse/06.jpg",
+    "/figures/hy-051-demon-horse/07.jpg",
+    "/figures/hy-051-demon-horse/08.jpg"
+  ],
+  "mega-man-x-action": [
+    "/figures/mega-man-x-action/01.jpg",
+    "/figures/mega-man-x-action/02.jpg",
+    "/figures/mega-man-x-action/03.jpg",
+    "/figures/mega-man-x-action/04.jpg",
+    "/figures/mega-man-x-action/05.jpg",
+    "/figures/mega-man-x-action/06.jpg",
+    "/figures/mega-man-x-action/07.jpg",
+    "/figures/mega-man-x-action/08.jpg"
+  ],
+  "lilja-katsuragi-hakusen-the": [
+    "/figures/lilja-katsuragi-hakusen-the/01.jpg",
+    "/figures/lilja-katsuragi-hakusen-the/02.jpg",
+    "/figures/lilja-katsuragi-hakusen-the/03.jpg",
+    "/figures/lilja-katsuragi-hakusen-the/04.jpg",
+    "/figures/lilja-katsuragi-hakusen-the/05.jpg",
+    "/figures/lilja-katsuragi-hakusen-the/06.jpg",
+    "/figures/lilja-katsuragi-hakusen-the/07.jpg",
+    "/figures/lilja-katsuragi-hakusen-the/08.jpg"
+  ],
+  "nendoroid-doll-phainon-express": [
+    "/figures/nendoroid-doll-phainon-express/01.jpg",
+    "/figures/nendoroid-doll-phainon-express/02.jpg",
+    "/figures/nendoroid-doll-phainon-express/03.jpg",
+    "/figures/nendoroid-doll-phainon-express/04.jpg",
+    "/figures/nendoroid-doll-phainon-express/05.jpg",
+    "/figures/nendoroid-doll-phainon-express/06.jpg",
+    "/figures/nendoroid-doll-phainon-express/07.jpg",
+    "/figures/nendoroid-doll-phainon-express/08.jpg"
+  ],
+  "moderoid-testa-rossa-the": [
+    "/figures/moderoid-testa-rossa-the/01.jpg",
+    "/figures/moderoid-testa-rossa-the/02.jpg",
+    "/figures/moderoid-testa-rossa-the/03.jpg",
+    "/figures/moderoid-testa-rossa-the/04.jpg",
+    "/figures/moderoid-testa-rossa-the/05.jpg",
+    "/figures/moderoid-testa-rossa-the/06.jpg",
+    "/figures/moderoid-testa-rossa-the/07.jpg",
+    "/figures/moderoid-testa-rossa-the/08.jpg"
+  ],
+  "nendoroid-anaxa-honkai-star": [
+    "/figures/nendoroid-anaxa-honkai-star/01.jpg",
+    "/figures/nendoroid-anaxa-honkai-star/02.jpg",
+    "/figures/nendoroid-anaxa-honkai-star/03.jpg",
+    "/figures/nendoroid-anaxa-honkai-star/04.jpg",
+    "/figures/nendoroid-anaxa-honkai-star/05.jpg",
+    "/figures/nendoroid-anaxa-honkai-star/06.jpg",
+    "/figures/nendoroid-anaxa-honkai-star/07.jpg",
+    "/figures/nendoroid-anaxa-honkai-star/08.jpg"
+  ],
+  "plamatea-black-honey-cutie": [
+    "/figures/plamatea-black-honey-cutie/01.jpg",
+    "/figures/plamatea-black-honey-cutie/02.jpg",
+    "/figures/plamatea-black-honey-cutie/03.jpg",
+    "/figures/plamatea-black-honey-cutie/04.jpg",
+    "/figures/plamatea-black-honey-cutie/05.jpg",
+    "/figures/plamatea-black-honey-cutie/06.jpg",
+    "/figures/plamatea-black-honey-cutie/07.jpg",
+    "/figures/plamatea-black-honey-cutie/08.jpg"
+  ],
+  "amk-pro-series-evangelion": [
+    "/figures/amk-pro-series-evangelion/01.jpg",
+    "/figures/amk-pro-series-evangelion/02.jpg",
+    "/figures/amk-pro-series-evangelion/03.jpg",
+    "/figures/amk-pro-series-evangelion/04.jpg",
+    "/figures/amk-pro-series-evangelion/05.jpg",
+    "/figures/amk-pro-series-evangelion/06.jpg",
+    "/figures/amk-pro-series-evangelion/07.jpg",
+    "/figures/amk-pro-series-evangelion/08.jpg"
+  ],
+  "girls-frontline-desert-eagle": [
+    "/figures/girls-frontline-desert-eagle/01.jpg",
+    "/figures/girls-frontline-desert-eagle/02.jpg",
+    "/figures/girls-frontline-desert-eagle/03.jpg",
+    "/figures/girls-frontline-desert-eagle/04.jpg",
+    "/figures/girls-frontline-desert-eagle/05.jpg",
+    "/figures/girls-frontline-desert-eagle/06.jpg",
+    "/figures/girls-frontline-desert-eagle/07.jpg",
+    "/figures/girls-frontline-desert-eagle/08.jpg"
+  ],
+  "nendoroid-guts-berserk-figure": [
+    "/figures/nendoroid-guts-berserk-figure/01.jpg",
+    "/figures/nendoroid-guts-berserk-figure/02.jpg",
+    "/figures/nendoroid-guts-berserk-figure/03.jpg",
+    "/figures/nendoroid-guts-berserk-figure/04.jpg",
+    "/figures/nendoroid-guts-berserk-figure/05.jpg",
+    "/figures/nendoroid-guts-berserk-figure/06.jpg"
+  ],
+  "nendoroid-asuka-shikinami-langley": [
+    "/figures/nendoroid-asuka-shikinami-langley/01.jpg",
+    "/figures/nendoroid-asuka-shikinami-langley/02.jpg",
+    "/figures/nendoroid-asuka-shikinami-langley/03.jpg",
+    "/figures/nendoroid-asuka-shikinami-langley/04.jpg",
+    "/figures/nendoroid-asuka-shikinami-langley/05.jpg",
+    "/figures/nendoroid-asuka-shikinami-langley/06.jpg"
+  ],
+  "nendoroid-rei-ayanami-rebuild": [
+    "/figures/nendoroid-rei-ayanami-rebuild/01.jpg",
+    "/figures/nendoroid-rei-ayanami-rebuild/02.jpg",
+    "/figures/nendoroid-rei-ayanami-rebuild/03.jpg",
+    "/figures/nendoroid-rei-ayanami-rebuild/04.jpg",
+    "/figures/nendoroid-rei-ayanami-rebuild/05.jpg",
+    "/figures/nendoroid-rei-ayanami-rebuild/06.jpg"
+  ],
+  "nendoroid-matikanetannhauser-umamusume-pretty": [
+    "/figures/nendoroid-matikanetannhauser-umamusume-pretty/01.jpg",
+    "/figures/nendoroid-matikanetannhauser-umamusume-pretty/02.jpg",
+    "/figures/nendoroid-matikanetannhauser-umamusume-pretty/03.jpg",
+    "/figures/nendoroid-matikanetannhauser-umamusume-pretty/04.jpg",
+    "/figures/nendoroid-matikanetannhauser-umamusume-pretty/05.jpg",
+    "/figures/nendoroid-matikanetannhauser-umamusume-pretty/06.jpg"
+  ],
+  "oshi-works-eren-yeager": [
+    "/figures/oshi-works-eren-yeager/01.jpg",
+    "/figures/oshi-works-eren-yeager/02.jpg",
+    "/figures/oshi-works-eren-yeager/03.jpg",
+    "/figures/oshi-works-eren-yeager/04.jpg",
+    "/figures/oshi-works-eren-yeager/05.jpg",
+    "/figures/oshi-works-eren-yeager/06.jpg",
+    "/figures/oshi-works-eren-yeager/07.jpg",
+    "/figures/oshi-works-eren-yeager/08.jpg"
+  ],
+  "oshi-works-livio-the": [
+    "/figures/oshi-works-livio-the/01.jpg",
+    "/figures/oshi-works-livio-the/02.jpg",
+    "/figures/oshi-works-livio-the/03.jpg",
+    "/figures/oshi-works-livio-the/04.jpg",
+    "/figures/oshi-works-livio-the/05.jpg",
+    "/figures/oshi-works-livio-the/06.jpg",
+    "/figures/oshi-works-livio-the/07.jpg",
+    "/figures/oshi-works-livio-the/08.jpg"
+  ],
+  "movie-maniacs-don-corleone": [
+    "/figures/movie-maniacs-don-corleone/01.jpg",
+    "/figures/movie-maniacs-don-corleone/02.jpg",
+    "/figures/movie-maniacs-don-corleone/03.jpg",
+    "/figures/movie-maniacs-don-corleone/04.jpg",
+    "/figures/movie-maniacs-don-corleone/05.jpg",
+    "/figures/movie-maniacs-don-corleone/06.jpg",
+    "/figures/movie-maniacs-don-corleone/07.jpg",
+    "/figures/movie-maniacs-don-corleone/08.jpg"
+  ],
+  "005-captain-america-marvel": [
+    "/figures/005-captain-america-marvel/01.jpg",
+    "/figures/005-captain-america-marvel/02.jpg",
+    "/figures/005-captain-america-marvel/03.jpg",
+    "/figures/005-captain-america-marvel/04.jpg",
+    "/figures/005-captain-america-marvel/05.jpg",
+    "/figures/005-captain-america-marvel/06.jpg",
+    "/figures/005-captain-america-marvel/07.jpg",
+    "/figures/005-captain-america-marvel/08.jpg"
+  ],
+  "003-thor-marvel-rivals": [
+    "/figures/003-thor-marvel-rivals/01.jpg",
+    "/figures/003-thor-marvel-rivals/02.jpg",
+    "/figures/003-thor-marvel-rivals/03.jpg",
+    "/figures/003-thor-marvel-rivals/04.jpg",
+    "/figures/003-thor-marvel-rivals/05.jpg",
+    "/figures/003-thor-marvel-rivals/06.jpg",
+    "/figures/003-thor-marvel-rivals/07.jpg",
+    "/figures/003-thor-marvel-rivals/08.jpg"
+  ],
+  "002-doctor-strange-marvel": [
+    "/figures/002-doctor-strange-marvel/01.jpg",
+    "/figures/002-doctor-strange-marvel/02.jpg",
+    "/figures/002-doctor-strange-marvel/03.jpg",
+    "/figures/002-doctor-strange-marvel/04.jpg",
+    "/figures/002-doctor-strange-marvel/05.jpg",
+    "/figures/002-doctor-strange-marvel/06.jpg",
+    "/figures/002-doctor-strange-marvel/07.jpg",
+    "/figures/002-doctor-strange-marvel/08.jpg"
+  ],
+  "honkai-star-rail-gift": [
+    "/figures/honkai-star-rail-gift/01.jpg",
+    "/figures/honkai-star-rail-gift/02.jpg",
+    "/figures/honkai-star-rail-gift/03.jpg",
+    "/figures/honkai-star-rail-gift/04.jpg",
+    "/figures/honkai-star-rail-gift/05.jpg",
+    "/figures/honkai-star-rail-gift/06.jpg",
+    "/figures/honkai-star-rail-gift/07.jpg",
+    "/figures/honkai-star-rail-gift/08.jpg"
+  ],
+  "hy-040-flying-horse": [
+    "/figures/hy-040-flying-horse/01.jpg",
+    "/figures/hy-040-flying-horse/02.jpg",
+    "/figures/hy-040-flying-horse/03.jpg",
+    "/figures/hy-040-flying-horse/04.jpg",
+    "/figures/hy-040-flying-horse/05.jpg",
+    "/figures/hy-040-flying-horse/06.jpg",
+    "/figures/hy-040-flying-horse/07.jpg",
+    "/figures/hy-040-flying-horse/08.jpg"
+  ],
+  "the-man-with-no": [
+    "/figures/the-man-with-no/01.jpg",
+    "/figures/the-man-with-no/02.jpg",
+    "/figures/the-man-with-no/03.jpg",
+    "/figures/the-man-with-no/04.jpg",
+    "/figures/the-man-with-no/05.jpg",
+    "/figures/the-man-with-no/06.jpg",
+    "/figures/the-man-with-no/07.jpg",
+    "/figures/the-man-with-no/08.jpg"
+  ],
+  "doctor-doom-marvel-comics": [
+    "/figures/doctor-doom-marvel-comics/01.jpg",
+    "/figures/doctor-doom-marvel-comics/02.jpg",
+    "/figures/doctor-doom-marvel-comics/03.jpg",
+    "/figures/doctor-doom-marvel-comics/04.jpg",
+    "/figures/doctor-doom-marvel-comics/05.jpg",
+    "/figures/doctor-doom-marvel-comics/06.jpg",
+    "/figures/doctor-doom-marvel-comics/07.jpg",
+    "/figures/doctor-doom-marvel-comics/08.jpg"
+  ],
+  "big-retro-sofvi-series": [
+    "/figures/big-retro-sofvi-series/01.jpg",
+    "/figures/big-retro-sofvi-series/02.jpg",
+    "/figures/big-retro-sofvi-series/03.jpg",
+    "/figures/big-retro-sofvi-series/04.jpg",
+    "/figures/big-retro-sofvi-series/05.jpg",
+    "/figures/big-retro-sofvi-series/06.jpg",
+    "/figures/big-retro-sofvi-series/07.jpg",
+    "/figures/big-retro-sofvi-series/08.jpg"
+  ],
+  "big-retro-sofvi-series-x": [
+    "/figures/big-retro-sofvi-series-x/01.jpg",
+    "/figures/big-retro-sofvi-series-x/02.jpg",
+    "/figures/big-retro-sofvi-series-x/03.jpg",
+    "/figures/big-retro-sofvi-series-x/04.jpg",
+    "/figures/big-retro-sofvi-series-x/05.jpg",
+    "/figures/big-retro-sofvi-series-x/06.jpg",
+    "/figures/big-retro-sofvi-series-x/07.jpg",
+    "/figures/big-retro-sofvi-series-x/08.jpg"
+  ],
+  "ffsc-kittyfire-mirrorman-completed": [
+    "/figures/ffsc-kittyfire-mirrorman-completed/01.jpg",
+    "/figures/ffsc-kittyfire-mirrorman-completed/02.jpg",
+    "/figures/ffsc-kittyfire-mirrorman-completed/03.jpg"
+  ],
+  "aston-machan-umamusume-pretty": [
+    "/figures/aston-machan-umamusume-pretty/01.jpg",
+    "/figures/aston-machan-umamusume-pretty/02.jpg",
+    "/figures/aston-machan-umamusume-pretty/03.jpg",
+    "/figures/aston-machan-umamusume-pretty/04.jpg",
+    "/figures/aston-machan-umamusume-pretty/05.jpg",
+    "/figures/aston-machan-umamusume-pretty/06.jpg",
+    "/figures/aston-machan-umamusume-pretty/07.jpg",
+    "/figures/aston-machan-umamusume-pretty/08.jpg"
+  ],
+  "perlica-arknights-endfield-17": [
+    "/figures/perlica-arknights-endfield-17/01.jpg",
+    "/figures/perlica-arknights-endfield-17/02.jpg",
+    "/figures/perlica-arknights-endfield-17/03.jpg",
+    "/figures/perlica-arknights-endfield-17/04.jpg",
+    "/figures/perlica-arknights-endfield-17/05.jpg",
+    "/figures/perlica-arknights-endfield-17/06.jpg",
+    "/figures/perlica-arknights-endfield-17/07.jpg",
+    "/figures/perlica-arknights-endfield-17/08.jpg"
+  ],
+  "pop-up-parade-sp": [
+    "/figures/pop-up-parade-sp/01.jpg",
+    "/figures/pop-up-parade-sp/02.jpg",
+    "/figures/pop-up-parade-sp/03.jpg",
+    "/figures/pop-up-parade-sp/04.jpg",
+    "/figures/pop-up-parade-sp/05.jpg",
+    "/figures/pop-up-parade-sp/06.jpg",
+    "/figures/pop-up-parade-sp/07.jpg",
+    "/figures/pop-up-parade-sp/08.jpg"
+  ],
+  "figma-klukai-girls-frontline": [
+    "/figures/figma-klukai-girls-frontline/01.jpg",
+    "/figures/figma-klukai-girls-frontline/02.jpg",
+    "/figures/figma-klukai-girls-frontline/03.jpg",
+    "/figures/figma-klukai-girls-frontline/04.jpg",
+    "/figures/figma-klukai-girls-frontline/05.jpg",
+    "/figures/figma-klukai-girls-frontline/06.jpg",
+    "/figures/figma-klukai-girls-frontline/07.jpg",
+    "/figures/figma-klukai-girls-frontline/08.jpg"
+  ]
+}

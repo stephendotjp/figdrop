@@ -48,12 +48,21 @@ typography, and the red `FigDrop` wordmark — just on a light surface.
   Uses normal flow at `min-h-[100svh]` + safe-area bottom padding so iOS browser
   UI never clips the buttons (the earlier `fixed` version did — don't reintroduce).
 
-## The data: 25 real figures from hobby-genki.com (`lib/data.ts`, ids 1–25)
+## The data: 74 real figures from hobby-genki.com (`lib/data.ts`, ids 1–74)
 - **ids 1–5**: the original seed (Megurine Luka V4X Nendoroid [featured], two
   Cats are Liquid art toys, Pokémon Scale World Sinnoh, Toshiya Miyata Nendoroid).
 - **ids 6–25**: 20 more figures scraped from the rest of the pre-order listing
   (Hololive, Vocaloid, Love Live! Hasunosora x3, Gridman/TENITOL x3, Gintama x2,
   Fairy Tail bunny, Code Geass HG, MODEROID super robots, etc.).
+- **ids 26–74**: 49 more from the **in-stock** pre-order listing
+  (`?in-stock=1`, crawled newest-first). Inclusive scope — **any figure** counts,
+  Western/movie/comic + adult OK (per owner); only genuine non-figures (model
+  cars, plush, keychains, accessories) excluded. Mix of anime (Evangelion, One
+  Piece, Berserk, Genshin/Honkai, Umamusume…) and Western (Hot Toys Alien, NECA
+  Hellraiser, McFarlane Marvel Rivals, Sideshow…). All have real `jan`,
+  `quantity`, `availability`. Pipeline below.
+- **`jan` field**: JAN/EAN barcode (PrestaShop `reference`), `""` when none (art
+  toys/some Western). It's the future cross-retailer join key. ids 1–25 backfilled.
 
 ### What's REAL vs DERIVED (important for honesty)
 - **Real from source:** name, `price_jpy`, `release_date` (the product's
@@ -125,6 +134,9 @@ What DOES work (the method all scripts use):
    because the clearance cookie persists; image fetches use
    `ctx.request.get(url, { headers: { referer } })`. **Go slow** (the new scripts
    add 4–8s delays between page loads) to stay gentle on Cloudflare.
+4. **Clearance lapses** (~10–15 min, or after heavy crawling). When `quantity`
+   comes back `NaN`/empty for every product, or images 403, it's a re-challenge —
+   have the human re-solve in the Edge window and re-run. Don't crank delays down.
 
 ## scripts/ (dev-only tooling — Playwright intentionally NOT in package.json)
 Its postinstall downloads a browser that would slow/break the Vercel build. To
@@ -137,6 +149,18 @@ run, install locally: `npm i -D playwright && npx playwright install chromium`.
   `scrape-detail-new.mjs` → `detail-new.json`; `download-gallery-new.mjs` →
   `gallery-manifest-new.json`; `build-data.mjs` → `new-figures.ts.txt` (spliced
   into `lib/data.ts`).
+- **+49 figures (ids 26–74), in-stock batch:** `scrape-listing-instock.mjs`
+  (100 pages of `?in-stock=1`, checkpoints every 10) → `listing-instock.json`;
+  `select-batch.mjs` (POS/NEG figure filter — only excludes non-figures — + slug
+  dedup, target 50) → `selected-batch.json`; `scrape-detail-batch.mjs` (adds
+  `meta_description` + `quantity`/`availability`) → `detail-batch.json`;
+  `dedup-batch.mjs` (drop OOS + JAN dupes vs existing/within-batch) →
+  rewrites `detail-batch.json` (raw kept as `detail-batch.raw.json`);
+  `download-gallery-batch.mjs` → `gallery-manifest-batch.json`;
+  `build-data-batch.mjs` (series/maker parsed from `meta_description`, with
+  `OVERRIDE_SERIES`/`OVERRIDE_MAKER`/`KNOWN_MAKERS` maps) → `new-figures-batch.ts.txt`;
+  `splice-batch.mjs` inserts before the `figures` array's `];`. JAN backfill for
+  ids 1–25 = `backfill-jan.mjs`. `verify-availability.mjs` = the PrestaShop probe.
 - **Thumbnails:** `pick-thumbnails.mjs` → `thumbnails.json`;
   `normalize-thumbs.mjs` → `thumb-normalized.json` + `thumb.jpg` files.
 
@@ -169,6 +193,12 @@ run, install locally: `npm i -D playwright && npx playwright install chromium`.
 - Trim/relabel the dead `TYPES` chips (`Figma`, `SH Figuarts`, `Pop Up Parade`).
 
 ## Gotchas
+- **Folder-key collisions (scraping):** `select-batch.mjs`'s slug `key` only
+  dedupes *within* the batch, not against existing `public/figures/<key>/` dirs.
+  The Palkia scrape collided with existing id4 `pokemon-scale-world-sinnoh` and
+  overwrote its gallery; fixed via `fix-pokemon-collision.mjs` + a `-palkia` dir.
+  When adding figures, check new keys don't equal existing dir names (a sanity
+  count: `ls public/figures | wc -l` should equal the figure count).
 - Platform is **Windows + PowerShell**; a Bash tool is also available. Git
   identity is set locally to `shaolinmonkuk@gmail.com` / `stephendotjp`.
 - `git push` prints to stderr; PowerShell shows it red but the push succeeds
