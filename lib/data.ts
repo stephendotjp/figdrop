@@ -31,15 +31,35 @@ export const RETAILER_COLORS: Record<RetailerColor, string> = {
   gold: "#F0C060",
 };
 
-export const TYPES = [
+// Drops-page filter chips, by brand. Manufacturer strings are grouped into
+// these via brandGroup() — prefix matching folds brand families (Bandai
+// Spirits/MegaHouse → Bandai, Good Smile Arts Shanghai → Good Smile Company).
+// Everything else falls into "Other".
+export const BRANDS = [
   "All",
-  "Scale",
-  "Nendoroid",
-  "Figma",
-  "SH Figuarts",
-  "Pop Up Parade",
-  "Bunny Ver.",
+  "Good Smile Company",
+  "Bandai",
+  "Kotobukiya",
+  "McFarlane",
+  "Trick or Treat",
+  "Hot Toys",
+  "FuRyu",
+  "Royce Entertainment",
+  "Other",
 ];
+
+export function brandGroup(manufacturer: string): string {
+  const m = manufacturer;
+  if (m.startsWith("Good Smile")) return "Good Smile Company";
+  if (m.startsWith("Bandai")) return "Bandai";
+  if (m === "Kotobukiya") return "Kotobukiya";
+  if (m.startsWith("McFarlane")) return "McFarlane";
+  if (m.startsWith("Trick or Treat")) return "Trick or Treat";
+  if (m === "Hot Toys") return "Hot Toys";
+  if (m === "FuRyu") return "FuRyu";
+  if (m === "Royce Entertainment") return "Royce Entertainment";
+  return "Other";
+}
 
 // Scraped from hobby-genki.com (pre-order listing + each product's detail page).
 // Real from the source: name, price_jpy, retailer, manufacturer, series, scale,
