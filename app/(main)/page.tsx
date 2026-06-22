@@ -1,17 +1,7 @@
-"use client";
-
-import { useState } from "react";
-import { figures, getFeatured, TYPES, Figure } from "@/lib/data";
+import Link from "next/link";
+import { figures, getFeatured, stockLevel } from "@/lib/data";
 import FeaturedDrop from "@/components/FeaturedDrop";
-import FilterChips from "@/components/FilterChips";
-import FigureCard from "@/components/FigureCard";
-
-function matches(f: Figure, chip: string): boolean {
-  if (chip === "All") return true;
-  if (chip === "Scale") return f.type.includes("Scale");
-  if (chip === "Bunny Ver.") return f.name.includes("Bunny");
-  return f.type === chip;
-}
+import FeedCard from "@/components/FeedCard";
 
 function Section({
   title,
@@ -22,7 +12,7 @@ function Section({
 }) {
   return (
     <section>
-      <h2 className="mb-3 text-base font-bold tracking-tight text-ink">
+      <h2 className="mb-4 text-base font-bold tracking-tight text-ink">
         {title}
       </h2>
       {children}
@@ -31,50 +21,64 @@ function Section({
 }
 
 export default function Home() {
-  const [chip, setChip] = useState("All");
   const featured = getFeatured();
-  const newThisWeek = figures.filter((f) => f.status !== "coming_soon");
+
   const comingSoon = figures.filter((f) => f.status === "coming_soon");
-  const filtered = figures.filter((f) => matches(f, chip));
+  const almostGone = figures
+    .filter((f) => {
+      const l = stockLevel(f);
+      return l === "last_items" || l === "low";
+    })
+    .slice(0, 4);
+  const almostGoneIds = new Set(almostGone.map((f) => f.id));
+  const newThisWeek = figures
+    .filter(
+      (f) =>
+        f.id !== featured.id &&
+        f.status !== "coming_soon" &&
+        stockLevel(f) !== "sold_out" &&
+        !almostGoneIds.has(f.id)
+    )
+    .slice(0, 6);
 
   return (
-    <div className="space-y-7">
+    <div className="space-y-10">
       <FeaturedDrop figure={featured} />
-      <FilterChips chips={TYPES} active={chip} onChange={setChip} />
 
-      {chip === "All" ? (
-        <>
-          <Section title="New This Week">
-            <div className="no-scrollbar -mx-4 flex gap-3 overflow-x-auto px-4 pb-1">
-              {newThisWeek.map((f) => (
-                <FigureCard key={f.id} figure={f} variant="row" />
-              ))}
-            </div>
-          </Section>
+      <Section title="New This Week">
+        <div className="space-y-8">
+          {newThisWeek.map((f) => (
+            <FeedCard key={f.id} figure={f} />
+          ))}
+        </div>
+      </Section>
 
-          <Section title="Coming Soon">
-            <div className="space-y-3">
-              {comingSoon.map((f) => (
-                <FigureCard key={f.id} figure={f} variant="list" />
-              ))}
-            </div>
-          </Section>
-        </>
-      ) : (
-        <Section title={`${chip} · ${filtered.length}`}>
-          {filtered.length > 0 ? (
-            <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
-              {filtered.map((f) => (
-                <FigureCard key={f.id} figure={f} />
-              ))}
-            </div>
-          ) : (
-            <p className="rounded-xl border border-dashed border-line p-8 text-center text-sm text-dim">
-              No drops in this category yet — check back next week.
-            </p>
-          )}
+      {almostGone.length > 0 && (
+        <Section title="Almost Gone">
+          <div className="space-y-8">
+            {almostGone.map((f) => (
+              <FeedCard key={f.id} figure={f} />
+            ))}
+          </div>
         </Section>
       )}
+
+      {comingSoon.length > 0 && (
+        <Section title="Coming Soon">
+          <div className="space-y-8">
+            {comingSoon.map((f) => (
+              <FeedCard key={f.id} figure={f} />
+            ))}
+          </div>
+        </Section>
+      )}
+
+      <Link
+        href="/drops"
+        className="block rounded-full border border-ink py-4 text-center text-sm font-bold tracking-wide text-ink transition hover:bg-ink hover:text-white"
+      >
+        See all {figures.length} drops ›
+      </Link>
     </div>
   );
 }

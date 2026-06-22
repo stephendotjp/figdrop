@@ -1,20 +1,43 @@
-import { figures } from "@/lib/data";
+"use client";
+
+import { useState } from "react";
+import { figures, TYPES, Figure } from "@/lib/data";
+import FilterChips from "@/components/FilterChips";
 import FigureCard from "@/components/FigureCard";
 
+function matches(f: Figure, chip: string): boolean {
+  if (chip === "All") return true;
+  if (chip === "Scale") return f.type.includes("Scale");
+  if (chip === "Bunny Ver.") return f.name.includes("Bunny");
+  return f.type === chip;
+}
+
 export default function DropsPage() {
+  const [chip, setChip] = useState("All");
+  const filtered = figures.filter((f) => matches(f, chip));
+
   return (
     <div className="space-y-5">
       <div>
         <h1 className="text-2xl font-bold tracking-tight text-ink">All Drops</h1>
         <p className="mt-1 text-sm text-dim">
-          {figures.length} figures tracked across every retailer.
+          {filtered.length} of {figures.length} figures across every retailer.
         </p>
       </div>
-      <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
-        {figures.map((f) => (
-          <FigureCard key={f.id} figure={f} />
-        ))}
-      </div>
+
+      <FilterChips chips={TYPES} active={chip} onChange={setChip} />
+
+      {filtered.length > 0 ? (
+        <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
+          {filtered.map((f) => (
+            <FigureCard key={f.id} figure={f} />
+          ))}
+        </div>
+      ) : (
+        <p className="rounded-xl border border-dashed border-line p-8 text-center text-sm text-dim">
+          No drops in this category yet — check back next week.
+        </p>
+      )}
     </div>
   );
 }
