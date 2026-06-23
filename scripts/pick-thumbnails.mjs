@@ -6,7 +6,12 @@ import { dirname, join } from "node:path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");
-const manifest = JSON.parse(readFileSync(join(__dirname, "gallery-manifest-new.json"), "utf8"));
+// Whole-grid curation: ids 6–25 (new), 26–74 (batch), 75–85 (pre).
+const manifest = {
+  ...JSON.parse(readFileSync(join(__dirname, "gallery-manifest-new.json"), "utf8")),
+  ...JSON.parse(readFileSync(join(__dirname, "gallery-manifest-batch.json"), "utf8")),
+  ...JSON.parse(readFileSync(join(__dirname, "gallery-manifest-pre.json"), "utf8")),
+};
 // Include the original 5 too, so the whole grid gets curated.
 const ORIGINALS = {
   "luka-v4x": 7, "cats-silver-moon": 13, "cats-scarlet-night": 13,

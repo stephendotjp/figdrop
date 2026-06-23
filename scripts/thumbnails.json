@@ -1099,6 +1099,3397 @@
       }
     ]
   },
+  "capcom-figure-builder-soft": {
+    "chosen": "/figures/capcom-figure-builder-soft/02.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "02.jpg",
+        "bright": 252,
+        "unif": 22,
+        "cov": 0.44,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 21,
+        "unif": 56,
+        "cov": 0.476,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 39,
+        "unif": 64,
+        "cov": 0.625,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 23,
+        "unif": 59,
+        "cov": 0.635,
+        "clean": false
+      },
+      {
+        "p": "01.jpg",
+        "bright": 24,
+        "unif": 56,
+        "cov": 0.414,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 24,
+        "unif": 56,
+        "cov": 0.414,
+        "clean": false
+      }
+    ]
+  },
+  "movie-masterpiece-alien-warrior": {
+    "chosen": "/figures/movie-masterpiece-alien-warrior/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.733,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      }
+    ]
+  },
+  "movie-masterpiece-alien-warrior-x": {
+    "chosen": "/figures/movie-masterpiece-alien-warrior-x/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.733,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      }
+    ]
+  },
+  "movie-masterpiece-ellen-ripley": {
+    "chosen": "/figures/movie-masterpiece-ellen-ripley/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      }
+    ]
+  },
+  "portraitofpirates-soc-sanji-verr": {
+    "chosen": "/figures/portraitofpirates-soc-sanji-verr/01.jpg",
+    "chosenClean": false,
+    "ranked": [
+      {
+        "p": "05.jpg",
+        "bright": 40,
+        "unif": 30,
+        "cov": 0.542,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 33,
+        "unif": 29,
+        "cov": 0.375,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 18,
+        "unif": 30,
+        "cov": 0.424,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 24,
+        "unif": 30,
+        "cov": 0.464,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 23,
+        "unif": 26,
+        "cov": 0.512,
+        "clean": false
+      },
+      {
+        "p": "01.jpg",
+        "bright": 30,
+        "unif": 41,
+        "cov": 0.712,
+        "clean": false
+      },
+      {
+        "p": "07.jpg",
+        "bright": 26,
+        "unif": 29,
+        "cov": 0.311,
+        "clean": false
+      },
+      {
+        "p": "08.jpg",
+        "bright": 25,
+        "unif": 34,
+        "cov": 0.395,
+        "clean": false
+      }
+    ]
+  },
+  "large-monster-series-ultra": {
+    "chosen": "/figures/large-monster-series-ultra/01.jpg",
+    "chosenClean": false,
+    "ranked": [
+      {
+        "p": "07.jpg",
+        "bright": 84,
+        "unif": 100,
+        "cov": 0.957,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 86,
+        "unif": 97,
+        "cov": 0.983,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 87,
+        "unif": 97,
+        "cov": 0.988,
+        "clean": false
+      },
+      {
+        "p": "01.jpg",
+        "bright": 88,
+        "unif": 98,
+        "cov": 0.987,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 91,
+        "unif": 100,
+        "cov": 0.99,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 96,
+        "unif": 97,
+        "cov": 0.992,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 97,
+        "unif": 97,
+        "cov": 0.98,
+        "clean": false
+      }
+    ]
+  },
+  "dlx-spider-man-symbiote": {
+    "chosen": "/figures/dlx-spider-man-symbiote/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.191,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 217,
+        "unif": 123,
+        "cov": 0.999,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 216,
+        "unif": 121,
+        "cov": 0.997,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 211,
+        "unif": 141,
+        "cov": 1,
+        "clean": false
+      },
+      {
+        "p": "08.jpg",
+        "bright": 207,
+        "unif": 149,
+        "cov": 1,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 104,
+        "unif": 142,
+        "cov": 0.835,
+        "clean": false
+      },
+      {
+        "p": "07.jpg",
+        "bright": 92,
+        "unif": 148,
+        "cov": 0.974,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 93,
+        "unif": 151,
+        "cov": 0.885,
+        "clean": false
+      }
+    ]
+  },
+  "pokemon-scale-world-sinnoh": {
+    "chosen": "/figures/pokemon-scale-world-sinnoh/01.jpg",
+    "chosenClean": false,
+    "ranked": [
+      {
+        "p": "02.jpg",
+        "bright": 245,
+        "unif": 29,
+        "cov": 0.205,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 245,
+        "unif": 29,
+        "cov": 0.171,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 245,
+        "unif": 29,
+        "cov": 0.28,
+        "clean": false
+      },
+      {
+        "p": "01.jpg",
+        "bright": 232,
+        "unif": 87,
+        "cov": 0.928,
+        "clean": false
+      }
+    ]
+  },
+  "pokemon-scale-world-sinnoh-x": {
+    "chosen": "/figures/pokemon-scale-world-sinnoh-x/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.286,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 249,
+        "unif": 23,
+        "cov": 0.296,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 249,
+        "unif": 23,
+        "cov": 0.341,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 248,
+        "unif": 25,
+        "cov": 0.34,
+        "clean": true
+      }
+    ]
+  },
+  "daiblos-core-maree-rouge": {
+    "chosen": "/figures/daiblos-core-maree-rouge/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.688,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.688,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      }
+    ]
+  },
+  "daiblos-core-maree-rouge-x": {
+    "chosen": "/figures/daiblos-core-maree-rouge-x/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.688,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.682,
+        "clean": true
+      }
+    ]
+  },
+  "miko-shoujo-miko-race": {
+    "chosen": "/figures/miko-shoujo-miko-race/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.283,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.688,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.688,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.207,
+        "clean": false
+      }
+    ]
+  },
+  "miko-shoujo-miko-race-x": {
+    "chosen": "/figures/miko-shoujo-miko-race-x/02.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.688,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.688,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "01.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.207,
+        "clean": false
+      }
+    ]
+  },
+  "megami-device-b1r-l": {
+    "chosen": "/figures/megami-device-b1r-l/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.683,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.143,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.684,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.678,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.686,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.671,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.67,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.668,
+        "clean": true
+      }
+    ]
+  },
+  "digaction-fist-of-the": {
+    "chosen": "/figures/digaction-fist-of-the/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.17,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.667,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.667,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.667,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.667,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.667,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.667,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.667,
+        "clean": true
+      }
+    ]
+  },
+  "scream-greats-series-butterball": {
+    "chosen": "/figures/scream-greats-series-butterball/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.3,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.201,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.261,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.202,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 30,
+        "unif": 87,
+        "cov": 0.702,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 62,
+        "unif": 72,
+        "cov": 0.929,
+        "clean": false
+      }
+    ]
+  },
+  "scream-greats-series-chatterer": {
+    "chosen": "/figures/scream-greats-series-chatterer/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.223,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.216,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.179,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.154,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 30,
+        "unif": 87,
+        "cov": 0.702,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 62,
+        "unif": 72,
+        "cov": 0.931,
+        "clean": false
+      }
+    ]
+  },
+  "scream-greats-series-female": {
+    "chosen": "/figures/scream-greats-series-female/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.251,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.23,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.202,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.243,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 30,
+        "unif": 87,
+        "cov": 0.702,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 62,
+        "unif": 72,
+        "cov": 0.914,
+        "clean": false
+      }
+    ]
+  },
+  "scream-greats-series-pinhead": {
+    "chosen": "/figures/scream-greats-series-pinhead/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.248,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.24,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.202,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.196,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 30,
+        "unif": 87,
+        "cov": 0.702,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 62,
+        "unif": 72,
+        "cov": 0.906,
+        "clean": false
+      }
+    ]
+  },
+  "hy-051-demon-horse": {
+    "chosen": "/figures/hy-051-demon-horse/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.68,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.688,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.684,
+        "clean": true
+      }
+    ]
+  },
+  "mega-man-x-action": {
+    "chosen": "/figures/mega-man-x-action/01.jpg",
+    "chosenClean": false,
+    "ranked": [
+      {
+        "p": "04.jpg",
+        "bright": 79,
+        "unif": 49,
+        "cov": 0.64,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 39,
+        "unif": 54,
+        "cov": 0.448,
+        "clean": false
+      },
+      {
+        "p": "08.jpg",
+        "bright": 35,
+        "unif": 52,
+        "cov": 0.519,
+        "clean": false
+      },
+      {
+        "p": "07.jpg",
+        "bright": 36,
+        "unif": 54,
+        "cov": 0.483,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 54,
+        "unif": 64,
+        "cov": 0.769,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 55,
+        "unif": 74,
+        "cov": 0.801,
+        "clean": false
+      },
+      {
+        "p": "01.jpg",
+        "bright": 55,
+        "unif": 74,
+        "cov": 0.828,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 36,
+        "unif": 55,
+        "cov": 0.584,
+        "clean": false
+      }
+    ]
+  },
+  "lilja-katsuragi-hakusen-the": {
+    "chosen": "/figures/lilja-katsuragi-hakusen-the/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.672,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.679,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.685,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.673,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.674,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.665,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.661,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      }
+    ]
+  },
+  "nendoroid-doll-phainon-express": {
+    "chosen": "/figures/nendoroid-doll-phainon-express/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.372,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.311,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 250,
+        "unif": 28,
+        "cov": 0.756,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 250,
+        "unif": 29,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 250,
+        "unif": 29,
+        "cov": 0.755,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 250,
+        "unif": 30,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 249,
+        "unif": 31,
+        "cov": 0.749,
+        "clean": false
+      },
+      {
+        "p": "08.jpg",
+        "bright": 220,
+        "unif": 63,
+        "cov": 0.971,
+        "clean": false
+      }
+    ]
+  },
+  "moderoid-testa-rossa-the": {
+    "chosen": "/figures/moderoid-testa-rossa-the/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 254,
+        "unif": 13,
+        "cov": 0.442,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 240,
+        "unif": 78,
+        "cov": 0.978,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 168,
+        "unif": 182,
+        "cov": 0.99,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 168,
+        "unif": 185,
+        "cov": 0.991,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 165,
+        "unif": 186,
+        "cov": 0.984,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 165,
+        "unif": 186,
+        "cov": 0.991,
+        "clean": false
+      },
+      {
+        "p": "07.jpg",
+        "bright": 134,
+        "unif": 179,
+        "cov": 0.983,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 126,
+        "unif": 181,
+        "cov": 0.994,
+        "clean": false
+      }
+    ]
+  },
+  "nendoroid-anaxa-honkai-star": {
+    "chosen": "/figures/nendoroid-anaxa-honkai-star/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.389,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.686,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 249,
+        "unif": 30,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 249,
+        "unif": 31,
+        "cov": 0.755,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 249,
+        "unif": 31,
+        "cov": 0.752,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 249,
+        "unif": 31,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 249,
+        "unif": 32,
+        "cov": 0.755,
+        "clean": false
+      }
+    ]
+  },
+  "plamatea-black-honey-cutie": {
+    "chosen": "/figures/plamatea-black-honey-cutie/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.24,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.733,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.733,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.491,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 248,
+        "unif": 38,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "08.jpg",
+        "bright": 247,
+        "unif": 41,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 177,
+        "unif": 108,
+        "cov": 0.986,
+        "clean": false
+      },
+      {
+        "p": "07.jpg",
+        "bright": 172,
+        "unif": 116,
+        "cov": 0.977,
+        "clean": false
+      }
+    ]
+  },
+  "amk-pro-series-evangelion": {
+    "chosen": "/figures/amk-pro-series-evangelion/03.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.586,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 218,
+        "unif": 116,
+        "cov": 0.905,
+        "clean": false
+      },
+      {
+        "p": "07.jpg",
+        "bright": 217,
+        "unif": 120,
+        "cov": 1,
+        "clean": false
+      },
+      {
+        "p": "08.jpg",
+        "bright": 217,
+        "unif": 120,
+        "cov": 0.999,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 216,
+        "unif": 124,
+        "cov": 0.963,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 215,
+        "unif": 126,
+        "cov": 0.982,
+        "clean": false
+      },
+      {
+        "p": "01.jpg",
+        "bright": 213,
+        "unif": 133,
+        "cov": 1,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 213,
+        "unif": 133,
+        "cov": 1,
+        "clean": false
+      }
+    ]
+  },
+  "girls-frontline-desert-eagle": {
+    "chosen": "/figures/girls-frontline-desert-eagle/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.348,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.688,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.682,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.142,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 217,
+        "unif": 144,
+        "cov": 0.965,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 217,
+        "unif": 145,
+        "cov": 0.976,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 217,
+        "unif": 145,
+        "cov": 0.946,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 166,
+        "unif": 188,
+        "cov": 0.935,
+        "clean": false
+      }
+    ]
+  },
+  "nendoroid-guts-berserk-figure": {
+    "chosen": "/figures/nendoroid-guts-berserk-figure/06.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.512,
+        "clean": true
+      },
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 3,
+        "cov": 0.437,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 242,
+        "unif": 70,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 242,
+        "unif": 73,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 242,
+        "unif": 73,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 219,
+        "unif": 115,
+        "cov": 1,
+        "clean": false
+      }
+    ]
+  },
+  "nendoroid-asuka-shikinami-langley": {
+    "chosen": "/figures/nendoroid-asuka-shikinami-langley/06.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.4,
+        "clean": true
+      },
+      {
+        "p": "01.jpg",
+        "bright": 247,
+        "unif": 48,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 247,
+        "unif": 49,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 246,
+        "unif": 50,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 246,
+        "unif": 51,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 246,
+        "unif": 55,
+        "cov": 0.756,
+        "clean": false
+      }
+    ]
+  },
+  "nendoroid-rei-ayanami-rebuild": {
+    "chosen": "/figures/nendoroid-rei-ayanami-rebuild/06.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.347,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 245,
+        "unif": 57,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 245,
+        "unif": 59,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 245,
+        "unif": 60,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "01.jpg",
+        "bright": 244,
+        "unif": 63,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 222,
+        "unif": 96,
+        "cov": 0.997,
+        "clean": false
+      }
+    ]
+  },
+  "nendoroid-matikanetannhauser-umamusume-pretty": {
+    "chosen": "/figures/nendoroid-matikanetannhauser-umamusume-pretty/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.371,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 244,
+        "unif": 66,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 243,
+        "unif": 68,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 243,
+        "unif": 69,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 243,
+        "unif": 70,
+        "cov": 0.755,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 168,
+        "unif": 141,
+        "cov": 0.977,
+        "clean": false
+      }
+    ]
+  },
+  "oshi-works-eren-yeager": {
+    "chosen": "/figures/oshi-works-eren-yeager/01.jpg",
+    "chosenClean": false,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.649,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.67,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.683,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.629,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.578,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.64,
+        "clean": false
+      },
+      {
+        "p": "07.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.484,
+        "clean": false
+      },
+      {
+        "p": "08.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.618,
+        "clean": false
+      }
+    ]
+  },
+  "oshi-works-livio-the": {
+    "chosen": "/figures/oshi-works-livio-the/01.jpg",
+    "chosenClean": false,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.661,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.667,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.683,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.619,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.682,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.641,
+        "clean": false
+      },
+      {
+        "p": "07.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.676,
+        "clean": false
+      },
+      {
+        "p": "08.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.71,
+        "clean": false
+      }
+    ]
+  },
+  "movie-maniacs-don-corleone": {
+    "chosen": "/figures/movie-maniacs-don-corleone/01.jpg",
+    "chosenClean": false,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 221,
+        "unif": 106,
+        "cov": 0.971,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 220,
+        "unif": 107,
+        "cov": 0.979,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 220,
+        "unif": 107,
+        "cov": 0.926,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 220,
+        "unif": 107,
+        "cov": 0.972,
+        "clean": false
+      },
+      {
+        "p": "07.jpg",
+        "bright": 220,
+        "unif": 107,
+        "cov": 0.979,
+        "clean": false
+      },
+      {
+        "p": "08.jpg",
+        "bright": 220,
+        "unif": 107,
+        "cov": 0.927,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 217,
+        "unif": 111,
+        "cov": 0.974,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 197,
+        "unif": 144,
+        "cov": 0.976,
+        "clean": false
+      }
+    ]
+  },
+  "005-captain-america-marvel": {
+    "chosen": "/figures/005-captain-america-marvel/01.jpg",
+    "chosenClean": false,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 226,
+        "unif": 84,
+        "cov": 0.961,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 225,
+        "unif": 84,
+        "cov": 0.969,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 225,
+        "unif": 84,
+        "cov": 0.977,
+        "clean": false
+      },
+      {
+        "p": "07.jpg",
+        "bright": 225,
+        "unif": 84,
+        "cov": 0.979,
+        "clean": false
+      },
+      {
+        "p": "08.jpg",
+        "bright": 225,
+        "unif": 85,
+        "cov": 0.867,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 224,
+        "unif": 86,
+        "cov": 0.907,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 221,
+        "unif": 90,
+        "cov": 0.976,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 215,
+        "unif": 97,
+        "cov": 0.953,
+        "clean": false
+      }
+    ]
+  },
+  "003-thor-marvel-rivals": {
+    "chosen": "/figures/003-thor-marvel-rivals/01.jpg",
+    "chosenClean": false,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 226,
+        "unif": 84,
+        "cov": 0.97,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 225,
+        "unif": 84,
+        "cov": 0.979,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 225,
+        "unif": 84,
+        "cov": 0.974,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 225,
+        "unif": 84,
+        "cov": 0.957,
+        "clean": false
+      },
+      {
+        "p": "07.jpg",
+        "bright": 225,
+        "unif": 84,
+        "cov": 0.979,
+        "clean": false
+      },
+      {
+        "p": "08.jpg",
+        "bright": 224,
+        "unif": 85,
+        "cov": 0.861,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 223,
+        "unif": 89,
+        "cov": 0.903,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 216,
+        "unif": 98,
+        "cov": 0.982,
+        "clean": false
+      }
+    ]
+  },
+  "002-doctor-strange-marvel": {
+    "chosen": "/figures/002-doctor-strange-marvel/01.jpg",
+    "chosenClean": false,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 226,
+        "unif": 84,
+        "cov": 0.961,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 225,
+        "unif": 84,
+        "cov": 0.949,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 225,
+        "unif": 84,
+        "cov": 0.98,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 225,
+        "unif": 84,
+        "cov": 0.967,
+        "clean": false
+      },
+      {
+        "p": "07.jpg",
+        "bright": 225,
+        "unif": 85,
+        "cov": 0.917,
+        "clean": false
+      },
+      {
+        "p": "08.jpg",
+        "bright": 225,
+        "unif": 85,
+        "cov": 0.961,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 222,
+        "unif": 89,
+        "cov": 0.943,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 218,
+        "unif": 96,
+        "cov": 0.975,
+        "clean": false
+      }
+    ]
+  },
+  "honkai-star-rail-gift": {
+    "chosen": "/figures/honkai-star-rail-gift/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.518,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.465,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.435,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.187,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.576,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.108,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.658,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.604,
+        "clean": true
+      }
+    ]
+  },
+  "hy-040-flying-horse": {
+    "chosen": "/figures/hy-040-flying-horse/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.687,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.675,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.031,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.031,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.031,
+        "clean": false
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.031,
+        "clean": false
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.031,
+        "clean": false
+      }
+    ]
+  },
+  "the-man-with-no": {
+    "chosen": "/figures/the-man-with-no/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.686,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.687,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.677,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.675,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      }
+    ]
+  },
+  "doctor-doom-marvel-comics": {
+    "chosen": "/figures/doctor-doom-marvel-comics/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.688,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.688,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      }
+    ]
+  },
+  "big-retro-sofvi-series": {
+    "chosen": "/figures/big-retro-sofvi-series/07.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.357,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 241,
+        "unif": 79,
+        "cov": 0.422,
+        "clean": false
+      },
+      {
+        "p": "01.jpg",
+        "bright": 17,
+        "unif": 38,
+        "cov": 0.824,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 17,
+        "unif": 38,
+        "cov": 0.836,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 17,
+        "unif": 38,
+        "cov": 0.831,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 19,
+        "unif": 46,
+        "cov": 0.87,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 24,
+        "unif": 55,
+        "cov": 0.899,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 32,
+        "unif": 82,
+        "cov": 0.899,
+        "clean": false
+      }
+    ]
+  },
+  "big-retro-sofvi-series-x": {
+    "chosen": "/figures/big-retro-sofvi-series-x/07.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.358,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 246,
+        "unif": 64,
+        "cov": 0.413,
+        "clean": false
+      },
+      {
+        "p": "01.jpg",
+        "bright": 18,
+        "unif": 34,
+        "cov": 0.729,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 18,
+        "unif": 34,
+        "cov": 0.715,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 18,
+        "unif": 34,
+        "cov": 0.728,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 23,
+        "unif": 48,
+        "cov": 0.759,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 24,
+        "unif": 53,
+        "cov": 0.748,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 30,
+        "unif": 67,
+        "cov": 0.746,
+        "clean": false
+      }
+    ]
+  },
+  "ffsc-kittyfire-mirrorman-completed": {
+    "chosen": "/figures/ffsc-kittyfire-mirrorman-completed/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.39,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 33,
+        "unif": 29,
+        "cov": 0.654,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 41,
+        "unif": 62,
+        "cov": 0.678,
+        "clean": false
+      }
+    ]
+  },
+  "aston-machan-umamusume-pretty": {
+    "chosen": "/figures/aston-machan-umamusume-pretty/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.19,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.687,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.686,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.68,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.686,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.683,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.68,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.681,
+        "clean": true
+      }
+    ]
+  },
+  "perlica-arknights-endfield-17": {
+    "chosen": "/figures/perlica-arknights-endfield-17/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.3,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.685,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.687,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.733,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.733,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.733,
+        "clean": true
+      }
+    ]
+  },
+  "pop-up-parade-sp": {
+    "chosen": "/figures/pop-up-parade-sp/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.185,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.733,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.688,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 233,
+        "unif": 110,
+        "cov": 0.976,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 225,
+        "unif": 104,
+        "cov": 0.982,
+        "clean": false
+      },
+      {
+        "p": "07.jpg",
+        "bright": 218,
+        "unif": 142,
+        "cov": 0.976,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 201,
+        "unif": 167,
+        "cov": 0.993,
+        "clean": false
+      }
+    ]
+  },
+  "figma-klukai-girls-frontline": {
+    "chosen": "/figures/figma-klukai-girls-frontline/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.217,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.415,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.733,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.732,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.733,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.733,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.733,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.732,
+        "clean": true
+      }
+    ]
+  },
+  "super-action-statue-jojo": {
+    "chosen": "/figures/super-action-statue-jojo/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.667,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.428,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.665,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 125,
+        "unif": 203,
+        "cov": 0.969,
+        "clean": false
+      }
+    ]
+  },
+  "super-action-statue-jojo-x": {
+    "chosen": "/figures/super-action-statue-jojo-x/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.547,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 254,
+        "unif": 9,
+        "cov": 0.737,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 238,
+        "unif": 81,
+        "cov": 0.968,
+        "clean": false
+      }
+    ]
+  },
+  "rinami-himesaki-semi-blue": {
+    "chosen": "/figures/rinami-himesaki-semi-blue/02.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.703,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.708,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.731,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.733,
+        "clean": true
+      },
+      {
+        "p": "01.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": false
+      },
+      {
+        "p": "07.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": false
+      },
+      {
+        "p": "08.jpg",
+        "bright": 14,
+        "unif": 86,
+        "cov": 0.756,
+        "clean": false
+      }
+    ]
+  },
+  "black-shiro-no-game": {
+    "chosen": "/figures/black-shiro-no-game/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.371,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.733,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.733,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.733,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.733,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.733,
+        "clean": true
+      }
+    ]
+  },
+  "nendoroid-mika-misono-swimsuit": {
+    "chosen": "/figures/nendoroid-mika-misono-swimsuit/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.36,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.348,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 211,
+        "unif": 113,
+        "cov": 0.957,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 210,
+        "unif": 113,
+        "cov": 0.932,
+        "clean": false
+      }
+    ]
+  },
+  "b-style-wendy-marvell": {
+    "chosen": "/figures/b-style-wendy-marvell/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.18,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.688,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.688,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.687,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.687,
+        "clean": true
+      }
+    ]
+  },
+  "dlx-iron-man-mark": {
+    "chosen": "/figures/dlx-iron-man-mark/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.533,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 200,
+        "unif": 168,
+        "cov": 1,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 199,
+        "unif": 170,
+        "cov": 1,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 199,
+        "unif": 169,
+        "cov": 0.999,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 197,
+        "unif": 174,
+        "cov": 1,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 197,
+        "unif": 174,
+        "cov": 0.999,
+        "clean": false
+      },
+      {
+        "p": "07.jpg",
+        "bright": 195,
+        "unif": 179,
+        "cov": 1,
+        "clean": false
+      },
+      {
+        "p": "08.jpg",
+        "bright": 101,
+        "unif": 173,
+        "cov": 0.979,
+        "clean": false
+      }
+    ]
+  },
+  "moderoid-king-s-style": {
+    "chosen": "/figures/moderoid-king-s-style/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.429,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 237,
+        "unif": 102,
+        "cov": 1,
+        "clean": false
+      },
+      {
+        "p": "08.jpg",
+        "bright": 17,
+        "unif": 76,
+        "cov": 0.397,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 170,
+        "unif": 201,
+        "cov": 0.988,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 170,
+        "unif": 200,
+        "cov": 0.987,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 170,
+        "unif": 200,
+        "cov": 0.978,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 125,
+        "unif": 206,
+        "cov": 0.987,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 127,
+        "unif": 203,
+        "cov": 0.99,
+        "clean": false
+      }
+    ]
+  },
+  "nendoroid-red-pyramid-thing": {
+    "chosen": "/figures/nendoroid-red-pyramid-thing/01.jpg",
+    "chosenClean": false,
+    "ranked": [
+      {
+        "p": "04.jpg",
+        "bright": 245,
+        "unif": 55,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 245,
+        "unif": 56,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "01.jpg",
+        "bright": 237,
+        "unif": 100,
+        "cov": 0.975,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 192,
+        "unif": 146,
+        "cov": 0.979,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 148,
+        "unif": 143,
+        "cov": 0.921,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 135,
+        "unif": 141,
+        "cov": 0.843,
+        "clean": false
+      }
+    ]
+  },
+  "nendoroid-mococo-abyssgard-hololive": {
+    "chosen": "/figures/nendoroid-mococo-abyssgard-hololive/02.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.224,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 250,
+        "unif": 28,
+        "cov": 0.756,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 249,
+        "unif": 28,
+        "cov": 0.756,
+        "clean": true
+      },
+      {
+        "p": "01.jpg",
+        "bright": 249,
+        "unif": 29,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 249,
+        "unif": 29,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 249,
+        "unif": 30,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "07.jpg",
+        "bright": 249,
+        "unif": 30,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "08.jpg",
+        "bright": 206,
+        "unif": 68,
+        "cov": 0.836,
+        "clean": false
+      }
+    ]
+  },
+  "nendoroid-fuwawa-abyssgard-hololive": {
+    "chosen": "/figures/nendoroid-fuwawa-abyssgard-hololive/08.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.413,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 250,
+        "unif": 27,
+        "cov": 0.756,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 250,
+        "unif": 28,
+        "cov": 0.756,
+        "clean": true
+      },
+      {
+        "p": "01.jpg",
+        "bright": 249,
+        "unif": 29,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 249,
+        "unif": 29,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 249,
+        "unif": 30,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 249,
+        "unif": 30,
+        "cov": 0.756,
+        "clean": false
+      },
+      {
+        "p": "07.jpg",
+        "bright": 206,
+        "unif": 67,
+        "cov": 0.886,
+        "clean": false
+      }
+    ]
+  },
   "luka-v4x": {
     "chosen": "/figures/luka-v4x/01.jpg",
     "chosenClean": true,
@@ -1345,54 +4736,6 @@
         "unif": 0,
         "cov": 0.143,
         "clean": true
-      }
-    ]
-  },
-  "pokemon-scale-world-sinnoh": {
-    "chosen": "/figures/pokemon-scale-world-sinnoh/01.jpg",
-    "chosenClean": false,
-    "ranked": [
-      {
-        "p": "02.jpg",
-        "bright": 245,
-        "unif": 29,
-        "cov": 0.205,
-        "clean": false
-      },
-      {
-        "p": "03.jpg",
-        "bright": 245,
-        "unif": 29,
-        "cov": 0.171,
-        "clean": false
-      },
-      {
-        "p": "04.jpg",
-        "bright": 245,
-        "unif": 29,
-        "cov": 0.28,
-        "clean": false
-      },
-      {
-        "p": "05.jpg",
-        "bright": 245,
-        "unif": 29,
-        "cov": 0.191,
-        "clean": false
-      },
-      {
-        "p": "06.jpg",
-        "bright": 245,
-        "unif": 29,
-        "cov": 0.231,
-        "clean": false
-      },
-      {
-        "p": "01.jpg",
-        "bright": 232,
-        "unif": 87,
-        "cov": 0.928,
-        "clean": false
       }
     ]
   },

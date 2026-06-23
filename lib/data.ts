@@ -847,7 +847,7 @@ export const figures: Figure[] = [
     scale: "—",
     height: "21cm",
     featured: false,
-    image_url: "/figures/capcom-figure-builder-soft/01.jpg",
+    image_url: "/figures/capcom-figure-builder-soft/02.jpg",
     images: [
       "/figures/capcom-figure-builder-soft/01.jpg",
       "/figures/capcom-figure-builder-soft/02.jpg",
@@ -876,7 +876,7 @@ export const figures: Figure[] = [
     scale: "1/6",
     height: "39cm",
     featured: false,
-    image_url: "/figures/movie-masterpiece-alien-warrior/01.jpg",
+    image_url: "/figures/movie-masterpiece-alien-warrior/thumb.jpg",
     images: [
       "/figures/movie-masterpiece-alien-warrior/01.jpg",
       "/figures/movie-masterpiece-alien-warrior/02.jpg",
@@ -907,7 +907,7 @@ export const figures: Figure[] = [
     scale: "1/6",
     height: "39cm",
     featured: false,
-    image_url: "/figures/movie-masterpiece-alien-warrior-x/01.jpg",
+    image_url: "/figures/movie-masterpiece-alien-warrior-x/thumb.jpg",
     images: [
       "/figures/movie-masterpiece-alien-warrior-x/01.jpg",
       "/figures/movie-masterpiece-alien-warrior-x/02.jpg",
@@ -938,7 +938,7 @@ export const figures: Figure[] = [
     scale: "1/6",
     height: "30cm",
     featured: false,
-    image_url: "/figures/movie-masterpiece-ellen-ripley/01.jpg",
+    image_url: "/figures/movie-masterpiece-ellen-ripley/thumb.jpg",
     images: [
       "/figures/movie-masterpiece-ellen-ripley/01.jpg",
       "/figures/movie-masterpiece-ellen-ripley/02.jpg",
@@ -1030,7 +1030,7 @@ export const figures: Figure[] = [
     scale: "1/12",
     height: "15cm",
     featured: false,
-    image_url: "/figures/dlx-spider-man-symbiote/01.jpg",
+    image_url: "/figures/dlx-spider-man-symbiote/thumb.jpg",
     images: [
       "/figures/dlx-spider-man-symbiote/01.jpg",
       "/figures/dlx-spider-man-symbiote/02.jpg",
@@ -1088,7 +1088,7 @@ export const figures: Figure[] = [
     scale: "1/20",
     height: "27cm",
     featured: false,
-    image_url: "/figures/pokemon-scale-world-sinnoh-x/01.jpg",
+    image_url: "/figures/pokemon-scale-world-sinnoh-x/thumb.jpg",
     images: [
       "/figures/pokemon-scale-world-sinnoh-x/01.jpg",
       "/figures/pokemon-scale-world-sinnoh-x/02.jpg",
@@ -1115,7 +1115,7 @@ export const figures: Figure[] = [
     scale: "1/6",
     height: "25cm",
     featured: false,
-    image_url: "/figures/daiblos-core-maree-rouge/01.jpg",
+    image_url: "/figures/daiblos-core-maree-rouge/thumb.jpg",
     images: [
       "/figures/daiblos-core-maree-rouge/01.jpg",
       "/figures/daiblos-core-maree-rouge/02.jpg",
@@ -1146,7 +1146,7 @@ export const figures: Figure[] = [
     scale: "1/6",
     height: "25cm",
     featured: false,
-    image_url: "/figures/daiblos-core-maree-rouge-x/01.jpg",
+    image_url: "/figures/daiblos-core-maree-rouge-x/thumb.jpg",
     images: [
       "/figures/daiblos-core-maree-rouge-x/01.jpg",
       "/figures/daiblos-core-maree-rouge-x/02.jpg",
@@ -1177,7 +1177,7 @@ export const figures: Figure[] = [
     scale: "1/7",
     height: "33cm",
     featured: false,
-    image_url: "/figures/miko-shoujo-miko-race/01.jpg",
+    image_url: "/figures/miko-shoujo-miko-race/thumb.jpg",
     images: [
       "/figures/miko-shoujo-miko-race/01.jpg",
       "/figures/miko-shoujo-miko-race/02.jpg",
@@ -1208,7 +1208,7 @@ export const figures: Figure[] = [
     scale: "1/7",
     height: "33cm",
     featured: false,
-    image_url: "/figures/miko-shoujo-miko-race-x/01.jpg",
+    image_url: "/figures/miko-shoujo-miko-race-x/thumb.jpg",
     images: [
       "/figures/miko-shoujo-miko-race-x/01.jpg",
       "/figures/miko-shoujo-miko-race-x/02.jpg",
@@ -1239,7 +1239,7 @@ export const figures: Figure[] = [
     scale: "1/1",
     height: "0cm",
     featured: false,
-    image_url: "/figures/megami-device-b1r-l/01.jpg",
+    image_url: "/figures/megami-device-b1r-l/thumb.jpg",
     images: [
       "/figures/megami-device-b1r-l/01.jpg",
       "/figures/megami-device-b1r-l/02.jpg",
@@ -1270,7 +1270,7 @@ export const figures: Figure[] = [
     scale: "1/24",
     height: "8cm",
     featured: false,
-    image_url: "/figures/digaction-fist-of-the/01.jpg",
+    image_url: "/figures/digaction-fist-of-the/thumb.jpg",
     images: [
       "/figures/digaction-fist-of-the/01.jpg",
       "/figures/digaction-fist-of-the/02.jpg",
@@ -1301,7 +1301,7 @@ export const figures: Figure[] = [
     scale: "—",
     height: "20cm",
     featured: false,
-    image_url: "/figures/scream-greats-series-butterball/01.jpg",
+    image_url: "/figures/scream-greats-series-butterball/thumb.jpg",
     images: [
       "/figures/scream-greats-series-butterball/01.jpg",
       "/figures/scream-greats-series-butterball/02.jpg",
@@ -1330,7 +1330,7 @@ export const figures: Figure[] = [
     scale: "—",
     height: "20cm",
     featured: false,
-    image_url: "/figures/scream-greats-series-chatterer/01.jpg",
+    image_url: "/figures/scream-greats-series-chatterer/thumb.jpg",
     images: [
       "/figures/scream-greats-series-chatterer/01.jpg",
       "/figures/scream-greats-series-chatterer/02.jpg",
@@ -1359,7 +1359,7 @@ export const figures: Figure[] = [
     scale: "—",
     height: "20cm",
     featured: false,
-    image_url: "/figures/scream-greats-series-female/01.jpg",
+    image_url: "/figures/scream-greats-series-female/thumb.jpg",
     images: [
       "/figures/scream-greats-series-female/01.jpg",
       "/figures/scream-greats-series-female/02.jpg",
@@ -1388,7 +1388,7 @@ export const figures: Figure[] = [
     scale: "—",
     height: "20cm",
     featured: false,
-    image_url: "/figures/scream-greats-series-pinhead/01.jpg",
+    image_url: "/figures/scream-greats-series-pinhead/thumb.jpg",
     images: [
       "/figures/scream-greats-series-pinhead/01.jpg",
       "/figures/scream-greats-series-pinhead/02.jpg",
@@ -1417,7 +1417,7 @@ export const figures: Figure[] = [
     scale: "1/12",
     height: "—",
     featured: false,
-    image_url: "/figures/hy-051-demon-horse/01.jpg",
+    image_url: "/figures/hy-051-demon-horse/thumb.jpg",
     images: [
       "/figures/hy-051-demon-horse/01.jpg",
       "/figures/hy-051-demon-horse/02.jpg",
@@ -1479,7 +1479,7 @@ export const figures: Figure[] = [
     scale: "1/7",
     height: "23cm",
     featured: false,
-    image_url: "/figures/lilja-katsuragi-hakusen-the/01.jpg",
+    image_url: "/figures/lilja-katsuragi-hakusen-the/thumb.jpg",
     images: [
       "/figures/lilja-katsuragi-hakusen-the/01.jpg",
       "/figures/lilja-katsuragi-hakusen-the/02.jpg",
@@ -1510,7 +1510,7 @@ export const figures: Figure[] = [
     scale: "—",
     height: "15cm",
     featured: false,
-    image_url: "/figures/nendoroid-doll-phainon-express/01.jpg",
+    image_url: "/figures/nendoroid-doll-phainon-express/thumb.jpg",
     images: [
       "/figures/nendoroid-doll-phainon-express/01.jpg",
       "/figures/nendoroid-doll-phainon-express/02.jpg",
@@ -1541,7 +1541,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "18cm",
     featured: false,
-    image_url: "/figures/moderoid-testa-rossa-the/01.jpg",
+    image_url: "/figures/moderoid-testa-rossa-the/thumb.jpg",
     images: [
       "/figures/moderoid-testa-rossa-the/01.jpg",
       "/figures/moderoid-testa-rossa-the/02.jpg",
@@ -1572,7 +1572,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "10cm",
     featured: false,
-    image_url: "/figures/nendoroid-anaxa-honkai-star/01.jpg",
+    image_url: "/figures/nendoroid-anaxa-honkai-star/thumb.jpg",
     images: [
       "/figures/nendoroid-anaxa-honkai-star/01.jpg",
       "/figures/nendoroid-anaxa-honkai-star/02.jpg",
@@ -1603,7 +1603,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "17cm",
     featured: false,
-    image_url: "/figures/plamatea-black-honey-cutie/01.jpg",
+    image_url: "/figures/plamatea-black-honey-cutie/thumb.jpg",
     images: [
       "/figures/plamatea-black-honey-cutie/01.jpg",
       "/figures/plamatea-black-honey-cutie/02.jpg",
@@ -1634,7 +1634,7 @@ export const figures: Figure[] = [
     scale: "—",
     height: "20cm",
     featured: false,
-    image_url: "/figures/amk-pro-series-evangelion/01.jpg",
+    image_url: "/figures/amk-pro-series-evangelion/thumb.jpg",
     images: [
       "/figures/amk-pro-series-evangelion/01.jpg",
       "/figures/amk-pro-series-evangelion/02.jpg",
@@ -1665,7 +1665,7 @@ export const figures: Figure[] = [
     scale: "1/7",
     height: "22.5cm",
     featured: false,
-    image_url: "/figures/girls-frontline-desert-eagle/01.jpg",
+    image_url: "/figures/girls-frontline-desert-eagle/thumb.jpg",
     images: [
       "/figures/girls-frontline-desert-eagle/01.jpg",
       "/figures/girls-frontline-desert-eagle/02.jpg",
@@ -1696,7 +1696,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "10cm",
     featured: false,
-    image_url: "/figures/nendoroid-guts-berserk-figure/01.jpg",
+    image_url: "/figures/nendoroid-guts-berserk-figure/thumb.jpg",
     images: [
       "/figures/nendoroid-guts-berserk-figure/01.jpg",
       "/figures/nendoroid-guts-berserk-figure/02.jpg",
@@ -1725,7 +1725,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "10cm",
     featured: false,
-    image_url: "/figures/nendoroid-asuka-shikinami-langley/01.jpg",
+    image_url: "/figures/nendoroid-asuka-shikinami-langley/thumb.jpg",
     images: [
       "/figures/nendoroid-asuka-shikinami-langley/01.jpg",
       "/figures/nendoroid-asuka-shikinami-langley/02.jpg",
@@ -1754,7 +1754,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "10cm",
     featured: false,
-    image_url: "/figures/nendoroid-rei-ayanami-rebuild/01.jpg",
+    image_url: "/figures/nendoroid-rei-ayanami-rebuild/thumb.jpg",
     images: [
       "/figures/nendoroid-rei-ayanami-rebuild/01.jpg",
       "/figures/nendoroid-rei-ayanami-rebuild/02.jpg",
@@ -1783,7 +1783,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "10cm",
     featured: false,
-    image_url: "/figures/nendoroid-matikanetannhauser-umamusume-pretty/01.jpg",
+    image_url: "/figures/nendoroid-matikanetannhauser-umamusume-pretty/thumb.jpg",
     images: [
       "/figures/nendoroid-matikanetannhauser-umamusume-pretty/01.jpg",
       "/figures/nendoroid-matikanetannhauser-umamusume-pretty/02.jpg",
@@ -1998,7 +1998,7 @@ export const figures: Figure[] = [
     scale: "1/8",
     height: "20cm",
     featured: false,
-    image_url: "/figures/honkai-star-rail-gift/01.jpg",
+    image_url: "/figures/honkai-star-rail-gift/thumb.jpg",
     images: [
       "/figures/honkai-star-rail-gift/01.jpg",
       "/figures/honkai-star-rail-gift/02.jpg",
@@ -2029,7 +2029,7 @@ export const figures: Figure[] = [
     scale: "1/12",
     height: "68cm",
     featured: false,
-    image_url: "/figures/hy-040-flying-horse/01.jpg",
+    image_url: "/figures/hy-040-flying-horse/thumb.jpg",
     images: [
       "/figures/hy-040-flying-horse/01.jpg",
       "/figures/hy-040-flying-horse/02.jpg",
@@ -2060,7 +2060,7 @@ export const figures: Figure[] = [
     scale: "1/6",
     height: "31cm",
     featured: false,
-    image_url: "/figures/the-man-with-no/01.jpg",
+    image_url: "/figures/the-man-with-no/thumb.jpg",
     images: [
       "/figures/the-man-with-no/01.jpg",
       "/figures/the-man-with-no/02.jpg",
@@ -2091,7 +2091,7 @@ export const figures: Figure[] = [
     scale: "—",
     height: "25cm",
     featured: false,
-    image_url: "/figures/doctor-doom-marvel-comics/01.jpg",
+    image_url: "/figures/doctor-doom-marvel-comics/thumb.jpg",
     images: [
       "/figures/doctor-doom-marvel-comics/01.jpg",
       "/figures/doctor-doom-marvel-comics/02.jpg",
@@ -2122,7 +2122,7 @@ export const figures: Figure[] = [
     scale: "—",
     height: "25cm",
     featured: false,
-    image_url: "/figures/big-retro-sofvi-series/01.jpg",
+    image_url: "/figures/big-retro-sofvi-series/thumb.jpg",
     images: [
       "/figures/big-retro-sofvi-series/01.jpg",
       "/figures/big-retro-sofvi-series/02.jpg",
@@ -2153,7 +2153,7 @@ export const figures: Figure[] = [
     scale: "—",
     height: "25cm",
     featured: false,
-    image_url: "/figures/big-retro-sofvi-series-x/01.jpg",
+    image_url: "/figures/big-retro-sofvi-series-x/thumb.jpg",
     images: [
       "/figures/big-retro-sofvi-series-x/01.jpg",
       "/figures/big-retro-sofvi-series-x/02.jpg",
@@ -2184,7 +2184,7 @@ export const figures: Figure[] = [
     scale: "—",
     height: "16cm",
     featured: false,
-    image_url: "/figures/ffsc-kittyfire-mirrorman-completed/01.jpg",
+    image_url: "/figures/ffsc-kittyfire-mirrorman-completed/thumb.jpg",
     images: [
       "/figures/ffsc-kittyfire-mirrorman-completed/01.jpg",
       "/figures/ffsc-kittyfire-mirrorman-completed/02.jpg",
@@ -2210,7 +2210,7 @@ export const figures: Figure[] = [
     scale: "1/7",
     height: "26cm",
     featured: false,
-    image_url: "/figures/aston-machan-umamusume-pretty/01.jpg",
+    image_url: "/figures/aston-machan-umamusume-pretty/thumb.jpg",
     images: [
       "/figures/aston-machan-umamusume-pretty/01.jpg",
       "/figures/aston-machan-umamusume-pretty/02.jpg",
@@ -2241,7 +2241,7 @@ export const figures: Figure[] = [
     scale: "1/7",
     height: "32cm",
     featured: false,
-    image_url: "/figures/perlica-arknights-endfield-17/01.jpg",
+    image_url: "/figures/perlica-arknights-endfield-17/thumb.jpg",
     images: [
       "/figures/perlica-arknights-endfield-17/01.jpg",
       "/figures/perlica-arknights-endfield-17/02.jpg",
@@ -2272,7 +2272,7 @@ export const figures: Figure[] = [
     scale: "1/6",
     height: "28cm",
     featured: false,
-    image_url: "/figures/pop-up-parade-sp/01.jpg",
+    image_url: "/figures/pop-up-parade-sp/thumb.jpg",
     images: [
       "/figures/pop-up-parade-sp/01.jpg",
       "/figures/pop-up-parade-sp/02.jpg",
@@ -2303,7 +2303,7 @@ export const figures: Figure[] = [
     scale: "—",
     height: "16cm",
     featured: false,
-    image_url: "/figures/figma-klukai-girls-frontline/01.jpg",
+    image_url: "/figures/figma-klukai-girls-frontline/thumb.jpg",
     images: [
       "/figures/figma-klukai-girls-frontline/01.jpg",
       "/figures/figma-klukai-girls-frontline/02.jpg",
@@ -2334,7 +2334,7 @@ export const figures: Figure[] = [
     scale: "—",
     height: "17cm",
     featured: false,
-    image_url: "/figures/super-action-statue-jojo/01.jpg",
+    image_url: "/figures/super-action-statue-jojo/thumb.jpg",
     images: [
       "/figures/super-action-statue-jojo/01.jpg",
       "/figures/super-action-statue-jojo/02.jpg",
@@ -2362,7 +2362,7 @@ export const figures: Figure[] = [
     scale: "—",
     height: "16cm",
     featured: false,
-    image_url: "/figures/super-action-statue-jojo-x/01.jpg",
+    image_url: "/figures/super-action-statue-jojo-x/thumb.jpg",
     images: [
       "/figures/super-action-statue-jojo-x/01.jpg",
       "/figures/super-action-statue-jojo-x/02.jpg",
@@ -2389,7 +2389,7 @@ export const figures: Figure[] = [
     scale: "1/7",
     height: "—",
     featured: false,
-    image_url: "/figures/rinami-himesaki-semi-blue/01.jpg",
+    image_url: "/figures/rinami-himesaki-semi-blue/thumb.jpg",
     images: [
       "/figures/rinami-himesaki-semi-blue/01.jpg",
       "/figures/rinami-himesaki-semi-blue/02.jpg",
@@ -2420,7 +2420,7 @@ export const figures: Figure[] = [
     scale: "1/7",
     height: "26cm",
     featured: false,
-    image_url: "/figures/black-shiro-no-game/01.jpg",
+    image_url: "/figures/black-shiro-no-game/thumb.jpg",
     images: [
       "/figures/black-shiro-no-game/01.jpg",
       "/figures/black-shiro-no-game/02.jpg",
@@ -2449,7 +2449,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "10cm",
     featured: false,
-    image_url: "/figures/nendoroid-mika-misono-swimsuit/01.jpg",
+    image_url: "/figures/nendoroid-mika-misono-swimsuit/thumb.jpg",
     images: [
       "/figures/nendoroid-mika-misono-swimsuit/01.jpg",
       "/figures/nendoroid-mika-misono-swimsuit/02.jpg",
@@ -2476,7 +2476,7 @@ export const figures: Figure[] = [
     scale: "1/4",
     height: "42cm",
     featured: false,
-    image_url: "/figures/b-style-wendy-marvell/01.jpg",
+    image_url: "/figures/b-style-wendy-marvell/thumb.jpg",
     images: [
       "/figures/b-style-wendy-marvell/01.jpg",
       "/figures/b-style-wendy-marvell/02.jpg",
@@ -2507,7 +2507,7 @@ export const figures: Figure[] = [
     scale: "1/12",
     height: "30cm",
     featured: false,
-    image_url: "/figures/dlx-iron-man-mark/01.jpg",
+    image_url: "/figures/dlx-iron-man-mark/thumb.jpg",
     images: [
       "/figures/dlx-iron-man-mark/01.jpg",
       "/figures/dlx-iron-man-mark/02.jpg",
@@ -2538,7 +2538,7 @@ export const figures: Figure[] = [
     scale: "Non-scale",
     height: "18cm",
     featured: false,
-    image_url: "/figures/moderoid-king-s-style/01.jpg",
+    image_url: "/figures/moderoid-king-s-style/thumb.jpg",
     images: [
       "/figures/moderoid-king-s-style/01.jpg",
       "/figures/moderoid-king-s-style/02.jpg",
@@ -2598,7 +2598,7 @@ export const figures: Figure[] = [
     scale: "—",
     height: "10cm",
     featured: false,
-    image_url: "/figures/nendoroid-mococo-abyssgard-hololive/01.jpg",
+    image_url: "/figures/nendoroid-mococo-abyssgard-hololive/thumb.jpg",
     images: [
       "/figures/nendoroid-mococo-abyssgard-hololive/01.jpg",
       "/figures/nendoroid-mococo-abyssgard-hololive/02.jpg",
@@ -2629,7 +2629,7 @@ export const figures: Figure[] = [
     scale: "—",
     height: "10cm",
     featured: false,
-    image_url: "/figures/nendoroid-fuwawa-abyssgard-hololive/01.jpg",
+    image_url: "/figures/nendoroid-fuwawa-abyssgard-hololive/thumb.jpg",
     images: [
       "/figures/nendoroid-fuwawa-abyssgard-hololive/01.jpg",
       "/figures/nendoroid-fuwawa-abyssgard-hololive/02.jpg",
