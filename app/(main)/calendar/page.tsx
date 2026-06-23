@@ -2,34 +2,40 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { figures, Figure, Status, parseDate } from "@/lib/data";
-
-const STATUS_LABEL: Record<Status, string> = {
-  preorder_open: "Open",
-  preorder_closing: "Closing",
-  coming_soon: "Soon",
-};
+import { figures, Figure, parseDate } from "@/lib/data";
+import FigureImage from "@/components/FigureImage";
 
 const pad = (n: number) => String(n).padStart(2, "0");
 const keyFor = (y: number, m: number, d: number) =>
   `${y}-${pad(m + 1)}-${pad(d)}`;
 
+const fullDate = (s: string) =>
+  parseDate(s).toLocaleDateString("en-US", {
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  });
+
 export default function CalendarPage() {
+  // Group figures by the day they were added to FigDrop — each scrape session
+  // is a "drop event". (release_date is the manufacturer ship date, not shown here.)
   const events = useMemo(() => {
     const map: Record<string, Figure[]> = {};
     for (const f of figures) {
-      (map[f.release_date] ??= []).push(f);
+      (map[f.droppedAt] ??= []).push(f);
     }
     return map;
   }, []);
 
-  const earliest = useMemo(
-    () => figures.map((f) => f.release_date).sort()[0],
-    []
+  // Distinct drop days, newest first — the "Recent Drops" batches.
+  const dropDays = useMemo(
+    () => Object.keys(events).sort((a, b) => b.localeCompare(a)),
+    [events]
   );
 
   const [cursor, setCursor] = useState(() => {
-    const d = parseDate(earliest);
+    const d = parseDate(dropDays[0]);
     return new Date(d.getFullYear(), d.getMonth(), 1);
   });
   const [selected, setSelected] = useState<string | null>(null);
@@ -49,15 +55,15 @@ export default function CalendarPage() {
     year: "numeric",
   });
 
-  const list = [...figures].sort((a, b) =>
-    a.release_date.localeCompare(b.release_date)
-  );
   const selectedFigs = selected ? events[selected] ?? [] : [];
 
   return (
     <div className="space-y-6">
-      <header className="flex items-center justify-between">
-        <h1 className="text-2xl font-bold tracking-tight text-ink">Calendar</h1>
+      <header className="flex items-start justify-between">
+        <div>
+          <h1 className="text-2xl font-bold tracking-tight text-ink">Calendar</h1>
+          <p className="mt-0.5 text-[12px] text-dim">When figures dropped on FigDrop</p>
+        </div>
         <div className="flex items-center gap-2">
           <button
             aria-label="Previous month"
@@ -128,28 +134,42 @@ export default function CalendarPage() {
 
       {selected && selectedFigs.length > 0 && (
         <div className="rounded-xl border border-ink p-4">
-          <p className="mb-3 text-xs font-bold uppercase tracking-wider text-ink">
-            {parseDate(selected).toLocaleDateString("en-US", {
-              weekday: "long",
-              month: "long",
-              day: "numeric",
-            })}
-          </p>
-          <div className="divide-y divide-line">
+          <div className="mb-3 flex items-baseline justify-between gap-2">
+            <p className="text-xs font-bold uppercase tracking-wider text-ink">
+              {fullDate(selected)}
+            </p>
+            <span className="shrink-0 text-[11px] uppercase tracking-wide text-dim">
+              {selectedFigs.length} {selectedFigs.length === 1 ? "drop" : "drops"}
+            </span>
+          </div>
+          <div className="grid grid-cols-2 gap-4">
             {selectedFigs.map((f) => (
-              <Row key={f.id} f={f} />
+              <DropCard key={f.id} f={f} />
             ))}
           </div>
         </div>
       )}
 
       <div>
-        <h2 className="mb-2 text-base font-bold tracking-tight text-ink">
-          All Upcoming
+        <h2 className="mb-3 text-base font-bold tracking-tight text-ink">
+          Recent Drops
         </h2>
-        <div className="divide-y divide-line">
-          {list.map((f) => (
-            <Row key={f.id} f={f} />
+        <div className="space-y-8">
+          {dropDays.map((day) => (
+            <div key={day}>
+              <div className="mb-3 flex items-baseline justify-between gap-2 border-b border-line pb-2">
+                <h3 className="text-sm font-bold text-ink">{fullDate(day)}</h3>
+                <span className="shrink-0 text-[11px] uppercase tracking-wide text-dim">
+                  {events[day].length}{" "}
+                  {events[day].length === 1 ? "figure" : "figures"}
+                </span>
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                {events[day].map((f) => (
+                  <DropCard key={f.id} f={f} />
+                ))}
+              </div>
+            </div>
           ))}
         </div>
       </div>
@@ -157,27 +177,16 @@ export default function CalendarPage() {
   );
 }
 
-function Row({ f }: { f: Figure }) {
+function DropCard({ f }: { f: Figure }) {
   return (
-    <Link
-      href={`/drop/${f.id}`}
-      className="flex items-center justify-between gap-3 py-3 transition hover:opacity-70"
-    >
-      <div className="min-w-0">
-        <p className="truncate text-sm font-semibold text-ink">{f.name}</p>
-        <p className="truncate text-[12px] text-dim">{f.series}</p>
+    <Link href={`/drop/${f.id}`} className="group block">
+      <div className="aspect-square w-full overflow-hidden rounded-lg bg-card">
+        <FigureImage figure={f} />
       </div>
-      <div className="flex shrink-0 flex-col items-end">
-        <span className="text-xs font-semibold text-ink">
-          {parseDate(f.release_date).toLocaleDateString("en-US", {
-            month: "short",
-            day: "numeric",
-          })}
-        </span>
-        <span className="text-[10px] uppercase tracking-wide text-dim">
-          {STATUS_LABEL[f.status]}
-        </span>
-      </div>
+      <h3 className="mt-2 truncate text-sm font-semibold text-ink">{f.name}</h3>
+      <p className="mt-0.5 text-sm font-semibold text-ink">
+        ¥{f.price_jpy.toLocaleString()}
+      </p>
     </Link>
   );
 }

@@ -1,21 +1,24 @@
 import Link from "next/link";
-import { figures, getFeatured, stockLevel } from "@/lib/data";
+import { figures, getFeatured, stockLevel, parseDate } from "@/lib/data";
 import FeaturedDrop from "@/components/FeaturedDrop";
 import FeedCard from "@/components/FeedCard";
 import NewThisWeek from "@/components/NewThisWeek";
 
 function Section({
   title,
+  subtitle,
   children,
 }: {
   title: string;
+  subtitle?: string;
   children: React.ReactNode;
 }) {
   return (
     <section>
-      <h2 className="mb-4 text-base font-bold tracking-tight text-ink">
-        {title}
-      </h2>
+      <div className="mb-4">
+        <h2 className="text-base font-bold tracking-tight text-ink">{title}</h2>
+        {subtitle && <p className="mt-0.5 text-[12px] text-dim">{subtitle}</p>}
+      </div>
       {children}
     </section>
   );
@@ -23,6 +26,16 @@ function Section({
 
 export default function Home() {
   const featured = getFeatured();
+
+  // Most recent scrape session — surfaced under "New This Week" to set expectations.
+  const lastUpdated = figures.reduce(
+    (max, f) => (f.droppedAt > max ? f.droppedAt : max),
+    ""
+  );
+  const updatedLabel = parseDate(lastUpdated).toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+  });
 
   const comingSoon = figures.filter((f) => f.status === "coming_soon");
   const almostGone = figures
@@ -46,7 +59,7 @@ export default function Home() {
     <div className="space-y-10">
       <FeaturedDrop figure={featured} />
 
-      <Section title="New This Week">
+      <Section title="New This Week" subtitle={`Updated ${updatedLabel}`}>
         <NewThisWeek figures={newThisWeekPool} />
       </Section>
 

@@ -16,6 +16,7 @@ export interface Figure {
   quantity: number;
   availability: string;
   release_date: string;
+  droppedAt: string; // ISO date (YYYY-MM-DD) the figure was added to FigDrop (scrape session)
   scale: string;
   height: string;
   featured: boolean;
@@ -67,6 +68,7 @@ export function brandGroup(manufacturer: string): string {
 export const figures: Figure[] = [
   {
     id: "1",
+    droppedAt: "2026-06-20",
     name: "Megurine Luka V4X Nendoroid (Ltd. Bonus Set)",
     series: "Vocaloid",
     manufacturer: "Good Smile Company",
@@ -96,6 +98,7 @@ export const figures: Figure[] = [
   },
   {
     id: "2",
+    droppedAt: "2026-06-20",
     name: "Cats are Liquid: Silver Moon",
     series: "Cats are Liquid (Karaage Toufu)",
     manufacturer: "WE ART DOING",
@@ -131,6 +134,7 @@ export const figures: Figure[] = [
   },
   {
     id: "3",
+    droppedAt: "2026-06-20",
     name: "Cats are Liquid: Scarlet Night",
     series: "Cats are Liquid (Karaage Toufu)",
     manufacturer: "WE ART DOING",
@@ -166,6 +170,7 @@ export const figures: Figure[] = [
   },
   {
     id: "4",
+    droppedAt: "2026-06-20",
     name: "Pokémon Scale World Sinnoh Region (3 set)",
     series: "Pokémon",
     manufacturer: "Bandai",
@@ -194,6 +199,7 @@ export const figures: Figure[] = [
   },
   {
     id: "5",
+    droppedAt: "2026-06-20",
     name: "Toshiya Miyata Nendoroid (Ltd. Edition)",
     series: "Kis-My-Ft2",
     manufacturer: "Good Smile Company",
@@ -224,6 +230,7 @@ export const figures: Figure[] = [
   },
   {
     id: "6",
+    droppedAt: "2026-06-21",
     name: "B-Robo Kabutack RE: Super Change Cobrander Figure",
     series: "B-Robo Kabutack",
     manufacturer: "Bandai",
@@ -252,6 +259,7 @@ export const figures: Figure[] = [
   },
   {
     id: "7",
+    droppedAt: "2026-06-21",
     name: "HG 1/35 Zi-Artemis CODE GEASS Rozé of the Recapture Plastic Model",
     series: "Code Geass",
     manufacturer: "Bandai Spirits",
@@ -282,6 +290,7 @@ export const figures: Figure[] = [
   },
   {
     id: "8",
+    droppedAt: "2026-06-21",
     name: "B-Robo Kabutack RE: Super Change Ganiran Figure",
     series: "B-Robo Kabutack",
     manufacturer: "Bandai",
@@ -309,6 +318,7 @@ export const figures: Figure[] = [
   },
   {
     id: "9",
+    droppedAt: "2026-06-21",
     name: "MODEROID Miniature Combining & Transforming Ideon - Space Runaway Ideon Plastic Model",
     series: "Space Runaway Ideon",
     manufacturer: "Good Smile Company",
@@ -339,6 +349,7 @@ export const figures: Figure[] = [
   },
   {
     id: "10",
+    droppedAt: "2026-06-21",
     name: "MODEROID Miniature Combining & Transforming Getter Dragon - Getter Robo G Plastic Model",
     series: "Getter Robo G",
     manufacturer: "Good Smile Company",
@@ -369,6 +380,7 @@ export const figures: Figure[] = [
   },
   {
     id: "11",
+    droppedAt: "2026-06-21",
     name: "Nendoroid Hakos Baelz - hololive production Figure Limited Edition",
     series: "Hololive Production",
     manufacturer: "Good Smile Company",
@@ -398,6 +410,7 @@ export const figures: Figure[] = [
   },
   {
     id: "12",
+    droppedAt: "2026-06-21",
     name: "Nendoroid Hatsune Miku V4X Figure Reissue",
     series: "Vocaloid",
     manufacturer: "Good Smile Company",
@@ -427,6 +440,7 @@ export const figures: Figure[] = [
   },
   {
     id: "13",
+    droppedAt: "2026-06-21",
     name: "Kaho Hinoshita Love Live! Hasunosora Girls' High School Idol Club 1/7 Scale Figure",
     series: "Love Live! Hasunosora",
     manufacturer: "Royce Entertainment",
@@ -457,6 +471,7 @@ export const figures: Figure[] = [
   },
   {
     id: "14",
+    droppedAt: "2026-06-21",
     name: "Sayaka Murano Love Live! Hasunosora Girls' High School Idol Club 1/7 Scale Figure",
     series: "Love Live! Hasunosora",
     manufacturer: "Royce Entertainment",
@@ -487,6 +502,7 @@ export const figures: Figure[] = [
   },
   {
     id: "15",
+    droppedAt: "2026-06-21",
     name: "Rurino Osawa Love Live! Hasunosora Girls' High School Idol Club 1/7 Scale Figure",
     series: "Love Live! Hasunosora",
     manufacturer: "Royce Entertainment",
@@ -517,6 +533,7 @@ export const figures: Figure[] = [
   },
   {
     id: "16",
+    droppedAt: "2026-06-21",
     name: "TENITOL TALL Rikka Takarada & Akane Shinjo Sports Wear Ver. Special Set Gridman Universe Figure",
     series: "Gridman Universe",
     manufacturer: "FuRyu",
@@ -547,6 +564,7 @@ export const figures: Figure[] = [
   },
   {
     id: "17",
+    droppedAt: "2026-06-21",
     name: "TENITOL TALL Akane Shinjo: Sports Wear Ver. Gridman Universe Figure",
     series: "Gridman Universe",
     manufacturer: "FuRyu",
@@ -577,6 +595,7 @@ export const figures: Figure[] = [
   },
   {
     id: "18",
+    droppedAt: "2026-06-21",
     name: "TENITOL TALL Rikka Takarada: Sports Wear Ver. Gridman Universe Figure",
     series: "Gridman Universe",
     manufacturer: "FuRyu",
@@ -607,6 +626,7 @@ export const figures: Figure[] = [
   },
   {
     id: "19",
+    droppedAt: "2026-06-21",
     name: "PalVerse Pale. Sonic the Hedgehog: Super Sonic Figure [Bushiroad Creative]",
     series: "Sonic the Hedgehog",
     manufacturer: "Bushiroad",
@@ -633,6 +653,7 @@ export const figures: Figure[] = [
   },
   {
     id: "20",
+    droppedAt: "2026-06-21",
     name: "Nendoroid Kamui Gintama Figure",
     series: "Gintama",
     manufacturer: "Good Smile Company",
@@ -660,6 +681,7 @@ export const figures: Figure[] = [
   },
   {
     id: "21",
+    droppedAt: "2026-06-21",
     name: "Nendoroid Shinsuke Takasugi Gintama Figure",
     series: "Gintama",
     manufacturer: "Good Smile Company",
@@ -687,6 +709,7 @@ export const figures: Figure[] = [
   },
   {
     id: "22",
+    droppedAt: "2026-06-21",
     name: "Plafia Doala (Visitor Ver.) Plastic Model [PLUMPMOA]",
     series: "Doala",
     manufacturer: "PLUM",
@@ -717,6 +740,7 @@ export const figures: Figure[] = [
   },
   {
     id: "23",
+    droppedAt: "2026-06-21",
     name: "B-Style Mirajane Strauss: Bunny Ver. FAIRY TAIL 1/4 Scale Figure",
     series: "Fairy Tail",
     manufacturer: "FREEing",
@@ -747,6 +771,7 @@ export const figures: Figure[] = [
   },
   {
     id: "24",
+    droppedAt: "2026-06-21",
     name: "Hatsune Miku: Music & Fire Works Ver. - Character Vocal Series 01: Hatsune 1/7 Scale Figure",
     series: "Vocaloid",
     manufacturer: "Good Smile Company",
@@ -777,6 +802,7 @@ export const figures: Figure[] = [
   },
   {
     id: "25",
+    droppedAt: "2026-06-21",
     name: "Nendoroid Mahiru Shiina The Angel Next Door Spoils Me Rotten Figure Reissue",
     series: "The Angel Next Door",
     manufacturer: "Good Smile Company",
@@ -804,6 +830,7 @@ export const figures: Figure[] = [
   },
   {
     id: "26",
+    droppedAt: "2026-06-22",
     name: "Capcom Figure Builder Soft Vinyl Monster Hunter - Gore Magala",
     jan: "4976219139328",
     series: "Monster Hunter",
@@ -832,6 +859,7 @@ export const figures: Figure[] = [
   },
   {
     id: "27",
+    droppedAt: "2026-06-22",
     name: "Movie Masterpiece - Alien Warrior (2.0) : Aliens 1/6 Scale Fully Poseable Figure Deluxe Version",
     jan: "4570192000325",
     series: "Aliens",
@@ -862,6 +890,7 @@ export const figures: Figure[] = [
   },
   {
     id: "28",
+    droppedAt: "2026-06-22",
     name: "Movie Masterpiece - Alien Warrior (2.0) : Aliens 1/6 Scale Fully Poseable Figure",
     jan: "4570192000318",
     series: "Aliens",
@@ -892,6 +921,7 @@ export const figures: Figure[] = [
   },
   {
     id: "29",
+    droppedAt: "2026-06-22",
     name: "Movie Masterpiece - Ellen Ripley (2.0) : Aliens 1/6 Scale Fully Poseable Figure Deluxe Version",
     jan: "4570192000301",
     series: "Aliens",
@@ -922,6 +952,7 @@ export const figures: Figure[] = [
   },
   {
     id: "30",
+    droppedAt: "2026-06-22",
     name: "Portrait.Of.Pirates \"S.O.C\" Sanji Ver.R One Piece Figure Limited Edition",
     jan: "",
     series: "One Piece",
@@ -952,6 +983,7 @@ export const figures: Figure[] = [
   },
   {
     id: "31",
+    droppedAt: "2026-06-22",
     name: "Large Monster Series ULTRA NEW GENERATION Ultraman Z Original Complete Figure [PLEX]",
     jan: "4532149025751",
     series: "Ultraman",
@@ -981,6 +1013,7 @@ export const figures: Figure[] = [
   },
   {
     id: "32",
+    droppedAt: "2026-06-22",
     name: "DLX Spider-Man Symbiote Suit (Peter Parker) Standard Edition - Marvel's Spider-Man 2 1/12 Action Figure",
     jan: "4595430617264",
     series: "Marvel's Spider-Man 2",
@@ -1011,6 +1044,7 @@ export const figures: Figure[] = [
   },
   {
     id: "33",
+    droppedAt: "2026-06-22",
     name: "Pokémon Scale World Sinnoh Region Palkia",
     jan: "4570117928963",
     series: "Pokémon",
@@ -1037,6 +1071,7 @@ export const figures: Figure[] = [
   },
   {
     id: "34",
+    droppedAt: "2026-06-22",
     name: "Pokémon Scale World Sinnoh Region Dialga",
     jan: "4570117928956",
     series: "Pokémon",
@@ -1063,6 +1098,7 @@ export const figures: Figure[] = [
   },
   {
     id: "35",
+    droppedAt: "2026-06-22",
     name: "Daiblos Core Maree Rouge Rakubai no Utage Wet ver. 1/6 Scale Figure [KAWA DESIGN]",
     jan: "6979060800179",
     series: "Daiblos Core",
@@ -1093,6 +1129,7 @@ export const figures: Figure[] = [
   },
   {
     id: "36",
+    droppedAt: "2026-06-22",
     name: "Daiblos Core Maree Rouge Rakubai no Utage 1/6 Scale Figure [KAWA DESIGN]",
     jan: "6979060800162",
     series: "Daiblos Core",
@@ -1123,6 +1160,7 @@ export const figures: Figure[] = [
   },
   {
     id: "37",
+    droppedAt: "2026-06-22",
     name: "Miko Shoujo MIKO Race Queen Ver. 1/7 Scale Figure Deluxe Edition [Hobby Sakura]",
     jan: "6979272330723",
     series: "Miko Shoujo",
@@ -1153,6 +1191,7 @@ export const figures: Figure[] = [
   },
   {
     id: "38",
+    droppedAt: "2026-06-22",
     name: "Miko Shoujo MIKO Race Queen Ver. 1/7 Scale Figure [Hobby Sakura]",
     jan: "6979272330716",
     series: "Miko Shoujo",
@@ -1183,6 +1222,7 @@ export const figures: Figure[] = [
   },
   {
     id: "39",
+    droppedAt: "2026-06-22",
     name: "Megami Device B1R-L Chassis Kit Skin Color E 1/1 Plastic Model",
     jan: "4934054082537",
     series: "Megami Device",
@@ -1213,6 +1253,7 @@ export const figures: Figure[] = [
   },
   {
     id: "40",
+    droppedAt: "2026-06-22",
     name: "DIGACTION \"Fist of the North Star\" Shin & Heart Set Figure Reissue",
     jan: "4595985300345",
     series: "Fist of the North Star",
@@ -1243,6 +1284,7 @@ export const figures: Figure[] = [
   },
   {
     id: "41",
+    droppedAt: "2026-06-22",
     name: "Scream Greats Series - Butterball Cenobite Hellraiser 8-Inch Action Figure",
     jan: "4570192000240",
     series: "Hellraiser",
@@ -1271,6 +1313,7 @@ export const figures: Figure[] = [
   },
   {
     id: "42",
+    droppedAt: "2026-06-22",
     name: "Scream Greats Series - Chatterer Cenobite Hellraiser 8-Inch Action Figure",
     jan: "4570192000226",
     series: "Hellraiser",
@@ -1299,6 +1342,7 @@ export const figures: Figure[] = [
   },
   {
     id: "43",
+    droppedAt: "2026-06-22",
     name: "Scream Greats Series - Female Cenobite Hellraiser 8-Inch Action Figure",
     jan: "4570192000233",
     series: "Hellraiser",
@@ -1327,6 +1371,7 @@ export const figures: Figure[] = [
   },
   {
     id: "44",
+    droppedAt: "2026-06-22",
     name: "Scream Greats Series - Pinhead Hellraiser 8-Inch Action Figure",
     jan: "4570192000219",
     series: "Hellraiser",
@@ -1355,6 +1400,7 @@ export const figures: Figure[] = [
   },
   {
     id: "45",
+    droppedAt: "2026-06-22",
     name: "HY-051 Demon Horse Nightmare 1/12 Scale Action Figure [Fish Toys]",
     jan: "6977674380117",
     series: "—",
@@ -1385,6 +1431,7 @@ export const figures: Figure[] = [
   },
   {
     id: "46",
+    droppedAt: "2026-06-22",
     name: "Mega Man X Action Figure Sigma [Hiya Toys]",
     jan: "6957534205170",
     series: "Mega Man",
@@ -1415,6 +1462,7 @@ export const figures: Figure[] = [
   },
   {
     id: "47",
+    droppedAt: "2026-06-22",
     name: "Lilja Katsuragi-Hakusen- THE IDOLM@STER Gakuen 1/7 Scale Figure",
     jan: "4934054077878",
     series: "Gakuen iDOLM@STER",
@@ -1445,6 +1493,7 @@ export const figures: Figure[] = [
   },
   {
     id: "48",
+    droppedAt: "2026-06-22",
     name: "Nendoroid Doll Phainon: Express Travel Ver. Honkai: Star Rail Figure Limited Bonus Set",
     jan: "4570232586970",
     series: "Honkai: Star Rail",
@@ -1475,6 +1524,7 @@ export const figures: Figure[] = [
   },
   {
     id: "49",
+    droppedAt: "2026-06-22",
     name: "MODEROID Testa-Rossa, the Vermillion Knight - The Legend of Heroes: Trails of Cold Steel Plastic Model",
     jan: "4570232586963",
     series: "The Legend of Heroes: Trails of Cold Steel",
@@ -1505,6 +1555,7 @@ export const figures: Figure[] = [
   },
   {
     id: "50",
+    droppedAt: "2026-06-22",
     name: "Nendoroid Anaxa - Honkai: Star Rail Figure",
     jan: "4570232583597",
     series: "Honkai: Star Rail",
@@ -1535,6 +1586,7 @@ export const figures: Figure[] = [
   },
   {
     id: "51",
+    droppedAt: "2026-06-22",
     name: "PLAMATEA Black Honey - Cutie Honey Nova Plastic Model",
     jan: "4570232582033",
     series: "Cutie Honey Nova",
@@ -1565,6 +1617,7 @@ export const figures: Figure[] = [
   },
   {
     id: "52",
+    droppedAt: "2026-06-22",
     name: "AMK Pro Series: Evangelion Unit-01 : Rebuild of Evangelion Plastic Model",
     jan: "4975406510438",
     series: "Rebuild of Evangelion",
@@ -1595,6 +1648,7 @@ export const figures: Figure[] = [
   },
   {
     id: "53",
+    droppedAt: "2026-06-22",
     name: "Girls' Frontline Desert Eagle 1/7 Scale Figure [ques Q]",
     jan: "4560393843265",
     series: "Girls' Frontline",
@@ -1625,6 +1679,7 @@ export const figures: Figure[] = [
   },
   {
     id: "54",
+    droppedAt: "2026-06-22",
     name: "Nendoroid Guts Berserk Figure Reissue",
     jan: "4570232586161",
     series: "Berserk",
@@ -1653,6 +1708,7 @@ export const figures: Figure[] = [
   },
   {
     id: "55",
+    droppedAt: "2026-06-22",
     name: "Nendoroid Asuka Shikinami Langley Rebuild of Evangelion Figure 2nd Reissue",
     jan: "4570232582149",
     series: "Rebuild of Evangelion",
@@ -1681,6 +1737,7 @@ export const figures: Figure[] = [
   },
   {
     id: "56",
+    droppedAt: "2026-06-22",
     name: "Nendoroid Rei Ayanami Rebuild of Evangelion Figure 2nd Reissue",
     jan: "4570232582132",
     series: "Rebuild of Evangelion",
@@ -1709,6 +1766,7 @@ export const figures: Figure[] = [
   },
   {
     id: "57",
+    droppedAt: "2026-06-22",
     name: "Nendoroid Matikanetannhauser Umamusume Pretty Derby Figure Reissue",
     jan: "4570232586185",
     series: "Umamusume Pretty Derby",
@@ -1737,6 +1795,7 @@ export const figures: Figure[] = [
   },
   {
     id: "58",
+    droppedAt: "2026-06-22",
     name: "OSHI WORKS Eren Yeager The Final Season ver. Attack on Titan Figure",
     jan: "4934054084364",
     series: "Attack on Titan",
@@ -1767,6 +1826,7 @@ export const figures: Figure[] = [
   },
   {
     id: "59",
+    droppedAt: "2026-06-22",
     name: "OSHI WORKS Livio the Double Fang TRIGUN STAMPEDE Figure",
     jan: "4934054079841",
     series: "TRIGUN STAMPEDE",
@@ -1797,6 +1857,7 @@ export const figures: Figure[] = [
   },
   {
     id: "60",
+    droppedAt: "2026-06-22",
     name: "Movie Maniacs: Don Corleone - Movie The Godfather 6 Inch Posed Statue [McFarlane Toys]",
     jan: "4570191994380",
     series: "The Godfather",
@@ -1827,6 +1888,7 @@ export const figures: Figure[] = [
   },
   {
     id: "61",
+    droppedAt: "2026-06-22",
     name: "005 Captain America - Marvel Rivals - 1/10 Scale Posed Figure with Scene [McFarlane Toys]",
     jan: "4570191993406",
     series: "Marvel",
@@ -1857,6 +1919,7 @@ export const figures: Figure[] = [
   },
   {
     id: "62",
+    droppedAt: "2026-06-22",
     name: "003 Thor - Marvel Rivals - 1/10 Scale Posed Figure with Scene [McFarlane Toys]",
     jan: "4570191993383",
     series: "Marvel",
@@ -1887,6 +1950,7 @@ export const figures: Figure[] = [
   },
   {
     id: "63",
+    droppedAt: "2026-06-22",
     name: "002 Doctor Strange - Marvel Rivals - 1/10 Scale Posed Figure with Scene [McFarlane Toys]",
     jan: "4570191993376",
     series: "Marvel",
@@ -1917,6 +1981,7 @@ export const figures: Figure[] = [
   },
   {
     id: "64",
+    droppedAt: "2026-06-22",
     name: "Honkai: Star Rail Gift+ Cyrene Wonderful Holiday Ver. 1/8 Scale Figure [Myethos]",
     jan: "6942630830562",
     series: "Honkai: Star Rail",
@@ -1947,6 +2012,7 @@ export const figures: Figure[] = [
   },
   {
     id: "65",
+    droppedAt: "2026-06-22",
     name: "HY-040 Flying Horse Wings of Light 1/12 Scale Action Figure [Fish Toy]",
     jan: "6977674380100",
     series: "—",
@@ -1977,6 +2043,7 @@ export const figures: Figure[] = [
   },
   {
     id: "66",
+    droppedAt: "2026-06-22",
     name: "The Man with No Name - The Good, The Bad, and The Ugly 1/6 Scale Fully Poseable Figure Reissue [Sideshow]",
     jan: "4570192000202",
     series: "The Good, the Bad and the Ugly",
@@ -2007,6 +2074,7 @@ export const figures: Figure[] = [
   },
   {
     id: "67",
+    droppedAt: "2026-06-22",
     name: "Doctor Doom Marvel Comics - Designers Statue by Tracy Tubera [Sideshow]",
     jan: "4570192000172",
     series: "Marvel",
@@ -2037,6 +2105,7 @@ export const figures: Figure[] = [
   },
   {
     id: "68",
+    droppedAt: "2026-06-22",
     name: "BIG Retro Sofvi Series: Godzilla (2001) Roaring Gravity Beam Absorption Image Ver. Figure [CCP Japan]",
     jan: "4580565647866",
     series: "Godzilla",
@@ -2067,6 +2136,7 @@ export const figures: Figure[] = [
   },
   {
     id: "69",
+    droppedAt: "2026-06-22",
     name: "BIG Retro Sofvi Series: Godzilla (2001) Roaring Heat Ray Emission Ver. Figure [CCP Japan]",
     jan: "4580565647859",
     series: "Godzilla",
@@ -2097,6 +2167,7 @@ export const figures: Figure[] = [
   },
   {
     id: "70",
+    droppedAt: "2026-06-22",
     name: "FFSC - Kittyfire : Mirrorman Completed Sofvi Figure [Future Quest]",
     jan: "4595432761057",
     series: "Mirrorman",
@@ -2122,6 +2193,7 @@ export const figures: Figure[] = [
   },
   {
     id: "71",
+    droppedAt: "2026-06-22",
     name: "Aston Machan - Umamusume Pretty Derby 1/7 Scale Figure [Alter]",
     jan: "4560228207613",
     series: "Umamusume Pretty Derby",
@@ -2152,6 +2224,7 @@ export const figures: Figure[] = [
   },
   {
     id: "72",
+    droppedAt: "2026-06-22",
     name: "Perlica - Arknights: Endfield 1/7 Scale Figure",
     jan: "4580828677906",
     series: "Arknights: Endfield",
@@ -2182,6 +2255,7 @@ export const figures: Figure[] = [
   },
   {
     id: "73",
+    droppedAt: "2026-06-22",
     name: "POP UP PARADE SP Cutie Honey - Cutie Honey Nova Figure",
     jan: "4570232586093",
     series: "Cutie Honey Nova",
@@ -2212,6 +2286,7 @@ export const figures: Figure[] = [
   },
   {
     id: "74",
+    droppedAt: "2026-06-22",
     name: "figma Klukai - Girls' Frontline 2: Exilium Limited Bonus Set",
     jan: "4545784070420",
     series: "Girls' Frontline 2: Exilium",
@@ -2242,6 +2317,7 @@ export const figures: Figure[] = [
   },
   {
     id: "75",
+    droppedAt: "2026-06-23",
     name: "Super Action Statue JoJo's Bizarre Adventure Part.3 The World Reissue",
     jan: "4570245827664",
     series: "JoJo's Bizarre Adventure",
@@ -2269,6 +2345,7 @@ export const figures: Figure[] = [
   },
   {
     id: "76",
+    droppedAt: "2026-06-23",
     name: "Super Action Statue JoJo's Bizarre Adventure Part.3 Dio Reissue",
     jan: "4570245827657",
     series: "JoJo's Bizarre Adventure",
@@ -2295,6 +2372,7 @@ export const figures: Figure[] = [
   },
   {
     id: "77",
+    droppedAt: "2026-06-23",
     name: "Rinami Himesaki: \"Semi-Blue With You Ver.\" - Gakuen Idolmaster 1/7 Scale Figure",
     jan: "4595122080215",
     series: "Gakuen iDOLM@STER",
@@ -2325,6 +2403,7 @@ export const figures: Figure[] = [
   },
   {
     id: "78",
+    droppedAt: "2026-06-23",
     name: "Black Shiro - No Game No Life 1/7 Scale Figure",
     jan: "4570232588141",
     series: "No Game No Life",
@@ -2353,6 +2432,7 @@ export const figures: Figure[] = [
   },
   {
     id: "79",
+    droppedAt: "2026-06-23",
     name: "Nendoroid Mika Misono Swimsuit Ver. (Basic) Blue Archive Figure Limited Bonus Set",
     jan: "4570232585263",
     series: "Blue Archive",
@@ -2379,6 +2459,7 @@ export const figures: Figure[] = [
   },
   {
     id: "80",
+    droppedAt: "2026-06-23",
     name: "B-Style Wendy Marvell: Bunny Ver. - FAIRY TAIL 1/4 Scale Figure",
     jan: "4570001515132",
     series: "Fairy Tail",
@@ -2409,6 +2490,7 @@ export const figures: Figure[] = [
   },
   {
     id: "81",
+    droppedAt: "2026-06-23",
     name: "DLX Iron Man Mark 44 \"Hulkbuster\" (Battle Damaged) - Marvel Studios' The Infinity Saga 1/12 Action Figure",
     jan: "4595430617271",
     series: "Marvel: The Infinity Saga",
@@ -2439,6 +2521,7 @@ export const figures: Figure[] = [
   },
   {
     id: "82",
+    droppedAt: "2026-06-23",
     name: "MODEROID King's Style Winzert Plastic Model Reissue",
     jan: "4570232588103",
     series: "Mado King Granzort",
@@ -2469,6 +2552,7 @@ export const figures: Figure[] = [
   },
   {
     id: "83",
+    droppedAt: "2026-06-23",
     name: "Nendoroid Red Pyramid Thing SILENT HILL 2 Figure Reissue",
     jan: "4570232588059",
     series: "Silent Hill 2",
@@ -2497,6 +2581,7 @@ export const figures: Figure[] = [
   },
   {
     id: "84",
+    droppedAt: "2026-06-23",
     name: "Nendoroid Mococo Abyssgard Hololive Production Figure Limited Bonus Set",
     jan: "4570232588073",
     series: "Hololive Production",
@@ -2527,6 +2612,7 @@ export const figures: Figure[] = [
   },
   {
     id: "85",
+    droppedAt: "2026-06-23",
     name: "Nendoroid Fuwawa Abyssgard Hololive Production Figure Limited Bonus Set",
     jan: "4570232588066",
     series: "Hololive Production",
