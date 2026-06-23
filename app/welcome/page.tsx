@@ -1,7 +1,8 @@
 import Link from "next/link";
 
-// Onboarding splash, SNKRS-style. No real auth — every action just enters the
-// app at the feed (`/`). Lives outside the (main) route group, so no nav chrome.
+// Onboarding splash, SNKRS-style. No real auth — Log In / Join start the taste
+// picker (`/onboarding`); "Continue as guest" enters the feed (`/`) directly.
+// Lives outside the (main) route group, so no nav chrome.
 // Normal document flow + 100svh so iOS browser UI never clips the bottom actions.
 export default function Welcome() {
   return (
@@ -30,13 +31,13 @@ export default function Welcome() {
           <div className="space-y-3">
             <div className="flex gap-3">
               <Link
-                href="/"
+                href="/onboarding"
                 className="flex-1 rounded-full border border-white/70 py-3.5 text-center text-sm font-bold transition hover:bg-white/10"
               >
                 Log In
               </Link>
               <Link
-                href="/"
+                href="/onboarding"
                 className="flex-1 rounded-full bg-white py-3.5 text-center text-sm font-bold text-black transition hover:opacity-90"
               >
                 Join

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { figures, getFeatured, stockLevel } from "@/lib/data";
 import FeaturedDrop from "@/components/FeaturedDrop";
 import FeedCard from "@/components/FeedCard";
+import NewThisWeek from "@/components/NewThisWeek";
 
 function Section({
   title,
@@ -31,26 +32,22 @@ export default function Home() {
     })
     .slice(0, 4);
   const almostGoneIds = new Set(almostGone.map((f) => f.id));
-  const newThisWeek = figures
-    .filter(
-      (f) =>
-        f.id !== featured.id &&
-        f.status !== "coming_soon" &&
-        stockLevel(f) !== "sold_out" &&
-        !almostGoneIds.has(f.id)
-    )
-    .slice(0, 6);
+  // Full eligible pool — NewThisWeek (client) reorders by onboarding prefs and
+  // slices to its display count itself.
+  const newThisWeekPool = figures.filter(
+    (f) =>
+      f.id !== featured.id &&
+      f.status !== "coming_soon" &&
+      stockLevel(f) !== "sold_out" &&
+      !almostGoneIds.has(f.id)
+  );
 
   return (
     <div className="space-y-10">
       <FeaturedDrop figure={featured} />
 
       <Section title="New This Week">
-        <div className="space-y-8">
-          {newThisWeek.map((f) => (
-            <FeedCard key={f.id} figure={f} />
-          ))}
-        </div>
+        <NewThisWeek figures={newThisWeekPool} />
       </Section>
 
       {almostGone.length > 0 && (
