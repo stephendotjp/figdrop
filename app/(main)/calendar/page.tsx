@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { figures, Figure, parseDate } from "@/lib/data";
 import FigureImage from "@/components/FigureImage";
+import LootboxReveal from "@/components/LootboxReveal";
 
 const pad = (n: number) => String(n).padStart(2, "0");
 const keyFor = (y: number, m: number, d: number) =>
@@ -38,7 +39,8 @@ export default function CalendarPage() {
     const d = parseDate(dropDays[0]);
     return new Date(d.getFullYear(), d.getMonth(), 1);
   });
-  const [selected, setSelected] = useState<string | null>(null);
+  // Day whose drops are being "unboxed" in the fullscreen lootbox overlay.
+  const [lootDay, setLootDay] = useState<string | null>(null);
 
   const year = cursor.getFullYear();
   const month = cursor.getMonth();
@@ -55,8 +57,6 @@ export default function CalendarPage() {
     year: "numeric",
   });
 
-  const selectedFigs = selected ? events[selected] ?? [] : [];
-
   return (
     <div className="space-y-6">
       <header className="flex items-start justify-between">
@@ -67,10 +67,7 @@ export default function CalendarPage() {
         <div className="flex items-center gap-2">
           <button
             aria-label="Previous month"
-            onClick={() => {
-              setSelected(null);
-              setCursor(new Date(year, month - 1, 1));
-            }}
+            onClick={() => setCursor(new Date(year, month - 1, 1))}
             className="grid h-8 w-8 place-items-center rounded-full border border-line text-ink transition hover:bg-card"
           >
             ‹
@@ -80,10 +77,7 @@ export default function CalendarPage() {
           </span>
           <button
             aria-label="Next month"
-            onClick={() => {
-              setSelected(null);
-              setCursor(new Date(year, month + 1, 1));
-            }}
+            onClick={() => setCursor(new Date(year, month + 1, 1))}
             className="grid h-8 w-8 place-items-center rounded-full border border-line text-ink transition hover:bg-card"
           >
             ›
@@ -104,14 +98,13 @@ export default function CalendarPage() {
             if (c === null) return <div key={i} />;
             const key = keyFor(year, month, c);
             const evs = events[key];
-            const sel = selected === key;
             return (
               <button
                 key={i}
-                onClick={() => evs && setSelected(sel ? null : key)}
+                onClick={() => evs && setLootDay(key)}
                 className={`relative aspect-square rounded-lg text-xs transition ${
                   evs ? "cursor-pointer bg-card hover:bg-line" : "text-dim"
-                } ${sel ? "ring-1 ring-ink" : ""}`}
+                }`}
               >
                 <span className="absolute left-1.5 top-1 text-[11px] text-ink">
                   {c}
@@ -132,23 +125,9 @@ export default function CalendarPage() {
         </div>
       </div>
 
-      {selected && selectedFigs.length > 0 && (
-        <div className="rounded-xl border border-ink p-4">
-          <div className="mb-3 flex items-baseline justify-between gap-2">
-            <p className="text-xs font-bold uppercase tracking-wider text-ink">
-              {fullDate(selected)}
-            </p>
-            <span className="shrink-0 text-[11px] uppercase tracking-wide text-dim">
-              {selectedFigs.length} {selectedFigs.length === 1 ? "drop" : "drops"}
-            </span>
-          </div>
-          <div className="grid grid-cols-2 gap-4">
-            {selectedFigs.map((f) => (
-              <DropCard key={f.id} f={f} />
-            ))}
-          </div>
-        </div>
-      )}
+      <div className="-mt-1 text-center text-[11px] text-dim">
+        Tap a drop day to unbox it
+      </div>
 
       <div>
         <h2 className="mb-3 text-base font-bold tracking-tight text-ink">
@@ -173,6 +152,14 @@ export default function CalendarPage() {
           ))}
         </div>
       </div>
+
+      {lootDay && (
+        <LootboxReveal
+          figs={events[lootDay]}
+          dateLabel={fullDate(lootDay)}
+          onClose={() => setLootDay(null)}
+        />
+      )}
     </div>
   );
 }
