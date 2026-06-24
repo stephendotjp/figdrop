@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { figures, Figure, parseDate } from "@/lib/data";
 import FigureImage from "@/components/FigureImage";
-import LootboxReveal from "@/components/LootboxReveal";
+import DropReveal from "@/components/DropReveal";
 
 const pad = (n: number) => String(n).padStart(2, "0");
 const keyFor = (y: number, m: number, d: number) =>
@@ -39,8 +39,8 @@ export default function CalendarPage() {
     const d = parseDate(dropDays[0]);
     return new Date(d.getFullYear(), d.getMonth(), 1);
   });
-  // Day whose drops are being "unboxed" in the fullscreen lootbox overlay.
-  const [lootDay, setLootDay] = useState<string | null>(null);
+  // Day whose drops are being revealed in the fullscreen drop-bag overlay.
+  const [openDay, setOpenDay] = useState<string | null>(null);
 
   const year = cursor.getFullYear();
   const month = cursor.getMonth();
@@ -101,7 +101,7 @@ export default function CalendarPage() {
             return (
               <button
                 key={i}
-                onClick={() => evs && setLootDay(key)}
+                onClick={() => evs && setOpenDay(key)}
                 className={`relative aspect-square rounded-lg text-xs transition ${
                   evs ? "cursor-pointer bg-card hover:bg-line" : "text-dim"
                 }`}
@@ -126,7 +126,7 @@ export default function CalendarPage() {
       </div>
 
       <div className="-mt-1 text-center text-[11px] text-dim">
-        Tap a drop day to unbox it
+        Tap a drop day to see what dropped
       </div>
 
       <div>
@@ -153,11 +153,12 @@ export default function CalendarPage() {
         </div>
       </div>
 
-      {lootDay && (
-        <LootboxReveal
-          figs={events[lootDay]}
-          dateLabel={fullDate(lootDay)}
-          onClose={() => setLootDay(null)}
+      {openDay && (
+        <DropReveal
+          key={openDay}
+          figs={events[openDay]}
+          dateLabel={fullDate(openDay)}
+          onClose={() => setOpenDay(null)}
         />
       )}
     </div>

@@ -5,9 +5,11 @@ import { Figure } from "@/lib/data";
 
 export default function FigureImage({
   figure,
+  fit = "cover",
   className = "",
 }: {
   figure: Figure;
+  fit?: "cover" | "contain";
   className?: string;
 }) {
   const [errored, setErrored] = useState(!figure.image_url);
@@ -18,8 +20,9 @@ export default function FigureImage({
       <img
         src={figure.image_url}
         alt={figure.name}
+        draggable={false}
         onError={() => setErrored(true)}
-        className={`h-full w-full object-cover ${className}`}
+        className={`h-full w-full ${fit === "contain" ? "object-contain" : "object-cover"} ${className}`}
       />
     );
   }
