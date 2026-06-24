@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { Figure } from "@/lib/data";
+import { Figure, figureSlug } from "@/lib/data";
 import FigureImage from "@/components/FigureImage";
 import StockBadge from "@/components/StockBadge";
 import { Close } from "./icons";
@@ -350,7 +350,7 @@ function Carousel({ figs, reduce }: { figs: Figure[]; reduce: boolean }) {
                   <span className="ml-2 text-white/45">~${f.price_usd}</span>
                 </p>
                 <Link
-                  href={`/drop/${f.id}`}
+                  href={`/drops/t/${figureSlug(f)}`}
                   className="mt-4 inline-flex items-center gap-1.5 rounded-full bg-accent px-6 py-2.5 text-sm font-bold uppercase tracking-wide text-white transition active:scale-95"
                 >
                   Preorder →

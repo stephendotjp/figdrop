@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Figure, parseDate } from "@/lib/data";
+import { Figure, parseDate, figureSlug } from "@/lib/data";
 import FigureImage from "./FigureImage";
 import StatusBadge from "./StatusBadge";
 
@@ -15,7 +15,7 @@ export default function FeaturedDrop({ figure }: { figure: Figure }) {
       })}`;
 
   return (
-    <Link href={`/drop/${figure.id}`} className="group block">
+    <Link href={`/drops/t/${figureSlug(figure)}`} className="group block">
       <div className="relative aspect-square w-full overflow-hidden rounded-xl bg-card">
         <FigureImage figure={figure} />
         <div className="absolute left-3 top-3">

@@ -2647,6 +2647,21 @@ export function getFigure(id: string): Figure | undefined {
   return figures.find((f) => f.id === id);
 }
 
+/**
+ * URL slug for a figure = its `public/figures/<key>/` folder key (already unique
+ * per figure), parsed from the image path. This is the canonical product-URL
+ * segment (`/drops/t/<slug>`); `id` stays the internal key (wishlist, redirects).
+ */
+export function figureSlug(f: Figure): string {
+  const src = f.image_url || f.images[0] || "";
+  const m = src.match(/\/figures\/([^/]+)\//);
+  return m ? m[1] : f.id;
+}
+
+export function getFigureBySlug(slug: string): Figure | undefined {
+  return figures.find((f) => figureSlug(f) === slug);
+}
+
 export function getFeatured(): Figure {
   return figures.find((f) => f.featured) ?? figures[0];
 }

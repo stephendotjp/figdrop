@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { figures, Figure, parseDate } from "@/lib/data";
+import { figures, Figure, parseDate, figureSlug } from "@/lib/data";
 import FigureImage from "@/components/FigureImage";
 import DropReveal from "@/components/DropReveal";
 
@@ -167,7 +167,7 @@ export default function CalendarPage() {
 
 function DropCard({ f }: { f: Figure }) {
   return (
-    <Link href={`/drop/${f.id}`} className="group block">
+    <Link href={`/drops/t/${figureSlug(f)}`} className="group block">
       <div className="aspect-square w-full overflow-hidden rounded-lg bg-card">
         <FigureImage figure={f} />
       </div>

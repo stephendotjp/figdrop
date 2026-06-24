@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Figure, stockLevel } from "@/lib/data";
+import { Figure, stockLevel, figureSlug } from "@/lib/data";
 import FigureImage from "./FigureImage";
 import StatusBadge from "./StatusBadge";
 import StockBadge from "./StockBadge";
@@ -41,7 +41,7 @@ export default function FigureCard({
   if (variant === "list") {
     return (
       <Link
-        href={`/drop/${figure.id}`}
+        href={`/drops/t/${figureSlug(figure)}`}
         className="group flex items-center gap-3 py-2"
       >
         <div className="h-20 w-20 shrink-0 overflow-hidden rounded-lg bg-card">
@@ -79,7 +79,7 @@ export default function FigureCard({
 
   return (
     <Link
-      href={`/drop/${figure.id}`}
+      href={`/drops/t/${figureSlug(figure)}`}
       className={`group block ${widthClass}`}
     >
       <div className="relative aspect-square w-full overflow-hidden rounded-lg bg-card">
