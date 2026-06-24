@@ -3913,262 +3913,146 @@
       }
     ]
   },
-  "super-action-statue-jojo": {
-    "chosen": "/figures/super-action-statue-jojo/01.jpg",
+  "transformers-movie-studio-series": {
+    "chosen": "/figures/transformers-movie-studio-series/01.jpg",
     "chosenClean": true,
     "ranked": [
       {
         "p": "01.jpg",
         "bright": 255,
         "unif": 0,
-        "cov": 0.667,
+        "cov": 0.151,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.14,
         "clean": true
       },
       {
         "p": "03.jpg",
         "bright": 255,
         "unif": 0,
-        "cov": 0.428,
+        "cov": 0.295,
         "clean": true
       },
       {
         "p": "04.jpg",
         "bright": 255,
         "unif": 0,
-        "cov": 0.689,
+        "cov": 0.666,
         "clean": true
       },
       {
         "p": "05.jpg",
         "bright": 255,
         "unif": 0,
-        "cov": 0.665,
+        "cov": 0.208,
         "clean": true
-      },
-      {
-        "p": "02.jpg",
-        "bright": 125,
-        "unif": 203,
-        "cov": 0.969,
-        "clean": false
-      }
-    ]
-  },
-  "super-action-statue-jojo-x": {
-    "chosen": "/figures/super-action-statue-jojo-x/01.jpg",
-    "chosenClean": true,
-    "ranked": [
-      {
-        "p": "01.jpg",
-        "bright": 255,
-        "unif": 0,
-        "cov": 0.689,
-        "clean": true
-      },
-      {
-        "p": "03.jpg",
-        "bright": 255,
-        "unif": 0,
-        "cov": 0.547,
-        "clean": true
-      },
-      {
-        "p": "04.jpg",
-        "bright": 254,
-        "unif": 9,
-        "cov": 0.737,
-        "clean": true
-      },
-      {
-        "p": "02.jpg",
-        "bright": 238,
-        "unif": 81,
-        "cov": 0.968,
-        "clean": false
-      }
-    ]
-  },
-  "rinami-himesaki-semi-blue": {
-    "chosen": "/figures/rinami-himesaki-semi-blue/02.jpg",
-    "chosenClean": true,
-    "ranked": [
-      {
-        "p": "02.jpg",
-        "bright": 255,
-        "unif": 0,
-        "cov": 0.703,
-        "clean": true
-      },
-      {
-        "p": "03.jpg",
-        "bright": 255,
-        "unif": 0,
-        "cov": 0.708,
-        "clean": true
-      },
-      {
-        "p": "04.jpg",
-        "bright": 255,
-        "unif": 0,
-        "cov": 0.731,
-        "clean": true
-      },
-      {
-        "p": "05.jpg",
-        "bright": 255,
-        "unif": 0,
-        "cov": 0.733,
-        "clean": true
-      },
-      {
-        "p": "01.jpg",
-        "bright": 0,
-        "unif": 0,
-        "cov": 0.689,
-        "clean": false
       },
       {
         "p": "06.jpg",
-        "bright": 0,
+        "bright": 255,
         "unif": 0,
-        "cov": 0.689,
-        "clean": false
+        "cov": 0.288,
+        "clean": true
       },
       {
         "p": "07.jpg",
-        "bright": 0,
-        "unif": 0,
-        "cov": 0.689,
-        "clean": false
-      },
-      {
-        "p": "08.jpg",
-        "bright": 14,
-        "unif": 86,
-        "cov": 0.756,
-        "clean": false
+        "bright": 249,
+        "unif": 18,
+        "cov": 0.614,
+        "clean": true
       }
     ]
   },
-  "black-shiro-no-game": {
-    "chosen": "/figures/black-shiro-no-game/01.jpg",
-    "chosenClean": true,
+  "deforeal-godzilla-2016-awakened": {
+    "chosen": "/figures/deforeal-godzilla-2016-awakened/01.jpg",
+    "chosenClean": false,
     "ranked": [
       {
-        "p": "01.jpg",
-        "bright": 255,
-        "unif": 0,
-        "cov": 0.371,
-        "clean": true
-      },
-      {
-        "p": "02.jpg",
-        "bright": 255,
-        "unif": 0,
-        "cov": 0.733,
-        "clean": true
-      },
-      {
-        "p": "03.jpg",
-        "bright": 255,
-        "unif": 0,
-        "cov": 0.733,
-        "clean": true
-      },
-      {
-        "p": "04.jpg",
-        "bright": 255,
-        "unif": 0,
-        "cov": 0.733,
-        "clean": true
-      },
-      {
         "p": "05.jpg",
-        "bright": 255,
-        "unif": 0,
-        "cov": 0.733,
-        "clean": true
+        "bright": 2,
+        "unif": 27,
+        "cov": 0.584,
+        "clean": false
       },
       {
         "p": "06.jpg",
-        "bright": 255,
-        "unif": 0,
-        "cov": 0.733,
-        "clean": true
-      }
-    ]
-  },
-  "nendoroid-mika-misono-swimsuit": {
-    "chosen": "/figures/nendoroid-mika-misono-swimsuit/01.jpg",
-    "chosenClean": true,
-    "ranked": [
-      {
-        "p": "01.jpg",
-        "bright": 255,
-        "unif": 0,
-        "cov": 0.36,
-        "clean": true
+        "bright": 3,
+        "unif": 33,
+        "cov": 0.555,
+        "clean": false
       },
       {
         "p": "04.jpg",
-        "bright": 255,
-        "unif": 0,
-        "cov": 0.348,
-        "clean": true
-      },
-      {
-        "p": "03.jpg",
-        "bright": 211,
-        "unif": 113,
-        "cov": 0.957,
+        "bright": 3,
+        "unif": 35,
+        "cov": 0.571,
         "clean": false
       },
       {
         "p": "02.jpg",
-        "bright": 210,
-        "unif": 113,
-        "cov": 0.932,
+        "bright": 3,
+        "unif": 35,
+        "cov": 0.58,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 3,
+        "unif": 37,
+        "cov": 0.556,
+        "clean": false
+      },
+      {
+        "p": "01.jpg",
+        "bright": 4,
+        "unif": 43,
+        "cov": 0.558,
         "clean": false
       }
     ]
   },
-  "b-style-wendy-marvell": {
-    "chosen": "/figures/b-style-wendy-marvell/01.jpg",
+  "pocket-art-pa013-girls": {
+    "chosen": "/figures/pocket-art-pa013-girls/01.jpg",
     "chosenClean": true,
     "ranked": [
       {
         "p": "01.jpg",
-        "bright": 255,
-        "unif": 0,
-        "cov": 0.18,
-        "clean": true
-      },
-      {
-        "p": "02.jpg",
         "bright": 255,
         "unif": 0,
         "cov": 0.689,
         "clean": true
       },
       {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.686,
+        "clean": true
+      },
+      {
         "p": "03.jpg",
         "bright": 255,
         "unif": 0,
-        "cov": 0.688,
+        "cov": 0.689,
         "clean": true
       },
       {
         "p": "04.jpg",
         "bright": 255,
         "unif": 0,
-        "cov": 0.688,
+        "cov": 0.689,
         "clean": true
       },
       {
         "p": "05.jpg",
         "bright": 255,
         "unif": 0,
-        "cov": 0.687,
+        "cov": 0.689,
         "clean": true
       },
       {
@@ -4189,303 +4073,547 @@
         "p": "08.jpg",
         "bright": 255,
         "unif": 0,
-        "cov": 0.687,
+        "cov": 0.689,
         "clean": true
       }
     ]
   },
-  "dlx-iron-man-mark": {
-    "chosen": "/figures/dlx-iron-man-mark/01.jpg",
+  "pocket-art-pa013-girls-x": {
+    "chosen": "/figures/pocket-art-pa013-girls-x/01.jpg",
     "chosenClean": true,
     "ranked": [
       {
         "p": "01.jpg",
         "bright": 255,
         "unif": 0,
-        "cov": 0.533,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.686,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
         "clean": true
       },
       {
         "p": "06.jpg",
-        "bright": 200,
-        "unif": 168,
-        "cov": 1,
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      }
+    ]
+  },
+  "marco-polo-lovely-milione": {
+    "chosen": "/figures/marco-polo-lovely-milione/01.jpg",
+    "chosenClean": false,
+    "ranked": [
+      {
+        "p": "02.jpg",
+        "bright": 219,
+        "unif": 60,
+        "cov": 0.685,
         "clean": false
       },
       {
-        "p": "02.jpg",
-        "bright": 199,
-        "unif": 170,
-        "cov": 1,
+        "p": "03.jpg",
+        "bright": 218,
+        "unif": 62,
+        "cov": 0.734,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 217,
+        "unif": 63,
+        "cov": 0.695,
         "clean": false
       },
       {
         "p": "05.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 0,
+        "unif": 0,
+        "cov": 0.704,
+        "clean": false
+      },
+      {
+        "p": "01.jpg",
+        "bright": 107,
+        "unif": 158,
+        "cov": 0.94,
+        "clean": false
+      }
+    ]
+  },
+  "inart-the-terminator-t": {
+    "chosen": "/figures/inart-the-terminator-t/02.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.168,
+        "clean": true
+      },
+      {
+        "p": "01.jpg",
+        "bright": 213,
+        "unif": 133,
+        "cov": 0.999,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 208,
+        "unif": 144,
+        "cov": 0.999,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 206,
+        "unif": 149,
+        "cov": 1,
+        "clean": false
+      },
+      {
+        "p": "07.jpg",
+        "bright": 205,
+        "unif": 152,
+        "cov": 0.999,
+        "clean": false
+      },
+      {
+        "p": "03.jpg",
+        "bright": 202,
+        "unif": 160,
+        "cov": 0.998,
+        "clean": false
+      },
+      {
+        "p": "08.jpg",
         "bright": 199,
         "unif": 169,
         "cov": 0.999,
         "clean": false
       },
       {
-        "p": "04.jpg",
-        "bright": 197,
-        "unif": 174,
-        "cov": 1,
-        "clean": false
-      },
-      {
-        "p": "03.jpg",
-        "bright": 197,
-        "unif": 174,
-        "cov": 0.999,
-        "clean": false
-      },
-      {
-        "p": "07.jpg",
-        "bright": 195,
+        "p": "06.jpg",
+        "bright": 196,
         "unif": 179,
         "cov": 1,
         "clean": false
-      },
-      {
-        "p": "08.jpg",
-        "bright": 101,
-        "unif": 173,
-        "cov": 0.979,
-        "clean": false
       }
     ]
   },
-  "moderoid-king-s-style": {
-    "chosen": "/figures/moderoid-king-s-style/01.jpg",
+  "beautiful-chemistry-alonelee127-x": {
+    "chosen": "/figures/beautiful-chemistry-alonelee127-x/01.jpg",
     "chosenClean": true,
     "ranked": [
       {
         "p": "01.jpg",
         "bright": 255,
         "unif": 0,
-        "cov": 0.429,
+        "cov": 0.711,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.687,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.711,
+        "clean": true
+      },
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
         "clean": true
       },
       {
         "p": "07.jpg",
-        "bright": 237,
-        "unif": 102,
-        "cov": 1,
-        "clean": false
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
       },
       {
         "p": "08.jpg",
-        "bright": 17,
-        "unif": 76,
-        "cov": 0.397,
-        "clean": false
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.689,
+        "clean": true
+      }
+    ]
+  },
+  "shmonsterarts-biollante-wakasa-bay": {
+    "chosen": "/figures/shmonsterarts-biollante-wakasa-bay/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.44,
+        "clean": true
       },
       {
         "p": "02.jpg",
-        "bright": 170,
-        "unif": 201,
-        "cov": 0.988,
-        "clean": false
-      },
-      {
-        "p": "04.jpg",
-        "bright": 170,
-        "unif": 200,
-        "cov": 0.987,
-        "clean": false
-      },
-      {
-        "p": "05.jpg",
-        "bright": 170,
-        "unif": 200,
-        "cov": 0.978,
-        "clean": false
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.44,
+        "clean": true
       },
       {
         "p": "03.jpg",
-        "bright": 125,
-        "unif": 206,
-        "cov": 0.987,
-        "clean": false
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.506,
+        "clean": true
       },
       {
         "p": "06.jpg",
-        "bright": 127,
-        "unif": 203,
+        "bright": 193,
+        "unif": 154,
         "cov": 0.99,
         "clean": false
-      }
-    ]
-  },
-  "nendoroid-red-pyramid-thing": {
-    "chosen": "/figures/nendoroid-red-pyramid-thing/01.jpg",
-    "chosenClean": false,
-    "ranked": [
-      {
-        "p": "04.jpg",
-        "bright": 245,
-        "unif": 55,
-        "cov": 0.756,
-        "clean": false
-      },
-      {
-        "p": "06.jpg",
-        "bright": 245,
-        "unif": 56,
-        "cov": 0.756,
-        "clean": false
-      },
-      {
-        "p": "01.jpg",
-        "bright": 237,
-        "unif": 100,
-        "cov": 0.975,
-        "clean": false
-      },
-      {
-        "p": "03.jpg",
-        "bright": 192,
-        "unif": 146,
-        "cov": 0.979,
-        "clean": false
-      },
-      {
-        "p": "02.jpg",
-        "bright": 148,
-        "unif": 143,
-        "cov": 0.921,
-        "clean": false
-      },
-      {
-        "p": "05.jpg",
-        "bright": 135,
-        "unif": 141,
-        "cov": 0.843,
-        "clean": false
-      }
-    ]
-  },
-  "nendoroid-mococo-abyssgard-hololive": {
-    "chosen": "/figures/nendoroid-mococo-abyssgard-hololive/02.jpg",
-    "chosenClean": true,
-    "ranked": [
-      {
-        "p": "02.jpg",
-        "bright": 255,
-        "unif": 0,
-        "cov": 0.224,
-        "clean": true
-      },
-      {
-        "p": "03.jpg",
-        "bright": 250,
-        "unif": 28,
-        "cov": 0.756,
-        "clean": true
-      },
-      {
-        "p": "06.jpg",
-        "bright": 249,
-        "unif": 28,
-        "cov": 0.756,
-        "clean": true
-      },
-      {
-        "p": "01.jpg",
-        "bright": 249,
-        "unif": 29,
-        "cov": 0.756,
-        "clean": false
-      },
-      {
-        "p": "05.jpg",
-        "bright": 249,
-        "unif": 29,
-        "cov": 0.756,
-        "clean": false
-      },
-      {
-        "p": "04.jpg",
-        "bright": 249,
-        "unif": 30,
-        "cov": 0.756,
-        "clean": false
       },
       {
         "p": "07.jpg",
-        "bright": 249,
-        "unif": 30,
-        "cov": 0.756,
+        "bright": 194,
+        "unif": 166,
+        "cov": 0.997,
+        "clean": false
+      },
+      {
+        "p": "05.jpg",
+        "bright": 194,
+        "unif": 168,
+        "cov": 0.997,
         "clean": false
       },
       {
         "p": "08.jpg",
-        "bright": 206,
-        "unif": 68,
-        "cov": 0.836,
+        "bright": 193,
+        "unif": 169,
+        "cov": 0.997,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 190,
+        "unif": 179,
+        "cov": 0.996,
         "clean": false
       }
     ]
   },
-  "nendoroid-fuwawa-abyssgard-hololive": {
-    "chosen": "/figures/nendoroid-fuwawa-abyssgard-hololive/08.jpg",
+  "mafex-wonder-woman-superman": {
+    "chosen": "/figures/mafex-wonder-woman-superman/01.jpg",
     "chosenClean": true,
     "ranked": [
       {
-        "p": "08.jpg",
+        "p": "01.jpg",
         "bright": 255,
         "unif": 0,
-        "cov": 0.413,
+        "cov": 0.29,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.194,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.397,
+        "clean": true
+      },
+      {
+        "p": "04.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.222,
         "clean": true
       },
       {
         "p": "05.jpg",
-        "bright": 250,
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.223,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.382,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.196,
+        "clean": true
+      },
+      {
+        "p": "06.jpg",
+        "bright": 213,
+        "unif": 130,
+        "cov": 0.966,
+        "clean": false
+      }
+    ]
+  },
+  "mafex-superman-superman-for": {
+    "chosen": "/figures/mafex-superman-superman-for/05.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "05.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.422,
+        "clean": true
+      },
+      {
+        "p": "07.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.367,
+        "clean": true
+      },
+      {
+        "p": "08.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.345,
+        "clean": true
+      },
+      {
+        "p": "03.jpg",
+        "bright": 249,
+        "unif": 49,
+        "cov": 0.439,
+        "clean": false
+      },
+      {
+        "p": "01.jpg",
+        "bright": 247,
+        "unif": 59,
+        "cov": 0.517,
+        "clean": false
+      },
+      {
+        "p": "02.jpg",
+        "bright": 244,
+        "unif": 88,
+        "cov": 0.159,
+        "clean": false
+      },
+      {
+        "p": "04.jpg",
+        "bright": 244,
+        "unif": 88,
+        "cov": 0.35,
+        "clean": false
+      },
+      {
+        "p": "06.jpg",
+        "bright": 244,
+        "unif": 88,
+        "cov": 0.346,
+        "clean": false
+      }
+    ]
+  },
+  "ultra-detail-figure-no962": {
+    "chosen": "/figures/ultra-detail-figure-no962/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.396,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.392,
+        "clean": true
+      }
+    ]
+  },
+  "ultra-detail-figure-no961": {
+    "chosen": "/figures/ultra-detail-figure-no961/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.241,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.241,
+        "clean": true
+      }
+    ]
+  },
+  "ultra-detail-figure-no960": {
+    "chosen": "/figures/ultra-detail-figure-no960/02.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.533,
+        "clean": true
+      },
+      {
+        "p": "01.jpg",
+        "bright": 253,
+        "unif": 22,
+        "cov": 0.576,
+        "clean": true
+      }
+    ]
+  },
+  "ultra-detail-figure-no959": {
+    "chosen": "/figures/ultra-detail-figure-no959/02.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "02.jpg",
+        "bright": 253,
         "unif": 27,
-        "cov": 0.756,
+        "cov": 0.63,
+        "clean": true
+      },
+      {
+        "p": "01.jpg",
+        "bright": 253,
+        "unif": 32,
+        "cov": 0.643,
+        "clean": false
+      }
+    ]
+  },
+  "ultra-detail-figure-no958": {
+    "chosen": "/figures/ultra-detail-figure-no958/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.463,
+        "clean": true
+      },
+      {
+        "p": "02.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.452,
+        "clean": true
+      }
+    ]
+  },
+  "ultra-detail-figure-no957": {
+    "chosen": "/figures/ultra-detail-figure-no957/01.jpg",
+    "chosenClean": true,
+    "ranked": [
+      {
+        "p": "01.jpg",
+        "bright": 255,
+        "unif": 0,
+        "cov": 0.599,
         "clean": true
       },
       {
         "p": "02.jpg",
         "bright": 250,
-        "unif": 28,
-        "cov": 0.756,
-        "clean": true
-      },
-      {
-        "p": "01.jpg",
-        "bright": 249,
-        "unif": 29,
-        "cov": 0.756,
-        "clean": false
-      },
-      {
-        "p": "06.jpg",
-        "bright": 249,
-        "unif": 29,
-        "cov": 0.756,
-        "clean": false
-      },
-      {
-        "p": "03.jpg",
-        "bright": 249,
-        "unif": 30,
-        "cov": 0.756,
-        "clean": false
-      },
-      {
-        "p": "04.jpg",
-        "bright": 249,
-        "unif": 30,
-        "cov": 0.756,
-        "clean": false
-      },
-      {
-        "p": "07.jpg",
-        "bright": 206,
-        "unif": 67,
-        "cov": 0.886,
+        "unif": 32,
+        "cov": 0.632,
         "clean": false
       }
     ]

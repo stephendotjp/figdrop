@@ -1,97 +1,121 @@
 {
-  "super-action-statue-jojo": [
-    "/figures/super-action-statue-jojo/01.jpg",
-    "/figures/super-action-statue-jojo/02.jpg",
-    "/figures/super-action-statue-jojo/03.jpg",
-    "/figures/super-action-statue-jojo/04.jpg",
-    "/figures/super-action-statue-jojo/05.jpg"
+  "transformers-movie-studio-series": [
+    "/figures/transformers-movie-studio-series/01.jpg",
+    "/figures/transformers-movie-studio-series/02.jpg",
+    "/figures/transformers-movie-studio-series/03.jpg",
+    "/figures/transformers-movie-studio-series/04.jpg",
+    "/figures/transformers-movie-studio-series/05.jpg",
+    "/figures/transformers-movie-studio-series/06.jpg",
+    "/figures/transformers-movie-studio-series/07.jpg"
   ],
-  "super-action-statue-jojo-x": [
-    "/figures/super-action-statue-jojo-x/01.jpg",
-    "/figures/super-action-statue-jojo-x/02.jpg",
-    "/figures/super-action-statue-jojo-x/03.jpg",
-    "/figures/super-action-statue-jojo-x/04.jpg"
+  "deforeal-godzilla-2016-awakened": [
+    "/figures/deforeal-godzilla-2016-awakened/01.jpg",
+    "/figures/deforeal-godzilla-2016-awakened/02.jpg",
+    "/figures/deforeal-godzilla-2016-awakened/03.jpg",
+    "/figures/deforeal-godzilla-2016-awakened/04.jpg",
+    "/figures/deforeal-godzilla-2016-awakened/05.jpg",
+    "/figures/deforeal-godzilla-2016-awakened/06.jpg"
   ],
-  "rinami-himesaki-semi-blue": [
-    "/figures/rinami-himesaki-semi-blue/01.jpg",
-    "/figures/rinami-himesaki-semi-blue/02.jpg",
-    "/figures/rinami-himesaki-semi-blue/03.jpg",
-    "/figures/rinami-himesaki-semi-blue/04.jpg",
-    "/figures/rinami-himesaki-semi-blue/05.jpg",
-    "/figures/rinami-himesaki-semi-blue/06.jpg",
-    "/figures/rinami-himesaki-semi-blue/07.jpg",
-    "/figures/rinami-himesaki-semi-blue/08.jpg"
+  "pocket-art-pa013-girls": [
+    "/figures/pocket-art-pa013-girls/01.jpg",
+    "/figures/pocket-art-pa013-girls/02.jpg",
+    "/figures/pocket-art-pa013-girls/03.jpg",
+    "/figures/pocket-art-pa013-girls/04.jpg",
+    "/figures/pocket-art-pa013-girls/05.jpg",
+    "/figures/pocket-art-pa013-girls/06.jpg",
+    "/figures/pocket-art-pa013-girls/07.jpg",
+    "/figures/pocket-art-pa013-girls/08.jpg"
   ],
-  "black-shiro-no-game": [
-    "/figures/black-shiro-no-game/01.jpg",
-    "/figures/black-shiro-no-game/02.jpg",
-    "/figures/black-shiro-no-game/03.jpg",
-    "/figures/black-shiro-no-game/04.jpg",
-    "/figures/black-shiro-no-game/05.jpg",
-    "/figures/black-shiro-no-game/06.jpg"
+  "pocket-art-pa013-girls-x": [
+    "/figures/pocket-art-pa013-girls-x/01.jpg",
+    "/figures/pocket-art-pa013-girls-x/02.jpg",
+    "/figures/pocket-art-pa013-girls-x/03.jpg",
+    "/figures/pocket-art-pa013-girls-x/04.jpg",
+    "/figures/pocket-art-pa013-girls-x/05.jpg",
+    "/figures/pocket-art-pa013-girls-x/06.jpg",
+    "/figures/pocket-art-pa013-girls-x/07.jpg",
+    "/figures/pocket-art-pa013-girls-x/08.jpg"
   ],
-  "nendoroid-mika-misono-swimsuit": [
-    "/figures/nendoroid-mika-misono-swimsuit/01.jpg",
-    "/figures/nendoroid-mika-misono-swimsuit/02.jpg",
-    "/figures/nendoroid-mika-misono-swimsuit/03.jpg",
-    "/figures/nendoroid-mika-misono-swimsuit/04.jpg"
+  "marco-polo-lovely-milione": [
+    "/figures/marco-polo-lovely-milione/01.jpg",
+    "/figures/marco-polo-lovely-milione/02.jpg",
+    "/figures/marco-polo-lovely-milione/03.jpg",
+    "/figures/marco-polo-lovely-milione/04.jpg",
+    "/figures/marco-polo-lovely-milione/05.jpg",
+    "/figures/marco-polo-lovely-milione/06.jpg"
   ],
-  "b-style-wendy-marvell": [
-    "/figures/b-style-wendy-marvell/01.jpg",
-    "/figures/b-style-wendy-marvell/02.jpg",
-    "/figures/b-style-wendy-marvell/03.jpg",
-    "/figures/b-style-wendy-marvell/04.jpg",
-    "/figures/b-style-wendy-marvell/05.jpg",
-    "/figures/b-style-wendy-marvell/06.jpg",
-    "/figures/b-style-wendy-marvell/07.jpg",
-    "/figures/b-style-wendy-marvell/08.jpg"
+  "inart-the-terminator-t": [
+    "/figures/inart-the-terminator-t/01.jpg",
+    "/figures/inart-the-terminator-t/02.jpg",
+    "/figures/inart-the-terminator-t/03.jpg",
+    "/figures/inart-the-terminator-t/04.jpg",
+    "/figures/inart-the-terminator-t/05.jpg",
+    "/figures/inart-the-terminator-t/06.jpg",
+    "/figures/inart-the-terminator-t/07.jpg",
+    "/figures/inart-the-terminator-t/08.jpg"
   ],
-  "dlx-iron-man-mark": [
-    "/figures/dlx-iron-man-mark/01.jpg",
-    "/figures/dlx-iron-man-mark/02.jpg",
-    "/figures/dlx-iron-man-mark/03.jpg",
-    "/figures/dlx-iron-man-mark/04.jpg",
-    "/figures/dlx-iron-man-mark/05.jpg",
-    "/figures/dlx-iron-man-mark/06.jpg",
-    "/figures/dlx-iron-man-mark/07.jpg",
-    "/figures/dlx-iron-man-mark/08.jpg"
+  "beautiful-chemistry-alonelee127-x": [
+    "/figures/beautiful-chemistry-alonelee127-x/01.jpg",
+    "/figures/beautiful-chemistry-alonelee127-x/02.jpg",
+    "/figures/beautiful-chemistry-alonelee127-x/03.jpg",
+    "/figures/beautiful-chemistry-alonelee127-x/04.jpg",
+    "/figures/beautiful-chemistry-alonelee127-x/05.jpg",
+    "/figures/beautiful-chemistry-alonelee127-x/06.jpg",
+    "/figures/beautiful-chemistry-alonelee127-x/07.jpg",
+    "/figures/beautiful-chemistry-alonelee127-x/08.jpg"
   ],
-  "moderoid-king-s-style": [
-    "/figures/moderoid-king-s-style/01.jpg",
-    "/figures/moderoid-king-s-style/02.jpg",
-    "/figures/moderoid-king-s-style/03.jpg",
-    "/figures/moderoid-king-s-style/04.jpg",
-    "/figures/moderoid-king-s-style/05.jpg",
-    "/figures/moderoid-king-s-style/06.jpg",
-    "/figures/moderoid-king-s-style/07.jpg",
-    "/figures/moderoid-king-s-style/08.jpg"
+  "shmonsterarts-biollante-wakasa-bay": [
+    "/figures/shmonsterarts-biollante-wakasa-bay/01.jpg",
+    "/figures/shmonsterarts-biollante-wakasa-bay/02.jpg",
+    "/figures/shmonsterarts-biollante-wakasa-bay/03.jpg",
+    "/figures/shmonsterarts-biollante-wakasa-bay/04.jpg",
+    "/figures/shmonsterarts-biollante-wakasa-bay/05.jpg",
+    "/figures/shmonsterarts-biollante-wakasa-bay/06.jpg",
+    "/figures/shmonsterarts-biollante-wakasa-bay/07.jpg",
+    "/figures/shmonsterarts-biollante-wakasa-bay/08.jpg"
   ],
-  "nendoroid-red-pyramid-thing": [
-    "/figures/nendoroid-red-pyramid-thing/01.jpg",
-    "/figures/nendoroid-red-pyramid-thing/02.jpg",
-    "/figures/nendoroid-red-pyramid-thing/03.jpg",
-    "/figures/nendoroid-red-pyramid-thing/04.jpg",
-    "/figures/nendoroid-red-pyramid-thing/05.jpg",
-    "/figures/nendoroid-red-pyramid-thing/06.jpg"
+  "mafex-wonder-woman-superman": [
+    "/figures/mafex-wonder-woman-superman/01.jpg",
+    "/figures/mafex-wonder-woman-superman/02.jpg",
+    "/figures/mafex-wonder-woman-superman/03.jpg",
+    "/figures/mafex-wonder-woman-superman/04.jpg",
+    "/figures/mafex-wonder-woman-superman/05.jpg",
+    "/figures/mafex-wonder-woman-superman/06.jpg",
+    "/figures/mafex-wonder-woman-superman/07.jpg",
+    "/figures/mafex-wonder-woman-superman/08.jpg"
   ],
-  "nendoroid-mococo-abyssgard-hololive": [
-    "/figures/nendoroid-mococo-abyssgard-hololive/01.jpg",
-    "/figures/nendoroid-mococo-abyssgard-hololive/02.jpg",
-    "/figures/nendoroid-mococo-abyssgard-hololive/03.jpg",
-    "/figures/nendoroid-mococo-abyssgard-hololive/04.jpg",
-    "/figures/nendoroid-mococo-abyssgard-hololive/05.jpg",
-    "/figures/nendoroid-mococo-abyssgard-hololive/06.jpg",
-    "/figures/nendoroid-mococo-abyssgard-hololive/07.jpg",
-    "/figures/nendoroid-mococo-abyssgard-hololive/08.jpg"
+  "mafex-superman-superman-for": [
+    "/figures/mafex-superman-superman-for/01.jpg",
+    "/figures/mafex-superman-superman-for/02.jpg",
+    "/figures/mafex-superman-superman-for/03.jpg",
+    "/figures/mafex-superman-superman-for/04.jpg",
+    "/figures/mafex-superman-superman-for/05.jpg",
+    "/figures/mafex-superman-superman-for/06.jpg",
+    "/figures/mafex-superman-superman-for/07.jpg",
+    "/figures/mafex-superman-superman-for/08.jpg"
   ],
-  "nendoroid-fuwawa-abyssgard-hololive": [
-    "/figures/nendoroid-fuwawa-abyssgard-hololive/01.jpg",
-    "/figures/nendoroid-fuwawa-abyssgard-hololive/02.jpg",
-    "/figures/nendoroid-fuwawa-abyssgard-hololive/03.jpg",
-    "/figures/nendoroid-fuwawa-abyssgard-hololive/04.jpg",
-    "/figures/nendoroid-fuwawa-abyssgard-hololive/05.jpg",
-    "/figures/nendoroid-fuwawa-abyssgard-hololive/06.jpg",
-    "/figures/nendoroid-fuwawa-abyssgard-hololive/07.jpg",
-    "/figures/nendoroid-fuwawa-abyssgard-hololive/08.jpg"
+  "ultra-detail-figure-no962": [
+    "/figures/ultra-detail-figure-no962/01.jpg",
+    "/figures/ultra-detail-figure-no962/02.jpg"
+  ],
+  "ultra-detail-figure-no961": [
+    "/figures/ultra-detail-figure-no961/01.jpg",
+    "/figures/ultra-detail-figure-no961/02.jpg"
+  ],
+  "ultra-detail-figure-no960": [
+    "/figures/ultra-detail-figure-no960/01.jpg",
+    "/figures/ultra-detail-figure-no960/02.jpg"
+  ],
+  "ultra-detail-figure-no959": [
+    "/figures/ultra-detail-figure-no959/01.jpg",
+    "/figures/ultra-detail-figure-no959/02.jpg"
+  ],
+  "ultra-detail-figure-no958": [
+    "/figures/ultra-detail-figure-no958/01.jpg",
+    "/figures/ultra-detail-figure-no958/02.jpg"
+  ],
+  "ultra-detail-figure-no957": [
+    "/figures/ultra-detail-figure-no957/01.jpg",
+    "/figures/ultra-detail-figure-no957/02.jpg"
   ]
 }

@@ -10,7 +10,12 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const detail = JSON.parse(readFileSync(join(__dirname, "detail-pre.json"), "utf8"));
 const manifest = JSON.parse(readFileSync(join(__dirname, "gallery-manifest-pre.json"), "utf8"));
 
-const START_ID = 74; // current max id; first new = 75
+// Continue ids from the current max in lib/data.ts (don't hardcode — the app has
+// grown since the last run, and a stale START_ID would reuse existing ids).
+const dataTs = readFileSync(join(__dirname, "..", "lib", "data.ts"), "utf8");
+const START_ID = Math.max(...[...dataTs.matchAll(/id:\s*"(\d+)"/g)].map((m) => Number(m[1])));
+// droppedAt = this scrape session's date (today) — the Calendar drop-history key.
+const DROPPED_AT = new Date().toISOString().slice(0, 10);
 
 const clean = (s) => s.replace(/\s+/g, " ").trim();
 const titleCase = (s) => clean(s).replace(/\b\w/g, (c) => c.toUpperCase());
@@ -25,16 +30,24 @@ const SERIES_OVERRIDE = {
 
 // Hand overrides where neither meta "from X" nor category yields a clean franchise
 // (no-"from" metas, maker-named store sections, or franchise-less categories).
+// Per-run overrides for stragglers where the source meta names a product line
+// (not a franchise) as the series, or omits the maker. Keyed by folder key —
+// REPLACE these each run; entries only apply to the current detail-pre.json.
 const OVERRIDE_SERIES = {
-  "super-action-statue-jojo": "JoJo's Bizarre Adventure",
-  "super-action-statue-jojo-x": "JoJo's Bizarre Adventure",
-  "nendoroid-mika-misono-swimsuit": "Blue Archive",
-  "dlx-iron-man-mark": "Marvel: The Infinity Saga",
-  "nendoroid-red-pyramid-thing": "Silent Hill 2",
-  "nendoroid-mococo-abyssgard-hololive": "Hololive Production",
-  "nendoroid-fuwawa-abyssgard-hololive": "Hololive Production",
+  "shmonsterarts-biollante-wakasa-bay": "Godzilla",
+  "mafex-wonder-woman-superman": "DC Comics",
+  "mafex-superman-superman-for": "DC Comics",
+  "ultra-detail-figure-no962": "Fujiko F. Fujio Works",
+  "ultra-detail-figure-no961": "Fujiko F. Fujio Works",
+  "ultra-detail-figure-no960": "Fujiko F. Fujio Works",
+  "ultra-detail-figure-no959": "Fujiko F. Fujio Works",
+  "ultra-detail-figure-no958": "Fujiko F. Fujio Works",
+  "ultra-detail-figure-no957": "Fujiko F. Fujio Works",
 };
-const OVERRIDE_MAKER = {};
+const OVERRIDE_MAKER = {
+  "inart-the-terminator-t": "InArt",
+  "pocket-art-pa013-girls-x": "HASUKI",
+};
 
 const seriesFromMeta = (meta) => {
   if (!meta) return "";
@@ -152,6 +165,7 @@ const ts = out
     quantity: ${f.quantity},
     availability: ${JSON.stringify(f.availability)},
     release_date: "${f.release_date}",
+    droppedAt: "${DROPPED_AT}",
     scale: ${JSON.stringify(f.scale)},
     height: ${JSON.stringify(f.height)},
     featured: false,
@@ -164,6 +178,6 @@ ${imgs}
   .join("\n");
 
 writeFileSync(join(__dirname, "new-figures-pre.ts.txt"), ts);
-console.log(`[${out.length} figures, ids ${START_ID + 1}-${id}] | skipped ${skipped} (no-img)`);
+console.log(`[${out.length} figures, ids ${START_ID + 1}-${id}, droppedAt ${DROPPED_AT}] | skipped ${skipped} (no-img)`);
 console.log("manufacturers:", JSON.stringify([...new Set(out.map((f) => f.manufacturer))]));
 console.log("series:", JSON.stringify([...new Set(out.map((f) => f.series))]));

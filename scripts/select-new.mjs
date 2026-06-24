@@ -8,11 +8,18 @@ import { dirname, join } from "node:path";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");
 const d = JSON.parse(readFileSync(join(__dirname, "listing-all.json"), "utf8"));
-const existingJans = new Set(JSON.parse(readFileSync(join(__dirname, "existing-jans.json"), "utf8")));
+// Derive the JAN dedup set straight from lib/data.ts so it can never go stale
+// (the old static existing-jans.json missed whatever the last run added). The
+// JSON file is still written as a derived snapshot for inspection.
+const dataTs = readFileSync(join(root, "lib", "data.ts"), "utf8");
+const existingJans = new Set([...dataTs.matchAll(/jan:\s*"(\d{8,})"/g)].map((m) => m[1]));
+writeFileSync(join(__dirname, "existing-jans.json"), JSON.stringify([...existingJans], null, 2));
 const existingDirs = new Set(readdirSync(join(root, "public", "figures")));
 
 const POS = /figure|figuarts|nendoroid|\bscale\b|statue|figma|pop up parade|fnex|moderoid|plastic m|prize|mafex|model kit/i;
-const NEG = /sticker|wafer|\bcard\b|seal|acrylic|keychain|charm|\bplush\b|badge|tapestry|wallpaper|poster|light stick|candy|strap|pouch|\bbag\b|clear file|\bpin\b|magnet|towel|cushion|blanket|pack box|choco box|blokees|mascot|miniature car|super gt|\bamg\b|outfit set/i;
+// NEG also drops add-on/option parts (not standalone figures): option/swimsuit/
+// parts/expansion sets that the POS "scale|model" terms would otherwise catch.
+const NEG = /sticker|wafer|\bcard\b|seal|acrylic|keychain|charm|\bplush\b|badge|tapestry|wallpaper|poster|light stick|candy|strap|pouch|\bbag\b|clear file|\bpin\b|magnet|towel|cushion|blanket|pack box|choco box|blokees|mascot|miniature car|super gt|\bamg\b|outfit set|option part|option set|swimsuit set|parts set|expansion set/i;
 // Already in the app under a different (JAN-less) listing slug — skip by name.
 const SKIP_NAME = /cats are liquid/i;
 
@@ -26,7 +33,7 @@ const nameFromSlug = (url) => {
 };
 const keyOf = (url) => {
   const seg = (url.split("/").pop() || "").replace(/\.html$/, "");
-  return seg.replace(/^\d+-/, "").replace(/-\d{8,}$/, "").replace(/-+$/, "").split("-").slice(0, 4).join("-").toLowerCase();
+  return seg.replace(/^\d+-/, "").replace(/^-+/, "").replace(/-\d{8,}$/, "").replace(/-+$/, "").split("-").slice(0, 4).join("-").toLowerCase();
 };
 
 const seenKey = new Set();
